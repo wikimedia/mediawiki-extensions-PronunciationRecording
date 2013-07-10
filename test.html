@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+		<h1>Recording</h1>
+		<button class="record" id='record' onclick="this.disabled = 'disabled';document.getElementById( 'stop' ).disabled = false;startRecording( this );">Record</button>
+		<button class="stop" id='stop' disabled onclick="this.disabled = 'disabled';document.getElementById( 'preview' ).disabled = false;stopRecording( this );">Stop</button>
+		<button class="preview" id='preview' disabled onclick="this.disabled = 'disabled';document.getElementById( 'clear' ).disabled = false;">Preview</button>
+		<button class="clear" id="clear" onclick="document.getElementById( 'record' ).disabled = false;">Clear</button>
+		<div></div>
+		<h2>Log</h2>
+		<pre id="log"></p>
+		<script src="resources/mediawiki.libs.recorderjs/recorder.js"></script>
+		<script src="jquery.min.js"></script>
+		<script>
+			function __log( e, data ) {
+				log.innerHTML += "\n" + e + " " + ( data || '' );
+			}
+
+			var audio_context;
+			var recorder;
+			var recIndex = 0;
+
+			function startRecording( e ) {
+			        recorder.clear();
+			        recorder.record();
+			}
+
+			function stopRecording( e ) {
+				recorder.stop();
+			}
+
+			function startUserMedia( stream ) {
+				var input = audio_context.createMediaStreamSource( stream );
+				__log( 'Media stream created.' );
+
+				//input.connect(audio_context.destination);
+				//__log( 'Input connected to audio context destination.' );
+
+				recorder = new Recorder( input );
+				__log( 'Recorder initialised.' );
+			}
+
+			function createSource( callback ) {
+				recorder && recorder.exportWAV(
+				// this is the asynchronous callback that's called when exportWAV finishes encoding
+					function( blob ) {
+						var message = $( '<br><audio controls class="aud"><source src="' + URL.createObjectURL( blob )  + '" type="audio/wav"></audio>' );
+						var upload = $( '<br><button class="aud">Upload</button>' );
+						message.appendTo( "div" );
+						upload.appendTo( "div" );
+					}
+				);
+			}
+
+			window.onload = function init() {
+				try {
+					// webkit shim
+					window.AudioContext = window.AudioContext || window.webkitAudioContext;
+					navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia;
+					window.URL = window.URL || window.webkitURL;
+					audio_context = new AudioContext;
+					__log( 'Audio context set up.' );
+					__log( 'navigator.getUserMedia ' + ( navigator.getUserMedia ? 'available.' : 'not present!' ) );
+				} catch ( e ) {
+					alert( 'No web audio support in this browser!' );
+				}
+
+				navigator.getUserMedia( {audio: true}, startUserMedia, function( e ) {
+					__log( 'No live audio input: ' + e );
+				} );
+			};
+		</script>
+		<script>
+			$( document ).ready( function() {
+				$( ".preview" ).on( "click", createSource );
+				$( ".clear" ).on( "click", function() {
+				$( ".aud" ).remove();
+				});
+			} );
+		</script>
+	</body>
+</html>
