@@ -1,0 +1,5 @@
+/*Hides the Pronunciation Recording Toolbaar when Recording is not supported by the browser.*/
+
+.mw-pronunciationrecording-toolbar {
+	display: none;
+}

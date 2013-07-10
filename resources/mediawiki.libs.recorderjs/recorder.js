@@ -19,9 +19,9 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
 DEALINGS IN THE SOFTWARE.
 */
 
-( function( window ) {
+( function( window, mw ) {
 
-	var WORKER_PATH = 'resources/mediawiki.libs.recorderjs/recorderWorker.js';
+	var WORKER_PATH = mw.config.get( 'wgExtensionAssetsPath' ) + '/PronunciationRecording/resources/mediawiki.libs.recorderjs/recorderWorker.js';
 
 	var Recorder = function( source, cfg ) {
 		var config = cfg || {};
@@ -106,4 +106,4 @@ DEALINGS IN THE SOFTWARE.
 
 	window.Recorder = Recorder;
 
-} )( window );
+} )( window, mediaWiki );
