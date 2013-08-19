@@ -1,6 +1,6 @@
 <?php
 /**
- *Internationalisation for GettingStarted
+ *Internationalisation for PronunciationRecording
  *
  * @file
  * @ingroup Extensions
@@ -12,18 +12,18 @@ $messages = array();
  * @author spage
  */
 $messages['en'] = array(
-	'pronunciationrecording-desc' => 'Adds a [[Special:PronunciationRecording]]',
-	'pronunciationrecording-title' => 'Pronunciation Recording Tool',
+	'pronunciationrecording-desc' => 'Adds a [[Special:PronunciationRecording|pronunciation recording tool]]',
+	'pronunciationrecording-title' => 'Pronunciation recording tool',
 	'pronunciationrecording-toolbar-record-label' => 'Record',
 	'pronunciationrecording-toolbar-stop-label' => 'Stop',
 	'pronunciationrecording-toolbar-preview-label' => 'Preview',
 	'pronunciationrecording-toolbar-clear-label' => 'Clear',
 	'pronunciationrecording-toolbar-upload-label' => 'Upload',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
-	);
+);
 
 $messages['qqq'] = array(
-	'pronunciationrecording-desc' => 'Adds a [[Special:PronunciationRecording]]',
+	'pronunciationrecording-desc' => '{{desc}}',
 	'pronunciationrecording-title' => 'Used as a title message',
 	'pronunciationrecording-toolbar-record-label' => 'Label text for the button to start recording',
 	'pronunciationrecording-toolbar-stop-label' => 'Label text for the button to stop recording',
@@ -31,6 +31,5 @@ $messages['qqq'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Label text for the button to clear the recording',
 	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording',
 	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser',
-	);
-
+);
 
