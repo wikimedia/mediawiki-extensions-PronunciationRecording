@@ -22,13 +22,18 @@
 				$( ".mw-pronunciationrecording-preview-audio" ).remove();
 				$( ".mw-pronunciationrecording-upload" ).remove();
 			});
+			$( document ).on( "click", ".mw-pronunciationrecording-upload", function() {
+				pronunciationRecorder.startUploading( function() {
+					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-succeeded' ).text() );
+				}, function() {
+					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-failed' ).text() );
+				});
+			});
 			$( ".mw-pronunciationrecording-toolbar" ).show();
 		}
 		catch ( e )
 		{
-			$( ".mw-pronunciationrecording-error" ).text( mw.message( 'pronunciationrecording-webaudio-not-supported' ).text() );
+			$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-webaudio-not-supported' ).text() );
 		}
 	} );
 } ( mediaWiki, jQuery ) );
-
-

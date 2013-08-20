@@ -1,6 +1,6 @@
 <?php
 /**
- *Internationalisation for PronunciationRecording
+ *Internationalisation for Pronunciation Recording Tool
  *
  * @file
  * @ingroup Extensions
@@ -9,7 +9,7 @@
 $messages = array();
 
 /** English
- * @author spage
+ * @author Rahul21
  */
 $messages['en'] = array(
 	'pronunciationrecording-desc' => 'Adds a [[Special:PronunciationRecording|pronunciation recording tool]]',
@@ -21,7 +21,9 @@ $messages['en'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Upload',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
 	'pronunciationrecording-specialpage-error-nologin' => 'You must be [$1 logged in] to record and upload pronunciations.',
-);
+	'pronunciationrecording-upload-publish-succeeded' => 'Recording uploaded successfully',
+	'pronunciationrecording-upload-publish-failed' => 'Recording was not uploaded',
+	);
 
 /** Message documentation (Message documentation)
  * @author Shirayuki
@@ -40,6 +42,8 @@ $messages['qqq'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording.
 {{Identical|Upload}}',
 	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Used as a message when the recording is successfully uploaded from the stash',
+	'pronunciationrecording-upload-publish-failed' => 'Used as a message when the recording failed to be uploaded from the stash',
 	'pronunciationrecording-specialpage-error-nologin' => 'Error shown when user is not logged in.
 
 Parameters:

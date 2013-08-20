@@ -21,7 +21,7 @@
 			}
 
 			$output->addModules( 'ext.pronunciationRecording.specialPage' );
-			$output->addHTML( '<div class="mw-pronunciationrecording-error" id="mw-pronunciationrecording-error"></div>' );
+			$output->addHTML( '<div class="mw-pronunciationrecording-message" id="mw-pronunciationrecording-message"></div>' );
 			$output->addHTML( '<div class="mw-pronunciationrecording-toolbar" id="mw-pronunciationrecording-toolbar" >' );
 			$output->addHTML( '<button class="mw-pronunciationrecording-record" id="mw-pronunciationrecording-record" >' .wfMessage( 'pronunciationrecording-toolbar-record-label' )->escaped().'</button>' );
 			$output->addHTML( '<button class="mw-pronunciationrecording-stop" id="mw-pronunciationrecording-stop" disabled >' .wfMessage( 'pronunciationrecording-toolbar-stop-label' )->escaped().'</button>' );

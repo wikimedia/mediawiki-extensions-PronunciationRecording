@@ -1,8 +1,8 @@
 ( function ( mw, $ ) {
 	mw.PronunciationRecorder = function( ) {
 
-		var audioContext, recorder;
-
+		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob, counter,
+			userAgent = mw.message( 'pronunciationrecording-title' ).text();
 		function startUserMedia( stream ) {
 			var input = audioContext.createMediaStreamSource( stream );
 			mw.log( 'Media Stream created' );
@@ -10,8 +10,55 @@
 			mw.log( 'Audio Recorder initialized' );
 		}
 
+		function getBlob( callback ) {
+			if( cachedBlob ) {
+				callback( cachedBlob );
+			}
+			else {
+				recorder.exportWAV(
+					function( blob ) {
+						cachedBlob = blob;
+						callback( cachedBlob );
+					}
+				);
+			}
+		}
+
 		function errorCallBack( e ) {
 			mw.log( 'No live audio input' );
+		}
+
+		function generateFileName() {
+			counter = Math.floor( ( Math.random() * 1000000 ) );
+			return 'uploadTest' + counter + '.wav';
+		}
+
+		function publishUpload( ok, err ) {
+			var params = {
+				action: 'upload',
+				filekey: uploadWizardUpload.fileKey,
+				filename: generateFileName(),
+				comment: "User created page with " + userAgent
+			};
+
+			function publishOk( response ) {
+				if( response.upload.result == "Success" )
+				{
+					ok();
+					mw.log( 'Upload published successfully' );
+				}
+				else
+				{
+					publishFail();
+				}
+			}
+
+			function publishFail() {
+				err();
+				mw.log( 'Upload could not be successfully published' );
+			}
+			uploadWizardUpload.api.postWithEditToken( params, publishOk, publishFail );
+
 		}
 
 		try {
@@ -38,6 +85,7 @@
 
 		return {
 			startRecording: function() {
+				cachedBlob = null;
 				recorder.clear();
 				recorder.record();
 			},
@@ -48,8 +96,8 @@
 
 			createSource: function( callback ) {
 				if ( recorder ) {
-					recorder.exportWAV(
-					// this is the asynchronous callback that's called when exportWAV finishes encoding
+					getBlob(
+						// this is the asynchronous callback that's called when exportWAV finishes encoding
 						function( blob ) {
 							var message = $( '<br><audio controls class="mw-pronunciationrecording-preview-audio"><source src="' + URL.createObjectURL( blob )  + '" type="audio/wav"></audio>' );
 							var upload = $( '<br><button class="mw-pronunciationrecording-upload">' + mw.message('pronunciationrecording-toolbar-upload-label').escaped() + '</button>' );
@@ -58,9 +106,36 @@
 						}
 					);
 				}
-			}
+			},
 
-		}
+			startUploading: function( ok, error ) {
+				var config, api, uploadWizard, filesDiv;
+				config = { 'enableFormData' : true };
+				filesDiv = document.createElement( "div" );
+				uploadWizard = new mw.UploadWizard( config );
+				uploadWizardUpload = new mw.UploadWizardUpload( uploadWizard, filesDiv );
+
+				// XXX: Hacks until UploadWizard can be better refactored
+				// or there is a separate client-side upload library
+				uploadWizardUpload.deedPreview = {
+					setup: $.noop
+				};
+
+				uploadWizardUpload.details = {
+					populate: $.noop
+				};
+				getBlob(
+					function( blob ) {
+						uploadWizardUpload.file = blob;
+						uploadWizardUpload.file.name = 'upload.wav';
+						uploadHandler = uploadWizardUpload.getUploadHandler();
+						uploadHandler.start();
+						$.subscribeReady( 'thumbnails.' + uploadWizardUpload.index, function() {
+							publishUpload( ok, error );
+						} );
+					}
+				);
+			}
+		};
 	};
 } ( mediaWiki, jQuery ) );
-
