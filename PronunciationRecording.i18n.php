@@ -23,15 +23,21 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'pronunciationrecording-desc' => '{{desc}}',
+	'pronunciationrecording-desc' => '{{desc|name=Pronunciation Recording|url=http://www.mediawiki.org/wiki/Extension:PronunciationRecording}}',
 	'pronunciationrecording-title' => 'Used as a title message',
-	'pronunciationrecording-toolbar-record-label' => 'Label text for the button to start recording',
-	'pronunciationrecording-toolbar-stop-label' => 'Label text for the button to stop recording',
-	'pronunciationrecording-toolbar-preview-label' => 'Label text for the button to preview the recording',
-	'pronunciationrecording-toolbar-clear-label' => 'Label text for the button to clear the recording',
-	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording',
+	'pronunciationrecording-toolbar-record-label' => 'Label text for the button to start recording.
+{{Identical|Record}}',
+	'pronunciationrecording-toolbar-stop-label' => 'Label text for the button to stop recording.
+{{Identical|Stop}}',
+	'pronunciationrecording-toolbar-preview-label' => 'Label text for the button to preview the recording.
+{{Identical|Preview}}',
+	'pronunciationrecording-toolbar-clear-label' => 'Label text for the button to clear the recording.
+{{Identical|Clear}}',
+	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording.
+{{Identical|Upload}}',
 	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser',
 );
 
@@ -47,6 +53,74 @@ $messages['de'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Löschen',
 	'pronunciationrecording-toolbar-upload-label' => 'Hochladen',
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
+);
+
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'pronunciationrecording-desc' => 'Ajoute un [[Special:PronunciationRecording|outil d’enregistrement des prononciations]]',
+	'pronunciationrecording-title' => 'Outil d’enregistrement des prononciations',
+	'pronunciationrecording-toolbar-record-label' => 'Enregistrer',
+	'pronunciationrecording-toolbar-stop-label' => 'Arrêter',
+	'pronunciationrecording-toolbar-preview-label' => 'Écouter',
+	'pronunciationrecording-toolbar-clear-label' => 'Effacer',
+	'pronunciationrecording-toolbar-upload-label' => 'Télécharger',
+	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio n’est pas supportée par ce navigateur',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'pronunciationrecording-desc' => '[[Special:PronunciationRecording|発音の録音ツール]]を追加する',
+	'pronunciationrecording-title' => '発音の録音ツール',
+	'pronunciationrecording-toolbar-record-label' => '録音',
+	'pronunciationrecording-toolbar-stop-label' => '停止',
+	'pronunciationrecording-toolbar-preview-label' => 'プレビュー',
+	'pronunciationrecording-toolbar-clear-label' => '消去',
+	'pronunciationrecording-toolbar-upload-label' => 'アップロード',
+	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'pronunciationrecording-toolbar-record-label' => 'Ophuelen',
+	'pronunciationrecording-toolbar-stop-label' => 'Stopp',
+	'pronunciationrecording-toolbar-preview-label' => 'Kucken ouni ze späicheren',
+	'pronunciationrecording-toolbar-clear-label' => 'Eidel maachen',
+	'pronunciationrecording-toolbar-upload-label' => 'Eroplueden',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-API gëtt fir dëse Browser net ënnerstëtzt',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'pronunciationrecording-desc' => 'Додава [[Special:PronunciationRecording|алатка за снимање на изговор]]',
+	'pronunciationrecording-title' => 'Алатка за снимање на изговор',
+	'pronunciationrecording-toolbar-record-label' => 'Снимај',
+	'pronunciationrecording-toolbar-stop-label' => 'Запри',
+	'pronunciationrecording-toolbar-preview-label' => 'Преслушај',
+	'pronunciationrecording-toolbar-clear-label' => 'Отфрли',
+	'pronunciationrecording-toolbar-upload-label' => 'Подигни',
+	'pronunciationrecording-webaudio-not-supported' => 'Прилогот WebAudio не е поддржан на овој прелистувач',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'pronunciationrecording-desc' => '[[Special:PronunciationRecording|उच्चार ध्वनिमुद्रण साधन]] जोडते',
+	'pronunciationrecording-title' => 'उच्चार ध्वनिमुद्रण साधन',
+	'pronunciationrecording-toolbar-record-label' => 'ध्वनिमुद्रण करा',
+	'pronunciationrecording-toolbar-stop-label' => 'थांबवा',
+	'pronunciationrecording-toolbar-preview-label' => 'झलक',
+	'pronunciationrecording-toolbar-clear-label' => 'हटवा',
+	'pronunciationrecording-toolbar-upload-label' => 'अपभारण करा',
+	'pronunciationrecording-webaudio-not-supported' => 'या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही',
 );
 
 /** tarandíne (tarandíne)
