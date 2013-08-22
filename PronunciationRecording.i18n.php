@@ -19,7 +19,7 @@ $messages['en'] = array(
 	'pronunciationrecording-toolbar-preview-label' => 'Preview',
 	'pronunciationrecording-toolbar-clear-label' => 'Clear',
 	'pronunciationrecording-toolbar-upload-label' => 'Upload',
-	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser.',
 );
 
 /** Message documentation (Message documentation)
