@@ -80,7 +80,7 @@ $messages['ja'] = array(
 	'pronunciationrecording-toolbar-preview-label' => 'プレビュー',
 	'pronunciationrecording-toolbar-clear-label' => '消去',
 	'pronunciationrecording-toolbar-upload-label' => 'アップロード',
-	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません',
+	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません。',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
