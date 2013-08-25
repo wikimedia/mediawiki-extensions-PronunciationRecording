@@ -196,6 +196,18 @@ $messages['roa-tara'] = array(
 	'pronunciationrecording-webaudio-not-supported' => "API WebAudio non g'è supportate pe stu browser",
 );
 
+/** Tamil (தமிழ்)
+ * @author ElangoRamanujam
+ */
+$messages['ta'] = array(
+	'pronunciationrecording-title' => 'உச்சரி்பபு பதிவிடும் கருவி',
+	'pronunciationrecording-toolbar-record-label' => 'பதிவிடுக',
+	'pronunciationrecording-toolbar-stop-label' => 'நிறுத்துக',
+	'pronunciationrecording-toolbar-preview-label' => 'முன்பார்வை',
+	'pronunciationrecording-toolbar-clear-label' => 'நீக்கு',
+	'pronunciationrecording-toolbar-upload-label' => 'பதிவேற்றுக',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
@@ -208,4 +220,15 @@ $messages['uk'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Очистити',
 	'pronunciationrecording-toolbar-upload-label' => 'Вивантажити',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API не підтримується для цього веб-переглядача',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'pronunciationrecording-title' => 'ארויסרעדן רעקארדירן געצייג',
+	'pronunciationrecording-toolbar-record-label' => 'רעקארדירן',
+	'pronunciationrecording-toolbar-stop-label' => 'אויפהערן',
+	'pronunciationrecording-toolbar-preview-label' => 'פֿאראויסשטעלונג',
+	'pronunciationrecording-toolbar-clear-label' => 'רייניקן',
 );
