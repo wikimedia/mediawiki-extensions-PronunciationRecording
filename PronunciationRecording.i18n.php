@@ -41,6 +41,27 @@ $messages['qqq'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser',
 );
 
+/** Akan (Akan)
+ * @author Riches4christ
+ */
+$messages['ak'] = array(
+	'pronunciationrecording-toolbar-stop-label' => 'gyae',
+);
+
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'pronunciationrecording-desc' => 'একটি [[Special:PronunciationRecording|উচ্চারণ রেকর্ডিং সরঞ্জাম]] যোগ',
+	'pronunciationrecording-title' => 'উচ্চারণ রেকর্ডিং সরঞ্জাম',
+	'pronunciationrecording-toolbar-record-label' => 'রেকর্ড',
+	'pronunciationrecording-toolbar-stop-label' => 'বন্ধ',
+	'pronunciationrecording-toolbar-preview-label' => 'প্রাকদর্শন',
+	'pronunciationrecording-toolbar-clear-label' => 'পরিস্কার',
+	'pronunciationrecording-toolbar-upload-label' => 'আপলোড',
+	'pronunciationrecording-webaudio-not-supported' => 'ওয়েবঅডিও এপিআই এই ব্রাউজারে সমর্থিত নয়।',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -53,6 +74,20 @@ $messages['de'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Löschen',
 	'pronunciationrecording-toolbar-upload-label' => 'Hochladen',
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
+);
+
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'pronunciationrecording-desc' => 'Leggur afturat eitt [[Special:PronunciationRecording|upptøkutól til úttalu]]',
+	'pronunciationrecording-title' => 'Upptøkutól til úttalu',
+	'pronunciationrecording-toolbar-record-label' => 'Ger upptøku',
+	'pronunciationrecording-toolbar-stop-label' => 'Støðga',
+	'pronunciationrecording-toolbar-preview-label' => 'Forskoðan',
+	'pronunciationrecording-toolbar-clear-label' => 'Reinsa',
+	'pronunciationrecording-toolbar-upload-label' => 'Legg út',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API verður ikki stuðlað á hesum internetkaganum.',
 );
 
 /** French (français)
@@ -121,6 +156,30 @@ $messages['mr'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'हटवा',
 	'pronunciationrecording-toolbar-upload-label' => 'अपभारण करा',
 	'pronunciationrecording-webaudio-not-supported' => 'या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही',
+);
+
+/** Portuguese (português)
+ * @author Fúlvio
+ */
+$messages['pt'] = array(
+	'pronunciationrecording-desc' => 'Adiciona uma [[Special:PronunciationRecording|ferramenta de gravação de pronúncias]]',
+	'pronunciationrecording-title' => 'Ferramenta de gravação de pronúncias',
+	'pronunciationrecording-toolbar-record-label' => 'Gravar',
+	'pronunciationrecording-toolbar-stop-label' => 'Parar',
+	'pronunciationrecording-toolbar-preview-label' => 'Antevisão',
+	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
+	'pronunciationrecording-toolbar-upload-label' => 'Carregar',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API não é suportado por este navegador.',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
+ */
+$messages['pt-br'] = array(
+	'pronunciationrecording-toolbar-record-label' => 'Gravar',
+	'pronunciationrecording-toolbar-stop-label' => 'Parar',
+	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
+	'pronunciationrecording-toolbar-upload-label' => 'Enviar',
 );
 
 /** tarandíne (tarandíne)
