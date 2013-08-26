@@ -158,6 +158,16 @@ $messages['mr'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'pronunciationrecording-toolbar-record-label' => 'Enregistrar',
+	'pronunciationrecording-toolbar-stop-label' => 'Arrestar',
+	'pronunciationrecording-toolbar-clear-label' => 'Escafar',
+	'pronunciationrecording-toolbar-upload-label' => 'Telecargar',
+);
+
 /** Portuguese (português)
  * @author Fúlvio
  */
@@ -196,6 +206,13 @@ $messages['roa-tara'] = array(
 	'pronunciationrecording-webaudio-not-supported' => "API WebAudio non g'è supportate pe stu browser",
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'pronunciationrecording-desc' => '[[Special:PronunciationRecording|උච්චාරණය පටිගත කිරීමේ මෙවලම]] එක් කරයි',
+);
+
 /** Tamil (தமிழ்)
  * @author ElangoRamanujam
  */
@@ -231,4 +248,5 @@ $messages['yi'] = array(
 	'pronunciationrecording-toolbar-stop-label' => 'אויפהערן',
 	'pronunciationrecording-toolbar-preview-label' => 'פֿאראויסשטעלונג',
 	'pronunciationrecording-toolbar-clear-label' => 'רייניקן',
+	'pronunciationrecording-toolbar-upload-label' => 'אַרויפֿלאָדן',
 );
