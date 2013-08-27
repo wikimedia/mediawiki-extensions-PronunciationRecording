@@ -76,6 +76,20 @@ $messages['de'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
 );
 
+/** Finnish (suomi)
+ * @author Stryn
+ */
+$messages['fi'] = array(
+	'pronunciationrecording-desc' => 'Lisää [[Special:PronunciationRecording|ääntämisen tallennustyökalu]]',
+	'pronunciationrecording-title' => 'Ääntämisen tallennustyökalu',
+	'pronunciationrecording-toolbar-record-label' => 'Äänitä',
+	'pronunciationrecording-toolbar-stop-label' => 'Pysäytä',
+	'pronunciationrecording-toolbar-preview-label' => 'Esikuuntele',
+	'pronunciationrecording-toolbar-clear-label' => 'Tyhjennä',
+	'pronunciationrecording-toolbar-upload-label' => 'Lataa',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-rajapinta ei ole tuettu tässä selaimessa.',
+);
+
 /** Faroese (føroyskt)
  * @author EileenSanda
  */
@@ -104,6 +118,20 @@ $messages['fr'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio n’est pas supportée par ce navigateur',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'pronunciationrecording-desc' => 'Engade unha [[Special:PronunciationRecording|ferramenta para a gravación de pronuncias]]',
+	'pronunciationrecording-title' => 'Ferramenta para a gravación de pronuncias',
+	'pronunciationrecording-toolbar-record-label' => 'Gravar',
+	'pronunciationrecording-toolbar-stop-label' => 'Deter',
+	'pronunciationrecording-toolbar-preview-label' => 'Vista previa',
+	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
+	'pronunciationrecording-toolbar-upload-label' => 'Cargar',
+	'pronunciationrecording-webaudio-not-supported' => 'A API WebAudio non está soportada neste navegador.',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
@@ -116,6 +144,20 @@ $messages['ja'] = array(
 	'pronunciationrecording-toolbar-clear-label' => '消去',
 	'pronunciationrecording-toolbar-upload-label' => 'アップロード',
 	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません。',
+);
+
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'pronunciationrecording-desc' => '[[Special:PronunciationRecording|발음 녹음 도구]]를 추가합니다',
+	'pronunciationrecording-title' => '발음 녹음 도구',
+	'pronunciationrecording-toolbar-record-label' => '녹음',
+	'pronunciationrecording-toolbar-stop-label' => '정지',
+	'pronunciationrecording-toolbar-preview-label' => '미리 듣기',
+	'pronunciationrecording-toolbar-clear-label' => '지우기',
+	'pronunciationrecording-toolbar-upload-label' => '올리기',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API는 이 브라우저에서 지원하지 않습니다.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
