@@ -19,8 +19,9 @@ $messages['en'] = array(
 	'pronunciationrecording-toolbar-preview-label' => 'Preview',
 	'pronunciationrecording-toolbar-clear-label' => 'Clear',
 	'pronunciationrecording-toolbar-upload-label' => 'Upload',
-	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser.',
-);
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
+	'pronunciationrecording-specialpage-error-nologin' => 'You must be [$1 logged in] to record and upload pronunciations.',
+	);
 
 /** Message documentation (Message documentation)
  * @author Shirayuki
@@ -38,7 +39,11 @@ $messages['qqq'] = array(
 {{Identical|Clear}}',
 	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording.
 {{Identical|Upload}}',
-	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser',
+	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser.',
+	'pronunciationrecording-specialpage-error-nologin' => 'Error shown when user is not logged in.
+
+Parameters:
+* $1 - URL of login page, with return pointing to Special:PronunciationRecording',
 );
 
 /** Akan (Akan)
