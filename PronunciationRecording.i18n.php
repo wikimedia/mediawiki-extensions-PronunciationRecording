@@ -267,6 +267,13 @@ $messages['ta'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'பதிவேற்றுக',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'pronunciationrecording-toolbar-preview-label' => 'మునుజూపు',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
