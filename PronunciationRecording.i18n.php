@@ -62,6 +62,17 @@ $messages['bn'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'ওয়েবঅডিও এপিআই এই ব্রাউজারে সমর্থিত নয়।',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'pronunciationrecording-toolbar-record-label' => 'Enrollañ',
+	'pronunciationrecording-toolbar-stop-label' => 'Paouez',
+	'pronunciationrecording-toolbar-preview-label' => 'Rakwelet',
+	'pronunciationrecording-toolbar-clear-label' => 'Riñsañ',
+	'pronunciationrecording-toolbar-upload-label' => 'Enporzhiañ',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -257,9 +268,10 @@ $messages['si'] = array(
 
 /** Tamil (தமிழ்)
  * @author ElangoRamanujam
+ * @author Sank
  */
 $messages['ta'] = array(
-	'pronunciationrecording-title' => 'உச்சரி்பபு பதிவிடும் கருவி',
+	'pronunciationrecording-title' => 'உச்சரிப்பை பதிவிடும் கருவி',
 	'pronunciationrecording-toolbar-record-label' => 'பதிவிடுக',
 	'pronunciationrecording-toolbar-stop-label' => 'நிறுத்துக',
 	'pronunciationrecording-toolbar-preview-label' => 'முன்பார்வை',
