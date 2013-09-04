@@ -48,6 +48,20 @@ $messages['ak'] = array(
 	'pronunciationrecording-toolbar-stop-label' => 'gyae',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'pronunciationrecording-desc' => 'Amiesta una [[Special:PronunciationRecording|ferramienta pa grabar la pronunciación]]',
+	'pronunciationrecording-title' => 'Ferramienta pa grabar la pronunciación',
+	'pronunciationrecording-toolbar-record-label' => 'Grabar',
+	'pronunciationrecording-toolbar-stop-label' => 'Aparar',
+	'pronunciationrecording-toolbar-preview-label' => 'Vista previa',
+	'pronunciationrecording-toolbar-clear-label' => 'Llimpiar',
+	'pronunciationrecording-toolbar-upload-label' => 'Xubir',
+	'pronunciationrecording-webaudio-not-supported' => 'La API WebAudio nun tien encontu nesti navegador.',
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  */
