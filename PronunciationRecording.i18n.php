@@ -89,9 +89,10 @@ $messages['br'] = array(
 
 /** German (Deutsch)
  * @author Metalhead64
+ * @author Purodha
  */
 $messages['de'] = array(
-	'pronunciationrecording-desc' => 'Ergänzt ein [[Special:PronunciationRecording|Ausspracheaufzeichnungswerkzeug]]',
+	'pronunciationrecording-desc' => 'Bringt ein [[Special:PronunciationRecording|Ausspracheaufzeichnungswerkzeug]] ins Wiki',
 	'pronunciationrecording-title' => 'Ausspracheaufzeichnungswerkzeug',
 	'pronunciationrecording-toolbar-record-label' => 'Aufzeichnen',
 	'pronunciationrecording-toolbar-stop-label' => 'Stop',
@@ -185,6 +186,20 @@ $messages['ko'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API는 이 브라우저에서 지원하지 않습니다.',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'pronunciationrecording-desc' => 'Brängk e [[Special:PronunciationRecording|Wärkzüsch för Ußschprooche opzezeischne]] en et Wikki.',
+	'pronunciationrecording-title' => 'Wärkzüsch för de Ußschprooche opzezeischne',
+	'pronunciationrecording-toolbar-record-label' => 'Opzeischne',
+	'pronunciationrecording-toolbar-stop-label' => 'Aanhallde',
+	'pronunciationrecording-toolbar-preview-label' => 'Aanhüüre',
+	'pronunciationrecording-toolbar-clear-label' => 'Läddesch maache',
+	'pronunciationrecording-toolbar-upload-label' => 'Huhlaade',
+	'pronunciationrecording-webaudio-not-supported' => 'Heh dä Brauser kann de <i lang="en" xml:lang="en">WebAudio API</i> nit.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -229,10 +244,14 @@ $messages['mr'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'pronunciationrecording-desc' => 'Apond una [[Special:PronunciationRecording|aisina d’enregistrament de las prononciacions]]',
+	'pronunciationrecording-title' => 'Aisina d’enregistrament de las prononciacions',
 	'pronunciationrecording-toolbar-record-label' => 'Enregistrar',
 	'pronunciationrecording-toolbar-stop-label' => 'Arrestar',
+	'pronunciationrecording-toolbar-preview-label' => 'Escotar',
 	'pronunciationrecording-toolbar-clear-label' => 'Escafar',
 	'pronunciationrecording-toolbar-upload-label' => 'Telecargar',
+	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio es pas suportada per aqueste navigador',
 );
 
 /** Portuguese (português)
