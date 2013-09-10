@@ -255,6 +255,7 @@ $messages['oc'] = array(
 );
 
 /** Portuguese (português)
+ * @author Cainamarques
  * @author Fúlvio
  */
 $messages['pt'] = array(
@@ -262,20 +263,25 @@ $messages['pt'] = array(
 	'pronunciationrecording-title' => 'Ferramenta de gravação de pronúncias',
 	'pronunciationrecording-toolbar-record-label' => 'Gravar',
 	'pronunciationrecording-toolbar-stop-label' => 'Parar',
-	'pronunciationrecording-toolbar-preview-label' => 'Antevisão',
+	'pronunciationrecording-toolbar-preview-label' => 'Antever',
 	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
 	'pronunciationrecording-toolbar-upload-label' => 'Carregar',
-	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API não é suportado por este navegador.',
+	'pronunciationrecording-webaudio-not-supported' => 'A API do WebAudio não é suportada por este navegador.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Luckas
  */
 $messages['pt-br'] = array(
+	'pronunciationrecording-desc' => 'Adiciona uma [[Special:PronunciationRecording|ferramenta de gravação de pronúncias]]',
+	'pronunciationrecording-title' => 'Ferramenta de gravação de pronúncias',
 	'pronunciationrecording-toolbar-record-label' => 'Gravar',
 	'pronunciationrecording-toolbar-stop-label' => 'Parar',
+	'pronunciationrecording-toolbar-preview-label' => 'Pré-visualizar',
 	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
 	'pronunciationrecording-toolbar-upload-label' => 'Enviar',
+	'pronunciationrecording-webaudio-not-supported' => 'A API do WebAudio não é suportada por este navegador.',
 );
 
 /** tarandíne (tarandíne)
