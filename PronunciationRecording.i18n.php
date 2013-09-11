@@ -102,6 +102,20 @@ $messages['de'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'pronunciationrecording-desc' => 'Añade una [[Special:PronunciationRecording|herramienta para grabar la pronunciación]]',
+	'pronunciationrecording-title' => 'Herramienta para grabar la pronunciación',
+	'pronunciationrecording-toolbar-record-label' => 'Grabar',
+	'pronunciationrecording-toolbar-stop-label' => 'Detener',
+	'pronunciationrecording-toolbar-preview-label' => 'Previsualizar',
+	'pronunciationrecording-toolbar-clear-label' => 'Borrar',
+	'pronunciationrecording-toolbar-upload-label' => 'Cargar',
+	'pronunciationrecording-webaudio-not-supported' => 'Este navegador no admite la API WebAudio.',
+);
+
 /** Finnish (suomi)
  * @author Stryn
  */
