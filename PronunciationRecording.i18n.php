@@ -43,7 +43,7 @@ $messages['qqq'] = array(
 	'pronunciationrecording-specialpage-error-nologin' => 'Error shown when user is not logged in.
 
 Parameters:
-* $1 - URL of login page, with return pointing to Special:PronunciationRecording',
+* $1 - URL of login page, with return pointing to [[Special:PronunciationRecording]]',
 );
 
 /** Akan (Akan)
@@ -105,6 +105,7 @@ $messages['de'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Löschen',
 	'pronunciationrecording-toolbar-upload-label' => 'Hochladen',
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
+	'pronunciationrecording-specialpage-error-nologin' => 'Du musst [$1 angemeldet sein], um Aussprachebeispiele aufzeichnen und hochladen zu können.',
 );
 
 /** Spanish (español)
@@ -161,6 +162,7 @@ $messages['fr'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Effacer',
 	'pronunciationrecording-toolbar-upload-label' => 'Télécharger',
 	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio n’est pas supportée par ce navigateur',
+	'pronunciationrecording-specialpage-error-nologin' => 'Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.',
 );
 
 /** Galician (galego)
@@ -175,6 +177,7 @@ $messages['gl'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
 	'pronunciationrecording-toolbar-upload-label' => 'Cargar',
 	'pronunciationrecording-webaudio-not-supported' => 'A API WebAudio non está soportada neste navegador.',
+	'pronunciationrecording-specialpage-error-nologin' => 'Debe [$1 acceder ao sistema] para gravar e cargar pronuncias.',
 );
 
 /** Japanese (日本語)
@@ -188,7 +191,8 @@ $messages['ja'] = array(
 	'pronunciationrecording-toolbar-preview-label' => 'プレビュー',
 	'pronunciationrecording-toolbar-clear-label' => '消去',
 	'pronunciationrecording-toolbar-upload-label' => 'アップロード',
-	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません。',
+	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません',
+	'pronunciationrecording-specialpage-error-nologin' => '発音を録音してアップロードするには、[$1 ログイン]してください。',
 );
 
 /** Korean (한국어)
@@ -356,6 +360,7 @@ $messages['uk'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Очистити',
 	'pronunciationrecording-toolbar-upload-label' => 'Вивантажити',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API не підтримується для цього веб-переглядача',
+	'pronunciationrecording-specialpage-error-nologin' => 'Ви повинні [$1  увійти в систему] для запису і завантаження вимови.',
 );
 
 /** Yiddish (ייִדיש)
