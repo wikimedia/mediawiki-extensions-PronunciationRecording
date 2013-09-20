@@ -12,6 +12,7 @@ $messages = array();
  * @author Rahul21
  */
 $messages['en'] = array(
+	'pronunciationrecording' => 'Pronunciation Recording Tool',
 	'pronunciationrecording-desc' => 'Adds a [[Special:PronunciationRecording|pronunciation recording tool]]',
 	'pronunciationrecording-title' => 'Pronunciation recording tool',
 	'pronunciationrecording-toolbar-record-label' => 'Record',
@@ -29,6 +30,7 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
+	'pronunciationrecording' => '{{doc-special|PronunciationRecording}}',
 	'pronunciationrecording-desc' => '{{desc|name=Pronunciation Recording|url=http://www.mediawiki.org/wiki/Extension:PronunciationRecording}}',
 	'pronunciationrecording-title' => 'Used as a title message',
 	'pronunciationrecording-toolbar-record-label' => 'Label text for the button to start recording.
