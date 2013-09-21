@@ -29,6 +29,18 @@
 			$output->addHTML( '<button class="mw-pronunciationrecording-clear" id="mw-pronunciationrecording-clear" disabled >' .wfMessage( 'pronunciationrecording-toolbar-clear-label' )->escaped().'</button>' );
 			$output->addHTML( '<div class="mw-pronunciationrecording-preview-div" id="mw-pronunciationrecording-preview-div" disabled ></div>' );
 			$output->addHTML( '</div>' );
+			$output->addHTML( '<form>' );
+			$output->addHTML( '<fieldset>' );
+			$output->addHTML( '<legend>'.wfMessage( 'pronunciationrecording-information-label' )->escaped().'</legend>' );
+			$output->addHTML( wfMessage( 'pronunciationrecording-information-word-label' )->escaped().'<input type="text" class="mw-pronunciationrecording-information-word"><br><br>' );
+			$languages = Language::fetchLanguageNames( null, 'mw' );
+			$output->addHTML( wfMessage( 'pronunciationrecording-information-language-label' )->escaped().'<select class="mw-pronunciationrecording-information-language">' );
+			foreach( $languages as $lang_code => $lang_name) {
+				$output->addHTML( Html::element( 'option', array( 'value' => $lang_code ) , $lang_code.' - '.$lang_name ) );
+			}
+			$output->addHTML( '</select>' );
+			$output->addHTML( '</fieldset>' );
+			$output->addHTML( '</form>' );
 		}
 
 		/**

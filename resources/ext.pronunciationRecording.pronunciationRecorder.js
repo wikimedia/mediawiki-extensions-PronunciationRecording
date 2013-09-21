@@ -33,12 +33,13 @@
 			return 'uploadTest' + counter + '.wav';
 		}
 
-		function publishUpload( ok, err ) {
+		function publishUpload( ok, err, wikiText ) {
 			var params = {
 				action: 'upload',
 				filekey: uploadWizardUpload.fileKey,
 				filename: generateFileName(),
-				comment: "User created page with " + userAgent
+				comment: "User created page with " + userAgent,
+				text : wikiText
 			};
 
 			function publishOk( response ) {
@@ -108,7 +109,7 @@
 				}
 			},
 
-			startUploading: function( ok, error ) {
+			startUploading: function( ok, error, wikiText ) {
 				var config, api, uploadWizard, filesDiv;
 				config = { 'enableFormData' : true };
 				filesDiv = document.createElement( "div" );
@@ -131,7 +132,7 @@
 						uploadHandler = uploadWizardUpload.getUploadHandler();
 						uploadHandler.start();
 						$.subscribeReady( 'thumbnails.' + uploadWizardUpload.index, function() {
-							publishUpload( ok, error );
+							publishUpload( ok, error, wikiText );
 						} );
 					}
 				);

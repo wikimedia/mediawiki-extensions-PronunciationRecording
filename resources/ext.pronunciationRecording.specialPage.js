@@ -23,11 +23,17 @@
 				$( ".mw-pronunciationrecording-upload" ).remove();
 			});
 			$( document ).on( "click", ".mw-pronunciationrecording-upload", function() {
+				var wikiText, pronunciationRecorderFileDetails, word, username, lang_code;
+				word = $( ".mw-pronunciationrecording-information-word" ).val();
+				lang_code = $( ".mw-pronunciationrecording-information-language" ).val();
+				username = mw.user.getName();
+				pronunciationRecorderFileDetails = new mw.PronunciationRecorderFileDetails( word, username, lang_code );
+				wikiText = pronunciationRecorderFileDetails.generateWikiText();
 				pronunciationRecorder.startUploading( function() {
 					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-succeeded' ).text() );
 				}, function() {
 					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-failed' ).text() );
-				});
+				}, wikiText );
 			});
 			$( ".mw-pronunciationrecording-toolbar" ).show();
 		}

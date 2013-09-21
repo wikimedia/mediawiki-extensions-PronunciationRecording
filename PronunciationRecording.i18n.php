@@ -24,7 +24,11 @@ $messages['en'] = array(
 	'pronunciationrecording-specialpage-error-nologin' => 'You must be [$1 logged in] to record and upload pronunciations.',
 	'pronunciationrecording-upload-publish-succeeded' => 'Recording uploaded successfully',
 	'pronunciationrecording-upload-publish-failed' => 'Recording was not uploaded',
+	'pronunciationrecording-information-label' => 'Information',
+	'pronunciationrecording-information-word-label' => 'Word:',
+	'pronunciationrecording-information-language-label' => 'Language:',
 );
+
 
 /** Message documentation (Message documentation)
  * @author Shirayuki
@@ -56,6 +60,9 @@ See also:
 
 See also:
 * {{msg-mw|Pronunciationrecording-upload-publish-succeeded}}',
+	'pronunciationrecording-information-label' => 'Label text for the legend',
+	'pronunciationrecording-information-word-label' => 'Label text for the word input field',
+	'pronunciationrecording-information-language-label' => 'Label text for the language dropdown list',
 );
 
 /** Akan (Akan)

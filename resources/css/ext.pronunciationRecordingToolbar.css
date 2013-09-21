@@ -3,3 +3,12 @@
 .mw-pronunciationrecording-toolbar {
 	display: none;
 }
+
+.mw-pronunciationrecording-information-word {
+	margin-left: 10em;
+	width: 18.3em;
+}
+
+.mw-pronunciationrecording-information-language {
+	margin-left: 8em;
+}

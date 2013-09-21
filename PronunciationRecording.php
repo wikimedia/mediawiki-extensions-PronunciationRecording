@@ -50,10 +50,18 @@ $wgResourceModules['ext.pronunciationRecording.specialPage'] = array(
 	'scripts' => 'ext.pronunciationRecording.specialPage.js',
 	'styles' => 'css/ext.pronunciationRecordingToolbar.css',
 	'position' => 'top',
-	'dependencies' => 'ext.pronunciationRecording.pronunciationRecorder',
+	'dependencies' => array(
+		'ext.pronunciationRecording.pronunciationRecorder',
+		'ext.pronunciationRecording.fileDetails',
+		'mediawiki.user',
+	),
 	'messages' => array(
 		'pronunciationrecording-webaudio-not-supported',
 		'pronunciationrecording-upload-publish-succeeded',
 		'pronunciationrecording-upload-publish-failed',
 	),
+) + $pronunciationRecordingModuleInfo;
+
+$wgResourceModules['ext.pronunciationRecording.fileDetails'] = array(
+	'scripts' => 'ext.pronunciationRecording.fileDetails.js',
 ) + $pronunciationRecordingModuleInfo;
