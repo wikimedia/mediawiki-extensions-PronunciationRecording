@@ -44,12 +44,12 @@ $messages['qqq'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording.
 {{Identical|Upload}}',
 	'pronunciationrecording-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Used as a message when the recording is successfully uploaded from the stash',
-	'pronunciationrecording-upload-publish-failed' => 'Used as a message when the recording failed to be uploaded from the stash',
 	'pronunciationrecording-specialpage-error-nologin' => 'Error shown when user is not logged in.
 
 Parameters:
 * $1 - URL of login page, with return pointing to [[Special:PronunciationRecording]]',
+	'pronunciationrecording-upload-publish-succeeded' => 'Used as a message when the recording is successfully uploaded from the stash',
+	'pronunciationrecording-upload-publish-failed' => 'Used as a message when the recording failed to be uploaded from the stash',
 );
 
 /** Akan (Akan)
@@ -103,6 +103,7 @@ $messages['br'] = array(
  * @author Purodha
  */
 $messages['de'] = array(
+	'pronunciationrecording' => 'Ausspracheaufzeichnungswerkzeug',
 	'pronunciationrecording-desc' => 'Bringt ein [[Special:PronunciationRecording|Ausspracheaufzeichnungswerkzeug]] ins Wiki',
 	'pronunciationrecording-title' => 'Ausspracheaufzeichnungswerkzeug',
 	'pronunciationrecording-toolbar-record-label' => 'Aufzeichnen',
@@ -112,6 +113,8 @@ $messages['de'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Hochladen',
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
 	'pronunciationrecording-specialpage-error-nologin' => 'Du musst [$1 angemeldet sein], um Aussprachebeispiele aufzeichnen und hochladen zu können.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Die Aufnahme wurde erfolgreich hochgeladen',
+	'pronunciationrecording-upload-publish-failed' => 'Die Aufnahme wurde nicht hochgeladen',
 );
 
 /** Spanish (español)
@@ -239,6 +242,7 @@ $messages['lb'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Eidel maachen',
 	'pronunciationrecording-toolbar-upload-label' => 'Eroplueden',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-API gëtt fir dëse Browser net ënnerstëtzt',
+	'pronunciationrecording-specialpage-error-nologin' => 'Dir musst [$1 ageloggt] si fir Aussproochen opzehuelen an eropzelueden.',
 );
 
 /** Macedonian (македонски)
@@ -253,6 +257,7 @@ $messages['mk'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Отфрли',
 	'pronunciationrecording-toolbar-upload-label' => 'Подигни',
 	'pronunciationrecording-webaudio-not-supported' => 'Прилогот WebAudio не е поддржан на овој прелистувач',
+	'pronunciationrecording-specialpage-error-nologin' => 'Мора да сте [$1 најавени] за да можете да снимате и подигате изговори.',
 );
 
 /** Marathi (मराठी)
