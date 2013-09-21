@@ -24,7 +24,7 @@ $messages['en'] = array(
 	'pronunciationrecording-specialpage-error-nologin' => 'You must be [$1 logged in] to record and upload pronunciations.',
 	'pronunciationrecording-upload-publish-succeeded' => 'Recording uploaded successfully',
 	'pronunciationrecording-upload-publish-failed' => 'Recording was not uploaded',
-	);
+);
 
 /** Message documentation (Message documentation)
  * @author Shirayuki
