@@ -48,8 +48,14 @@ $messages['qqq'] = array(
 
 Parameters:
 * $1 - URL of login page, with return pointing to [[Special:PronunciationRecording]]',
-	'pronunciationrecording-upload-publish-succeeded' => 'Used as a message when the recording is successfully uploaded from the stash',
-	'pronunciationrecording-upload-publish-failed' => 'Used as a message when the recording failed to be uploaded from the stash',
+	'pronunciationrecording-upload-publish-succeeded' => 'Used as a message when the recording is successfully uploaded from the stash.
+
+See also:
+* {{msg-mw|Pronunciationrecording-upload-publish-failed}}',
+	'pronunciationrecording-upload-publish-failed' => 'Used as a message when the recording failed to be uploaded from the stash.
+
+See also:
+* {{msg-mw|Pronunciationrecording-upload-publish-succeeded}}',
 );
 
 /** Akan (Akan)
@@ -132,9 +138,11 @@ $messages['es'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Nike
  * @author Stryn
  */
 $messages['fi'] = array(
+	'pronunciationrecording' => 'Ääntämisen tallennustyökalu',
 	'pronunciationrecording-desc' => 'Lisää [[Special:PronunciationRecording|ääntämisen tallennustyökalu]]',
 	'pronunciationrecording-title' => 'Ääntämisen tallennustyökalu',
 	'pronunciationrecording-toolbar-record-label' => 'Äänitä',
@@ -143,6 +151,8 @@ $messages['fi'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Tyhjennä',
 	'pronunciationrecording-toolbar-upload-label' => 'Lataa',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-rajapinta ei ole tuettu tässä selaimessa.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Nauhoitus tallennettiin',
+	'pronunciationrecording-upload-publish-failed' => 'Nauhoitusta ei tallennettu',
 );
 
 /** Faroese (føroyskt)
@@ -193,6 +203,7 @@ $messages['gl'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'pronunciationrecording' => '発音の録音ツール',
 	'pronunciationrecording-desc' => '[[Special:PronunciationRecording|発音の録音ツール]]を追加する',
 	'pronunciationrecording-title' => '発音の録音ツール',
 	'pronunciationrecording-toolbar-record-label' => '録音',
@@ -202,6 +213,8 @@ $messages['ja'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'アップロード',
 	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません',
 	'pronunciationrecording-specialpage-error-nologin' => '発音を録音してアップロードするには、[$1 ログイン]してください。',
+	'pronunciationrecording-upload-publish-succeeded' => '録音したものをアップロードしました',
+	'pronunciationrecording-upload-publish-failed' => '録音したものをアップロードできませんでした',
 );
 
 /** Korean (한국어)
@@ -243,12 +256,15 @@ $messages['lb'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Eroplueden',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-API gëtt fir dëse Browser net ënnerstëtzt',
 	'pronunciationrecording-specialpage-error-nologin' => 'Dir musst [$1 ageloggt] si fir Aussproochen opzehuelen an eropzelueden.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Den Enregistrement gouf eropgelueden',
+	'pronunciationrecording-upload-publish-failed' => 'Den Enregistrement gouf net eropgelueden',
 );
 
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
+	'pronunciationrecording' => 'Алатка за снимање на изговор',
 	'pronunciationrecording-desc' => 'Додава [[Special:PronunciationRecording|алатка за снимање на изговор]]',
 	'pronunciationrecording-title' => 'Алатка за снимање на изговор',
 	'pronunciationrecording-toolbar-record-label' => 'Снимај',
@@ -258,6 +274,8 @@ $messages['mk'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Подигни',
 	'pronunciationrecording-webaudio-not-supported' => 'Прилогот WebAudio не е поддржан на овој прелистувач',
 	'pronunciationrecording-specialpage-error-nologin' => 'Мора да сте [$1 најавени] за да можете да снимате и подигате изговори.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Снимката е успешно подигната',
+	'pronunciationrecording-upload-publish-failed' => 'Снимката не е подигната',
 );
 
 /** Marathi (मराठी)
@@ -363,6 +381,7 @@ $messages['te'] = array(
  * @author Andriykopanytsia
  */
 $messages['uk'] = array(
+	'pronunciationrecording' => 'Інструмент запису вимови',
 	'pronunciationrecording-desc' => 'Додає [[Special:PronunciationRecording|інструмент запису вимови]]',
 	'pronunciationrecording-title' => 'Інструмент запису вимови',
 	'pronunciationrecording-toolbar-record-label' => 'Запис',
@@ -372,6 +391,8 @@ $messages['uk'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Вивантажити',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API не підтримується для цього веб-переглядача',
 	'pronunciationrecording-specialpage-error-nologin' => 'Ви повинні [$1  увійти в систему] для запису і завантаження вимови.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Запис успішно завантажено',
+	'pronunciationrecording-upload-publish-failed' => 'Запис не було завантажено',
 );
 
 /** Yiddish (ייִדיש)
