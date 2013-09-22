@@ -17,7 +17,6 @@ $messages['en'] = array(
 	'pronunciationrecording-title' => 'Pronunciation recording tool',
 	'pronunciationrecording-toolbar-record-label' => 'Record',
 	'pronunciationrecording-toolbar-stop-label' => 'Stop',
-	'pronunciationrecording-toolbar-preview-label' => 'Preview',
 	'pronunciationrecording-toolbar-clear-label' => 'Clear',
 	'pronunciationrecording-toolbar-upload-label' => 'Upload',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
@@ -27,6 +26,8 @@ $messages['en'] = array(
 	'pronunciationrecording-information-label' => 'Information',
 	'pronunciationrecording-information-word-label' => 'Word:',
 	'pronunciationrecording-information-language-label' => 'Language:',
+	'pronunciationrecording-mic-access-notify' => 'Click "Allow" to allow the browser to access your microphone.',
+	'pronunciationrecording-recording-notify' => 'Recording....',
 );
 
 
@@ -41,8 +42,6 @@ $messages['qqq'] = array(
 {{Identical|Record}}',
 	'pronunciationrecording-toolbar-stop-label' => 'Label text for the button to stop recording.
 {{Identical|Stop}}',
-	'pronunciationrecording-toolbar-preview-label' => 'Label text for the button to preview the recording.
-{{Identical|Preview}}',
 	'pronunciationrecording-toolbar-clear-label' => 'Label text for the button to clear the recording.
 {{Identical|Clear}}',
 	'pronunciationrecording-toolbar-upload-label' => 'Label text for the button to upload the recording.
@@ -63,6 +62,8 @@ See also:
 	'pronunciationrecording-information-label' => 'Label text for the legend',
 	'pronunciationrecording-information-word-label' => 'Label text for the word input field',
 	'pronunciationrecording-information-language-label' => 'Label text for the language dropdown list',
+	'pronunciationrecording-mic-access-notify' => 'Notifies the user to click "Allow" to allow the browser to get microphone access',
+	'pronunciationrecording-recording-notify' => 'Notifies the user that his pronunciation is being recorded',
 );
 
 /** Akan (Akan)

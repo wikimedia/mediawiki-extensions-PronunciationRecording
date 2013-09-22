@@ -4,6 +4,8 @@
 		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob, counter,
 			userAgent = mw.message( 'pronunciationrecording-title' ).text();
 		function startUserMedia( stream ) {
+			$( ".mw-pronunciationrecording-record" ).removeAttr('disabled');
+			$( ".mw-pronunciationrecording-message" ).empty();
 			var input = audioContext.createMediaStreamSource( stream );
 			mw.log( 'Media Stream created' );
 			recorder = new Recorder( input );
@@ -102,6 +104,7 @@
 						function( blob ) {
 							var message = $( '<br><audio controls class="mw-pronunciationrecording-preview-audio"><source src="' + URL.createObjectURL( blob )  + '" type="audio/wav"></audio>' );
 							var upload = $( '<br><button class="mw-pronunciationrecording-upload">' + mw.message('pronunciationrecording-toolbar-upload-label').escaped() + '</button>' );
+							$( ".mw-pronunciationrecording-preview-div" ).empty();
 							upload.prependTo( ".mw-pronunciationrecording-preview-div" );
 							message.prependTo( ".mw-pronunciationrecording-preview-div" );
 						}

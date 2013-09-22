@@ -59,6 +59,8 @@ $wgResourceModules['ext.pronunciationRecording.specialPage'] = array(
 		'pronunciationrecording-webaudio-not-supported',
 		'pronunciationrecording-upload-publish-succeeded',
 		'pronunciationrecording-upload-publish-failed',
+		'pronunciationrecording-mic-access-notify',
+		'pronunciationrecording-recording-notify',
 	),
 ) + $pronunciationRecordingModuleInfo;
 
