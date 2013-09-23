@@ -28,6 +28,7 @@ $messages['en'] = array(
 	'pronunciationrecording-information-language-label' => 'Language:',
 	'pronunciationrecording-mic-access-notify' => 'Click "Allow" to allow the browser to access your microphone.',
 	'pronunciationrecording-recording-notify' => 'Recording....',
+	'pronunciationrecording-information-license-prompt' => 'By using PronunciationRecording and clicking {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|you}} agree to the following terms for your recording:',
 );
 
 
@@ -64,6 +65,10 @@ See also:
 	'pronunciationrecording-information-language-label' => 'Label text for the language dropdown list',
 	'pronunciationrecording-mic-access-notify' => 'Notifies the user to click "Allow" to allow the browser to get microphone access',
 	'pronunciationrecording-recording-notify' => 'Notifies the user that his pronunciation is being recorded',
+	'pronunciationrecording-information-license-prompt' => 'Text prompting the user about the license. It is the below the language drop down list.
+
+Parameters:
+* $1 - username, for GENDER support',
 );
 
 /** Akan (Akan)

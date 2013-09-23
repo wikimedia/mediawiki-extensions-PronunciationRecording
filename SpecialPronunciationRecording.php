@@ -31,13 +31,16 @@
 			$output->addHTML( '<form>' );
 			$output->addHTML( '<fieldset>' );
 			$output->addHTML( '<legend>'.wfMessage( 'pronunciationrecording-information-label' )->escaped().'</legend>' );
-			$output->addHTML( wfMessage( 'pronunciationrecording-information-word-label' )->escaped().'<input type="text" class="mw-pronunciationrecording-information-word"><br><br>' );
+			$output->addHTML( '<b>'.wfMessage( 'pronunciationrecording-information-word-label' )->escaped().'</b><input type="text" class="mw-pronunciationrecording-information-word"><br><br>' );
 			$languages = Language::fetchLanguageNames( null, 'mw' );
-			$output->addHTML( wfMessage( 'pronunciationrecording-information-language-label' )->escaped().'<select class="mw-pronunciationrecording-information-language">' );
+			$output->addHTML( '<b>'.wfMessage( 'pronunciationrecording-information-language-label' )->escaped().'</b><select class="mw-pronunciationrecording-information-language">' );
 			foreach( $languages as $lang_code => $lang_name) {
 				$output->addHTML( Html::element( 'option', array( 'value' => $lang_code ) , $lang_code.' - '.$lang_name ) );
 			}
 			$output->addHTML( '</select>' );
+			$output->addHTML( '<br><br>'.wfMessage( 'pronunciationrecording-information-license-prompt', $user )->escaped() );
+			$output->addHTML( '<div class = "mw-pronunciationrecording-information-license-cc-by-sa" >'.wfMessage( 'mwe-upwiz-source-ownwork-assert-cc-by-sa-3.0', 1, $user, 'http://creativecommons.org/licenses/by-sa/3.0/deed.en'  )->parse().'<br>' );
+			$output->addHTML( wfMessage( 'mwe-upwiz-source-ownwork-cc-by-sa-3.0-explain', 1 )->escaped().'<br></div>' );
 			$output->addHTML( '</fieldset>' );
 			$output->addHTML( '</form>' );
 		}
