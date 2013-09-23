@@ -23,18 +23,23 @@
 				$( ".mw-pronunciationrecording-message" ).empty();
 			});
 			$( document ).on( "click", ".mw-pronunciationrecording-upload", function() {
-				var wikiText, pronunciationRecorderFileDetails, word, username, lang_code;
+				var pronunciationRecorderFileDetails, word, username, lang_code;
 				word = $( ".mw-pronunciationrecording-information-word" ).val();
 				lang_code = $( ".mw-pronunciationrecording-information-language" ).val();
 				username = mw.user.getName();
 				pronunciationRecorderFileDetails = new mw.PronunciationRecorderFileDetails( word, username, lang_code );
-				wikiText = pronunciationRecorderFileDetails.generateWikiText();
 				$( ".mw-pronunciationrecording-upload" ).attr('disabled','disabled');
 				pronunciationRecorder.startUploading( function() {
+					var name, $fileLink;
+					name = 'File:' + pronunciationRecorderFileDetails.generateFileName() ;
+					$fileLink = $( '<a>' );
+					$fileLink.attr( "href", mw.util.wikiGetlink( name ) );
+					$fileLink.text( name );
 					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-succeeded' ).text() );
+					$( ".mw-pronunciationrecording-message" ).append( $fileLink );
 				}, function() {
 					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-failed' ).text() );
-				}, wikiText );
+				}, pronunciationRecorderFileDetails );
 			});
 			$( ".mw-pronunciationrecording-toolbar" ).show();
 		}

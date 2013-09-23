@@ -1,6 +1,6 @@
 ( function ( mw, $ ) {
 	mw.PronunciationRecorderFileDetails = function( word, username, lang_code ) {
-		var description, date_obj, fulldate, month, source, author, permission, category, wikitext, lang_subst = "{{subst:#language:" + lang_code + "|en}}";
+		var description, date_obj, fulldate, source, author, permission, category, lang_subst = "{{subst:#language:" + lang_code + "|en}}";
 		date_obj = new Date();
 		description = "Pronunciation of the term '" + word + "' in " + lang_subst;
 
@@ -23,6 +23,13 @@
 			{
 				var wikitext = '{{Information\n |description = ' + description + '\n |date = ' + fulldate + '\n |source = ' + source + '\n |author = ' + author + '\n |permission = ' + permission + '\n}}\n' + category;
 				return wikitext;
+			},
+
+			generateFileName: function()
+			{
+				var filename = lang_code + '-' + word + '.wav';
+				return filename;
+
 			}
 		}
 	}

@@ -54,6 +54,7 @@ $wgResourceModules['ext.pronunciationRecording.specialPage'] = array(
 		'ext.pronunciationRecording.pronunciationRecorder',
 		'ext.pronunciationRecording.fileDetails',
 		'mediawiki.user',
+		'mediawiki.util',
 	),
 	'messages' => array(
 		'pronunciationrecording-webaudio-not-supported',

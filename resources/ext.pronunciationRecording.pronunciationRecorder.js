@@ -1,7 +1,7 @@
 ( function ( mw, $ ) {
 	mw.PronunciationRecorder = function( ) {
 
-		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob, counter,
+		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob,
 			userAgent = mw.message( 'pronunciationrecording-title' ).text();
 		function startUserMedia( stream ) {
 			$( ".mw-pronunciationrecording-record" ).removeAttr('disabled');
@@ -30,18 +30,13 @@
 			mw.log( 'No live audio input' );
 		}
 
-		function generateFileName() {
-			counter = Math.floor( ( Math.random() * 1000000 ) );
-			return 'uploadTest' + counter + '.wav';
-		}
-
-		function publishUpload( ok, err, wikiText ) {
+		function publishUpload( ok, err, fileDetails ) {
 			var params = {
 				action: 'upload',
 				filekey: uploadWizardUpload.fileKey,
-				filename: generateFileName(),
+				filename: fileDetails.generateFileName(),
 				comment: "User created page with " + userAgent,
-				text : wikiText
+				text : fileDetails.generateWikiText()
 			};
 
 			function publishOk( response ) {
@@ -112,7 +107,7 @@
 				}
 			},
 
-			startUploading: function( ok, error, wikiText ) {
+			startUploading: function( ok, error, fileDetails ) {
 				var config, api, uploadWizard, filesDiv;
 				config = { 'enableFormData' : true };
 				filesDiv = document.createElement( "div" );
@@ -135,7 +130,7 @@
 						uploadHandler = uploadWizardUpload.getUploadHandler();
 						uploadHandler.start();
 						$.subscribeReady( 'thumbnails.' + uploadWizardUpload.index, function() {
-							publishUpload( ok, error, wikiText );
+							publishUpload( ok, error, fileDetails );
 						} );
 					}
 				);
