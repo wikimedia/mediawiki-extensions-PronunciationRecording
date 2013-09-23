@@ -36,6 +36,7 @@
 					$fileLink.attr( "href", mw.util.wikiGetlink( name ) );
 					$fileLink.text( name );
 					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-succeeded' ).text() );
+					$( ".mw-pronunciationrecording-message" ).append( " " );
 					$( ".mw-pronunciationrecording-message" ).append( $fileLink );
 				}, function() {
 					$( ".mw-pronunciationrecording-message" ).text( mw.message( 'pronunciationrecording-upload-publish-failed' ).text() );

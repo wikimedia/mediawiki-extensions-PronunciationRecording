@@ -21,12 +21,12 @@
 			}
 
 			$output->addModules( 'ext.pronunciationRecording.specialPage' );
-			$output->addHTML( '<div class="mw-pronunciationrecording-message" id="mw-pronunciationrecording-message"></div>' );
-			$output->addHTML( '<div class="mw-pronunciationrecording-toolbar" id="mw-pronunciationrecording-toolbar" >' );
-			$output->addHTML( '<button class="mw-pronunciationrecording-record" id="mw-pronunciationrecording-record" disabled>' .wfMessage( 'pronunciationrecording-toolbar-record-label' )->escaped().'</button>' );
-			$output->addHTML( '<button class="mw-pronunciationrecording-stop" id="mw-pronunciationrecording-stop" disabled >' .wfMessage( 'pronunciationrecording-toolbar-stop-label' )->escaped().'</button>' );
-			$output->addHTML( '<button class="mw-pronunciationrecording-clear" id="mw-pronunciationrecording-clear" disabled >' .wfMessage( 'pronunciationrecording-toolbar-clear-label' )->escaped().'</button>' );
-			$output->addHTML( '<div class="mw-pronunciationrecording-preview-div" id="mw-pronunciationrecording-preview-div" disabled ></div>' );
+			$output->addHTML( '<div class="mw-pronunciationrecording-message" ></div>' );
+			$output->addHTML( '<div class="mw-pronunciationrecording-toolbar" >' );
+			$output->addHTML( '<button class="mw-pronunciationrecording-record" disabled >' .wfMessage( 'pronunciationrecording-toolbar-record-label' )->escaped().'</button>' );
+			$output->addHTML( '<button class="mw-pronunciationrecording-stop" disabled >' .wfMessage( 'pronunciationrecording-toolbar-stop-label' )->escaped().'</button>' );
+			$output->addHTML( '<button class="mw-pronunciationrecording-clear" disabled >' .wfMessage( 'pronunciationrecording-toolbar-clear-label' )->escaped().'</button>' );
+			$output->addHTML( '<div class="mw-pronunciationrecording-preview-div" ></div>' );
 			$output->addHTML( '</div>' );
 			$output->addHTML( '<form>' );
 			$output->addHTML( '<fieldset>' );
@@ -39,7 +39,7 @@
 			}
 			$output->addHTML( '</select>' );
 			$output->addHTML( '<br><br>'.wfMessage( 'pronunciationrecording-information-license-prompt', $user )->escaped() );
-			$output->addHTML( '<div class = "mw-pronunciationrecording-information-license-cc-by-sa" >'.wfMessage( 'mwe-upwiz-source-ownwork-assert-cc-by-sa-3.0', 1, $user, 'http://creativecommons.org/licenses/by-sa/3.0/deed.en'  )->parse().'<br>' );
+			$output->addHTML( '<div class="mw-pronunciationrecording-information-license-cc-by-sa" >'.wfMessage( 'mwe-upwiz-source-ownwork-assert-cc-by-sa-3.0', 1, $user, 'http://creativecommons.org/licenses/by-sa/3.0/deed.en'  )->parse().'<br>' );
 			$output->addHTML( wfMessage( 'mwe-upwiz-source-ownwork-cc-by-sa-3.0-explain', 1 )->escaped().'<br></div>' );
 			$output->addHTML( '</fieldset>' );
 			$output->addHTML( '</form>' );

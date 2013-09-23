@@ -21,16 +21,15 @@ $messages['en'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Upload',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
 	'pronunciationrecording-specialpage-error-nologin' => 'You must be [$1 logged in] to record and upload pronunciations.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Recording uploaded successfully: ',
+	'pronunciationrecording-upload-publish-succeeded' => 'Recording uploaded successfully:',
 	'pronunciationrecording-upload-publish-failed' => 'Recording was not uploaded',
 	'pronunciationrecording-information-label' => 'Information',
 	'pronunciationrecording-information-word-label' => 'Word:',
 	'pronunciationrecording-information-language-label' => 'Language:',
 	'pronunciationrecording-mic-access-notify' => 'Click "Allow" to allow the browser to access your microphone.',
-	'pronunciationrecording-recording-notify' => 'Recording....',
+	'pronunciationrecording-recording-notify' => 'Recording...',
 	'pronunciationrecording-information-license-prompt' => 'By using PronunciationRecording and clicking {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|you}} agree to the following terms for your recording:',
 );
-
 
 /** Message documentation (Message documentation)
  * @author Shirayuki
