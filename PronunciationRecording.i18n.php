@@ -53,6 +53,8 @@ Parameters:
 * $1 - URL of login page, with return pointing to [[Special:PronunciationRecording]]',
 	'pronunciationrecording-upload-publish-succeeded' => 'Used as a message when the recording is successfully uploaded from the stash.
 
+Followed by " " and a link pointing to the file.
+
 See also:
 * {{msg-mw|Pronunciationrecording-upload-publish-failed}}',
 	'pronunciationrecording-upload-publish-failed' => 'Used as a message when the recording failed to be uploaded from the stash.
@@ -135,7 +137,7 @@ $messages['de'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Hochladen',
 	'pronunciationrecording-webaudio-not-supported' => 'Die WebAudio-API wird für diesen Browser nicht unterstützt',
 	'pronunciationrecording-specialpage-error-nologin' => 'Du musst [$1 angemeldet sein], um Aussprachebeispiele aufzeichnen und hochladen zu können.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Die Aufnahme wurde erfolgreich hochgeladen', # Fuzzy
+	'pronunciationrecording-upload-publish-succeeded' => 'Die Aufnahme wurde erfolgreich hochgeladen:',
 	'pronunciationrecording-upload-publish-failed' => 'Die Aufnahme wurde nicht hochgeladen',
 	'pronunciationrecording-information-label' => 'Information',
 	'pronunciationrecording-information-word-label' => 'Wort:',
@@ -147,16 +149,19 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Ovruni
  */
 $messages['es'] = array(
 	'pronunciationrecording-desc' => 'Añade una [[Special:PronunciationRecording|herramienta para grabar la pronunciación]]',
 	'pronunciationrecording-title' => 'Herramienta para grabar la pronunciación',
 	'pronunciationrecording-toolbar-record-label' => 'Grabar',
 	'pronunciationrecording-toolbar-stop-label' => 'Detener',
-	'pronunciationrecording-toolbar-preview-label' => 'Previsualizar',
 	'pronunciationrecording-toolbar-clear-label' => 'Borrar',
 	'pronunciationrecording-toolbar-upload-label' => 'Cargar',
 	'pronunciationrecording-webaudio-not-supported' => 'Este navegador no admite la API WebAudio.',
+	'pronunciationrecording-information-label' => 'información',
+	'pronunciationrecording-information-word-label' => 'Palabra:',
+	'pronunciationrecording-information-language-label' => 'Idioma:',
 );
 
 /** Finnish (suomi)
@@ -203,7 +208,7 @@ $messages['fr'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Télécharger',
 	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio n’est pas supportée par ce navigateur',
 	'pronunciationrecording-specialpage-error-nologin' => 'Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Enregistrement bien importé', # Fuzzy
+	'pronunciationrecording-upload-publish-succeeded' => 'Enregistrement bien importé :',
 	'pronunciationrecording-upload-publish-failed' => 'L’enregistrement n’a pas été importé',
 	'pronunciationrecording-information-label' => 'Information',
 	'pronunciationrecording-information-word-label' => 'Mot :',
@@ -217,6 +222,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
+	'pronunciationrecording' => 'Ferramenta para a gravación de pronuncias',
 	'pronunciationrecording-desc' => 'Engade unha [[Special:PronunciationRecording|ferramenta para a gravación de pronuncias]]',
 	'pronunciationrecording-title' => 'Ferramenta para a gravación de pronuncias',
 	'pronunciationrecording-toolbar-record-label' => 'Gravar',
@@ -225,6 +231,14 @@ $messages['gl'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Cargar',
 	'pronunciationrecording-webaudio-not-supported' => 'A API WebAudio non está soportada neste navegador.',
 	'pronunciationrecording-specialpage-error-nologin' => 'Debe [$1 acceder ao sistema] para gravar e cargar pronuncias.',
+	'pronunciationrecording-upload-publish-succeeded' => 'A gravación cargouse correctamente:',
+	'pronunciationrecording-upload-publish-failed' => 'Non se cargou a gravación',
+	'pronunciationrecording-information-label' => 'Información',
+	'pronunciationrecording-information-word-label' => 'Palabra:',
+	'pronunciationrecording-information-language-label' => 'Lingua:',
+	'pronunciationrecording-mic-access-notify' => 'Prema en "Permitir" para que o navegador poida acceder ao seu micrófono.',
+	'pronunciationrecording-recording-notify' => 'Gravando...',
+	'pronunciationrecording-information-license-prompt' => 'Ao usar a gravación de pronuncias e premer en "{{int:pronunciationrecording-toolbar-upload-label}}", {{GENDER:$1|acepta}} os seguintes termos para a súa gravación:',
 );
 
 /** Japanese (日本語)
@@ -240,18 +254,19 @@ $messages['ja'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'アップロード',
 	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません',
 	'pronunciationrecording-specialpage-error-nologin' => '発音を録音してアップロードするには、[$1 ログイン]してください。',
-	'pronunciationrecording-upload-publish-succeeded' => '録音したものをアップロードしました', # Fuzzy
+	'pronunciationrecording-upload-publish-succeeded' => '録音したものをアップロードしました:',
 	'pronunciationrecording-upload-publish-failed' => '録音したものをアップロードできませんでした',
 	'pronunciationrecording-information-label' => '情報',
 	'pronunciationrecording-information-word-label' => '単語:',
 	'pronunciationrecording-information-language-label' => '言語:',
 	'pronunciationrecording-mic-access-notify' => 'ブラウザーがマイクにアクセスできるように「許可」をクリックしてください',
-	'pronunciationrecording-recording-notify' => '録音中....',
+	'pronunciationrecording-recording-notify' => '録音中...',
 	'pronunciationrecording-information-license-prompt' => '発音録音ツールを使用し{{int:pronunciationrecording-toolbar-upload-label}}をクリックすることで、{{GENDER:$1|あなた}}は録音物について以下の規約に同意したと見なされます:',
 );
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'pronunciationrecording' => '발음 녹음 도구',
@@ -262,15 +277,15 @@ $messages['ko'] = array(
 	'pronunciationrecording-toolbar-clear-label' => '지우기',
 	'pronunciationrecording-toolbar-upload-label' => '올리기',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API는 이 브라우저에서 지원하지 않습니다.',
-	'pronunciationrecording-specialpage-error-nologin' => '발음을 녹음하고 업로드하려면 반드시 [$1 로그인]해야 합니다.',
-	'pronunciationrecording-upload-publish-succeeded' => '녹음을 성공적으로 올렸습니다', # Fuzzy
+	'pronunciationrecording-specialpage-error-nologin' => '발음을 녹음하고 올리려면 [$1 로그인]해야 합니다.',
+	'pronunciationrecording-upload-publish-succeeded' => '녹음을 성공적으로 올렸습니다:',
 	'pronunciationrecording-upload-publish-failed' => '녹음된 파일이 올려지지 않았습니다',
 	'pronunciationrecording-information-label' => '정보',
-	'pronunciationrecording-information-word-label' => '어휘:',
+	'pronunciationrecording-information-word-label' => '단어:',
 	'pronunciationrecording-information-language-label' => '언어:',
-	'pronunciationrecording-mic-access-notify' => '브라우저가 마이크에 접근할 수 있도록 "허용" 버튼을 클릭하십시오.',
-	'pronunciationrecording-recording-notify' => '녹음 중....',
-	'pronunciationrecording-information-license-prompt' => '발음 녹음 기능을 이용하여 {{int:pronunciationrecording-toolbar-upload-label}} 버튼을 누르면, {{GENDER:$1|당신}}은 녹음에 대해 다음 조건에 동의하게 됩니다.',
+	'pronunciationrecording-mic-access-notify' => '브라우저가 마이크에 접근할 수 있도록 "허용"을 클릭하세요.',
+	'pronunciationrecording-recording-notify' => '녹음 중...',
+	'pronunciationrecording-information-license-prompt' => '발음 녹음 기능을 사용하여 {{int:pronunciationrecording-toolbar-upload-label}}를 클릭하면, {{GENDER:$1|당신}}은 녹음에 대해 다음 조건에 동의하게 됩니다:',
 );
 
 /** Colognian (Ripoarisch)
@@ -297,8 +312,12 @@ $messages['lb'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Eroplueden',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-API gëtt fir dëse Browser net ënnerstëtzt',
 	'pronunciationrecording-specialpage-error-nologin' => 'Dir musst [$1 ageloggt] si fir Aussproochen opzehuelen an eropzelueden.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Den Enregistrement gouf eropgelueden', # Fuzzy
+	'pronunciationrecording-upload-publish-succeeded' => 'Den Enregistrement gouf eropgelueden',
 	'pronunciationrecording-upload-publish-failed' => 'Den Enregistrement gouf net eropgelueden',
+	'pronunciationrecording-information-label' => 'Informatioun',
+	'pronunciationrecording-information-word-label' => 'Wuert:',
+	'pronunciationrecording-information-language-label' => 'Sprooch:',
+	'pronunciationrecording-recording-notify' => 'Ophuelen...',
 );
 
 /** Macedonian (македонски)
@@ -314,7 +333,7 @@ $messages['mk'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Подигни',
 	'pronunciationrecording-webaudio-not-supported' => 'Прилогот WebAudio не е поддржан на овој прелистувач',
 	'pronunciationrecording-specialpage-error-nologin' => 'Мора да сте [$1 најавени] за да можете да снимате и подигате изговори.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Снимката е успешно подигната', # Fuzzy
+	'pronunciationrecording-upload-publish-succeeded' => 'Снимката е успешно подигната:',
 	'pronunciationrecording-upload-publish-failed' => 'Снимката не е подигната',
 	'pronunciationrecording-information-label' => 'Информации',
 	'pronunciationrecording-information-word-label' => 'Збор:',
@@ -322,6 +341,15 @@ $messages['mk'] = array(
 	'pronunciationrecording-mic-access-notify' => 'Стиснете на „Дозволи“ за да му дадете пристап на прелистувачот до вашиот микрофон.',
 	'pronunciationrecording-recording-notify' => 'Снимам....',
 	'pronunciationrecording-information-license-prompt' => 'Користејќи го снимачот на изговор и стискајќи на {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|се}} согласувате снименото да се води според следниве услови:',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Santhosh.thottingal
+ */
+$messages['ml'] = array(
+	'pronunciationrecording-information-word-label' => 'വാക്ക്:',
+	'pronunciationrecording-information-language-label' => 'ഭാഷ:',
+	'pronunciationrecording-recording-notify' => 'റെക്കോഡിങ്ങ്...',
 );
 
 /** Marathi (मराठी)
@@ -352,6 +380,14 @@ $messages['oc'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio es pas suportada per aqueste navigador',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'pronunciationrecording-information-word-label' => 'Słowo:',
+	'pronunciationrecording-information-language-label' => 'Język:',
+);
+
 /** Portuguese (português)
  * @author Cainamarques
  * @author Fúlvio
@@ -376,16 +412,19 @@ $messages['pt-br'] = array(
 	'pronunciationrecording-title' => 'Ferramenta de gravação de pronúncias',
 	'pronunciationrecording-toolbar-record-label' => 'Gravar',
 	'pronunciationrecording-toolbar-stop-label' => 'Parar',
-	'pronunciationrecording-toolbar-preview-label' => 'Pré-visualizar',
 	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
 	'pronunciationrecording-toolbar-upload-label' => 'Enviar',
 	'pronunciationrecording-webaudio-not-supported' => 'A API do WebAudio não é suportada por este navegador.',
+	'pronunciationrecording-information-label' => 'Informação',
+	'pronunciationrecording-information-word-label' => 'Palavra:',
+	'pronunciationrecording-information-language-label' => 'Língua:',
 );
 
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'pronunciationrecording' => "Strumende pa reggistrazzione d'a pronunge",
 	'pronunciationrecording-desc' => "Aggiunge 'nu [[Special:PronunciationRecording|strumende pa reggistrazzione d'a pronunge]]",
 	'pronunciationrecording-title' => "Strumende pa reggistrazzione d'a pronunge",
 	'pronunciationrecording-toolbar-record-label' => 'Reggistre',
@@ -393,6 +432,7 @@ $messages['roa-tara'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Pulizze',
 	'pronunciationrecording-toolbar-upload-label' => 'Careche',
 	'pronunciationrecording-webaudio-not-supported' => "API WebAudio non g'è supportate pe stu browser",
+	'pronunciationrecording-information-label' => "'Mbormaziune",
 	'pronunciationrecording-information-word-label' => 'Parole:',
 	'pronunciationrecording-information-language-label' => 'Lènghe:',
 );
@@ -437,7 +477,7 @@ $messages['uk'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Вивантажити',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API не підтримується для цього веб-переглядача',
 	'pronunciationrecording-specialpage-error-nologin' => 'Ви повинні [$1  увійти в систему] для запису і завантаження вимови.',
-	'pronunciationrecording-upload-publish-succeeded' => 'Запис успішно завантажено', # Fuzzy
+	'pronunciationrecording-upload-publish-succeeded' => 'Запис успішно завантажено:',
 	'pronunciationrecording-upload-publish-failed' => 'Запис не було завантажено',
 	'pronunciationrecording-information-label' => 'Інформація',
 	'pronunciationrecording-information-word-label' => 'Слово:',
