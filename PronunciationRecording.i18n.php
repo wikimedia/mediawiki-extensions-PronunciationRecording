@@ -444,6 +444,23 @@ $messages['si'] = array(
 	'pronunciationrecording-desc' => '[[Special:PronunciationRecording|උච්චාරණය පටිගත කිරීමේ මෙවලම]] එක් කරයි',
 );
 
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'pronunciationrecording' => 'Orodje za snemanje izgovarjav',
+	'pronunciationrecording-webaudio-not-supported' => 'Ta brskalnik ne podpira WebAudio API',
+	'pronunciationrecording-specialpage-error-nologin' => 'Za snemanje in nalaganje izgovarjav morate biti [$1 prijavljeni].',
+	'pronunciationrecording-upload-publish-succeeded' => 'Posnetek se je uspešno naložil:',
+	'pronunciationrecording-upload-publish-failed' => 'Posnetek se ni naložil',
+	'pronunciationrecording-information-label' => 'Informacije',
+	'pronunciationrecording-information-word-label' => 'Beseda:',
+	'pronunciationrecording-information-language-label' => 'Jezik:',
+	'pronunciationrecording-mic-access-notify' => 'Kliknite »Dovolim«, da bo brskalnik lahko dostopal do vašega mikrofona.',
+	'pronunciationrecording-recording-notify' => 'Snemanje ...',
+	'pronunciationrecording-information-license-prompt' => 'Z uporabo orodja PronunciationRecording in klikom  {{int:pronunciationrecording-toolbar-upload-label}}, se {{GENDER:$!|strinjate}} z naslednjimi pogoji:', # Fuzzy
+);
+
 /** Tamil (தமிழ்)
  * @author ElangoRamanujam
  * @author Sank
