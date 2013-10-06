@@ -88,14 +88,23 @@ $messages['ak'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
+	'pronunciationrecording' => 'Ferramienta pa grabar la pronunciación',
 	'pronunciationrecording-desc' => 'Amiesta una [[Special:PronunciationRecording|ferramienta pa grabar la pronunciación]]',
 	'pronunciationrecording-title' => 'Ferramienta pa grabar la pronunciación',
 	'pronunciationrecording-toolbar-record-label' => 'Grabar',
 	'pronunciationrecording-toolbar-stop-label' => 'Aparar',
-	'pronunciationrecording-toolbar-preview-label' => 'Vista previa',
 	'pronunciationrecording-toolbar-clear-label' => 'Llimpiar',
 	'pronunciationrecording-toolbar-upload-label' => 'Xubir',
 	'pronunciationrecording-webaudio-not-supported' => 'La API WebAudio nun tien encontu nesti navegador.',
+	'pronunciationrecording-specialpage-error-nologin' => "Tien d'[$1 aniciar sesión] pa grabar y xubir pronunciaciones.",
+	'pronunciationrecording-upload-publish-succeeded' => 'Grabación xubida correutamente:',
+	'pronunciationrecording-upload-publish-failed' => 'La grabación nun se xubió',
+	'pronunciationrecording-information-label' => 'Información',
+	'pronunciationrecording-information-word-label' => 'Pallabra:',
+	'pronunciationrecording-information-language-label' => 'Llingua:',
+	'pronunciationrecording-mic-access-notify' => 'Calque "Permitir" pa permitir l\'accesu del navegador al micrófonu.',
+	'pronunciationrecording-recording-notify' => 'Grabando...',
+	'pronunciationrecording-information-license-prompt' => 'Al usar PronunciationRecording y calcar en "{{int:pronunciationrecording-toolbar-upload-label}}", {{GENDER:$1|acepta}} los siguientes términos pa la so grabación:',
 );
 
 /** Bengali (বাংলা)
@@ -388,6 +397,14 @@ $messages['pl'] = array(
 	'pronunciationrecording-information-language-label' => 'Język:',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'pronunciationrecording-information-label' => 'مالومات',
+	'pronunciationrecording-information-language-label' => 'ژبه:',
+);
+
 /** Portuguese (português)
  * @author Cainamarques
  * @author Fúlvio
@@ -464,14 +481,16 @@ $messages['sl'] = array(
 /** Tamil (தமிழ்)
  * @author ElangoRamanujam
  * @author Sank
+ * @author கௌசிக் பிரபு
  */
 $messages['ta'] = array(
 	'pronunciationrecording-title' => 'உச்சரிப்பை பதிவிடும் கருவி',
 	'pronunciationrecording-toolbar-record-label' => 'பதிவிடுக',
 	'pronunciationrecording-toolbar-stop-label' => 'நிறுத்துக',
-	'pronunciationrecording-toolbar-preview-label' => 'முன்பார்வை',
 	'pronunciationrecording-toolbar-clear-label' => 'நீக்கு',
 	'pronunciationrecording-toolbar-upload-label' => 'பதிவேற்றுக',
+	'pronunciationrecording-information-label' => 'தகவல்',
+	'pronunciationrecording-information-language-label' => 'மொழி:',
 );
 
 /** Telugu (తెలుగు)
