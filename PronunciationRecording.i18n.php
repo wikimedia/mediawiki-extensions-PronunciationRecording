@@ -115,7 +115,6 @@ $messages['bn'] = array(
 	'pronunciationrecording-title' => 'উচ্চারণ রেকর্ডিং সরঞ্জাম',
 	'pronunciationrecording-toolbar-record-label' => 'রেকর্ড',
 	'pronunciationrecording-toolbar-stop-label' => 'বন্ধ',
-	'pronunciationrecording-toolbar-preview-label' => 'প্রাকদর্শন',
 	'pronunciationrecording-toolbar-clear-label' => 'পরিস্কার',
 	'pronunciationrecording-toolbar-upload-label' => 'আপলোড',
 	'pronunciationrecording-webaudio-not-supported' => 'ওয়েবঅডিও এপিআই এই ব্রাউজারে সমর্থিত নয়।',
@@ -127,7 +126,6 @@ $messages['bn'] = array(
 $messages['br'] = array(
 	'pronunciationrecording-toolbar-record-label' => 'Enrollañ',
 	'pronunciationrecording-toolbar-stop-label' => 'Paouez',
-	'pronunciationrecording-toolbar-preview-label' => 'Rakwelet',
 	'pronunciationrecording-toolbar-clear-label' => 'Riñsañ',
 	'pronunciationrecording-toolbar-upload-label' => 'Enporzhiañ',
 );
@@ -198,7 +196,6 @@ $messages['fo'] = array(
 	'pronunciationrecording-title' => 'Upptøkutól til úttalu',
 	'pronunciationrecording-toolbar-record-label' => 'Ger upptøku',
 	'pronunciationrecording-toolbar-stop-label' => 'Støðga',
-	'pronunciationrecording-toolbar-preview-label' => 'Forskoðan',
 	'pronunciationrecording-toolbar-clear-label' => 'Reinsa',
 	'pronunciationrecording-toolbar-upload-label' => 'Legg út',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API verður ikki stuðlað á hesum internetkaganum.',
@@ -305,7 +302,6 @@ $messages['ksh'] = array(
 	'pronunciationrecording-title' => 'Wärkzüsch för de Ußschprooche opzezeischne',
 	'pronunciationrecording-toolbar-record-label' => 'Opzeischne',
 	'pronunciationrecording-toolbar-stop-label' => 'Aanhallde',
-	'pronunciationrecording-toolbar-preview-label' => 'Aanhüüre',
 	'pronunciationrecording-toolbar-clear-label' => 'Läddesch maache',
 	'pronunciationrecording-toolbar-upload-label' => 'Huhlaade',
 	'pronunciationrecording-webaudio-not-supported' => 'Heh dä Brauser kann de <i lang="en" xml:lang="en">WebAudio API</i> nit.',
@@ -369,7 +365,6 @@ $messages['mr'] = array(
 	'pronunciationrecording-title' => 'उच्चार ध्वनिमुद्रण साधन',
 	'pronunciationrecording-toolbar-record-label' => 'ध्वनिमुद्रण करा',
 	'pronunciationrecording-toolbar-stop-label' => 'थांबवा',
-	'pronunciationrecording-toolbar-preview-label' => 'झलक',
 	'pronunciationrecording-toolbar-clear-label' => 'हटवा',
 	'pronunciationrecording-toolbar-upload-label' => 'अपभारण करा',
 	'pronunciationrecording-webaudio-not-supported' => 'या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही',
@@ -383,7 +378,6 @@ $messages['oc'] = array(
 	'pronunciationrecording-title' => 'Aisina d’enregistrament de las prononciacions',
 	'pronunciationrecording-toolbar-record-label' => 'Enregistrar',
 	'pronunciationrecording-toolbar-stop-label' => 'Arrestar',
-	'pronunciationrecording-toolbar-preview-label' => 'Escotar',
 	'pronunciationrecording-toolbar-clear-label' => 'Escafar',
 	'pronunciationrecording-toolbar-upload-label' => 'Telecargar',
 	'pronunciationrecording-webaudio-not-supported' => 'L’API WebAudio es pas suportada per aqueste navigador',
@@ -414,7 +408,6 @@ $messages['pt'] = array(
 	'pronunciationrecording-title' => 'Ferramenta de gravação de pronúncias',
 	'pronunciationrecording-toolbar-record-label' => 'Gravar',
 	'pronunciationrecording-toolbar-stop-label' => 'Parar',
-	'pronunciationrecording-toolbar-preview-label' => 'Antever',
 	'pronunciationrecording-toolbar-clear-label' => 'Limpar',
 	'pronunciationrecording-toolbar-upload-label' => 'Carregar',
 	'pronunciationrecording-webaudio-not-supported' => 'A API do WebAudio não é suportada por este navegador.',
@@ -452,6 +445,29 @@ $messages['roa-tara'] = array(
 	'pronunciationrecording-information-label' => "'Mbormaziune",
 	'pronunciationrecording-information-word-label' => 'Parole:',
 	'pronunciationrecording-information-language-label' => 'Lènghe:',
+);
+
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'pronunciationrecording' => 'Инструмент для записи произношения',
+	'pronunciationrecording-desc' => 'Добавляет [[Special:PronunciationRecording|инструмент для записи произношения]]',
+	'pronunciationrecording-title' => 'Инструмент для записи произношения',
+	'pronunciationrecording-toolbar-record-label' => 'Запись',
+	'pronunciationrecording-toolbar-stop-label' => 'Остановить',
+	'pronunciationrecording-toolbar-clear-label' => 'Очистить',
+	'pronunciationrecording-toolbar-upload-label' => 'Загрузить',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API не поддерживается этим браузером',
+	'pronunciationrecording-specialpage-error-nologin' => 'Вы должны [$1  войти в систему] для записи и загрузки произношения.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Запись успешно загружена:',
+	'pronunciationrecording-upload-publish-failed' => 'Запись не была загружена',
+	'pronunciationrecording-information-label' => 'Информация',
+	'pronunciationrecording-information-word-label' => 'Слово:',
+	'pronunciationrecording-information-language-label' => 'Язык:',
+	'pronunciationrecording-mic-access-notify' => 'Нажмите кнопку «Разрешить», чтобы разрешить браузеру доступ к вашему микрофону.',
+	'pronunciationrecording-recording-notify' => 'Запись…',
+	'pronunciationrecording-information-license-prompt' => 'Используя «Запись произношения» и нажимая кнопку {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|вы}} соглашаетесь со следующими условиями для вашей записи:',
 );
 
 /** Sinhala (සිංහල)
@@ -530,7 +546,6 @@ $messages['yi'] = array(
 	'pronunciationrecording-title' => 'ארויסרעדן רעקארדירן געצייג',
 	'pronunciationrecording-toolbar-record-label' => 'רעקארדירן',
 	'pronunciationrecording-toolbar-stop-label' => 'אויפהערן',
-	'pronunciationrecording-toolbar-preview-label' => 'פֿאראויסשטעלונג',
 	'pronunciationrecording-toolbar-clear-label' => 'רייניקן',
 	'pronunciationrecording-toolbar-upload-label' => 'אַרויפֿלאָדן',
 );
