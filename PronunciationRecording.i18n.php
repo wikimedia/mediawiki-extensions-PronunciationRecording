@@ -478,10 +478,17 @@ $messages['si'] = array(
 );
 
 /** Slovenian (slovenščina)
+ * @author Dbc334
  * @author Eleassar
  */
 $messages['sl'] = array(
 	'pronunciationrecording' => 'Orodje za snemanje izgovarjav',
+	'pronunciationrecording-desc' => 'Doda [[Special:PronunciationRecording|orodje za snemanje izgovorjave]]',
+	'pronunciationrecording-title' => 'Orodje za snemanje izgovorjave',
+	'pronunciationrecording-toolbar-record-label' => 'Snemaj',
+	'pronunciationrecording-toolbar-stop-label' => 'Ustavi',
+	'pronunciationrecording-toolbar-clear-label' => 'Počisti',
+	'pronunciationrecording-toolbar-upload-label' => 'Naloži',
 	'pronunciationrecording-webaudio-not-supported' => 'Ta brskalnik ne podpira WebAudio API',
 	'pronunciationrecording-specialpage-error-nologin' => 'Za snemanje in nalaganje izgovarjav morate biti [$1 prijavljeni].',
 	'pronunciationrecording-upload-publish-succeeded' => 'Posnetek se je uspešno naložil:',
@@ -491,7 +498,7 @@ $messages['sl'] = array(
 	'pronunciationrecording-information-language-label' => 'Jezik:',
 	'pronunciationrecording-mic-access-notify' => 'Kliknite »Dovolim«, da bo brskalnik lahko dostopal do vašega mikrofona.',
 	'pronunciationrecording-recording-notify' => 'Snemanje ...',
-	'pronunciationrecording-information-license-prompt' => 'Z uporabo orodja PronunciationRecording in klikom  {{int:pronunciationrecording-toolbar-upload-label}}, se {{GENDER:$!|strinjate}} z naslednjimi pogoji:', # Fuzzy
+	'pronunciationrecording-information-license-prompt' => 'Z uporabo orodja PronunciationRecording in klikom  {{int:pronunciationrecording-toolbar-upload-label}}, se {{GENDER:$1|strinjate}} z naslednjimi pogoji:',
 );
 
 /** Tamil (தமிழ்)
