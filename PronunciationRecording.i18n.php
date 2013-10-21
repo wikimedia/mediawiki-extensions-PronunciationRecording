@@ -130,6 +130,13 @@ $messages['br'] = array(
 	'pronunciationrecording-toolbar-upload-label' => 'Enporzhiañ',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'pronunciationrecording-toolbar-clear-label' => 'ЦӀанъян',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  * @author Purodha
