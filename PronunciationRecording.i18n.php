@@ -508,6 +508,24 @@ $messages['sl'] = array(
 	'pronunciationrecording-information-license-prompt' => 'Z uporabo orodja PronunciationRecording in klikom  {{int:pronunciationrecording-toolbar-upload-label}}, se {{GENDER:$1|strinjate}} z naslednjimi pogoji:',
 );
 
+/** Swedish (svenska)
+ * @author Jopparn
+ */
+$messages['sv'] = array(
+	'pronunciationrecording-toolbar-stop-label' => 'Stopp',
+	'pronunciationrecording-toolbar-clear-label' => 'Rensa',
+	'pronunciationrecording-toolbar-upload-label' => 'Uppladdning',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API stöds inte för denna webbläsare',
+	'pronunciationrecording-specialpage-error-nologin' => 'Du måste vara [$1 inloggad] att spela in och ladda upp uttal.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Inspelning framgångsrikt uppladdad:',
+	'pronunciationrecording-upload-publish-failed' => 'Inspelningen laddades inte upp',
+	'pronunciationrecording-information-label' => 'Information',
+	'pronunciationrecording-information-word-label' => 'ORd:',
+	'pronunciationrecording-information-language-label' => 'Språk:',
+	'pronunciationrecording-mic-access-notify' => 'Klicka på "Tillåt" för att tillåta webbläsaren att komma åt din mikrofon.',
+	'pronunciationrecording-recording-notify' => 'Spelar in...',
+);
+
 /** Tamil (தமிழ்)
  * @author ElangoRamanujam
  * @author Sank
