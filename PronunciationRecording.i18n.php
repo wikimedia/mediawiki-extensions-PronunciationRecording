@@ -512,6 +512,10 @@ $messages['sl'] = array(
  * @author Jopparn
  */
 $messages['sv'] = array(
+	'pronunciationrecording' => 'Inspelningsverktyget för uttal',
+	'pronunciationrecording-desc' => 'Lägger till en [[Special:PronunciationRecording|uttal|inspelningsverktyg]]',
+	'pronunciationrecording-title' => 'Inspelningsverktyget för uttal',
+	'pronunciationrecording-toolbar-record-label' => 'Spela in',
 	'pronunciationrecording-toolbar-stop-label' => 'Stopp',
 	'pronunciationrecording-toolbar-clear-label' => 'Rensa',
 	'pronunciationrecording-toolbar-upload-label' => 'Uppladdning',
@@ -524,6 +528,7 @@ $messages['sv'] = array(
 	'pronunciationrecording-information-language-label' => 'Språk:',
 	'pronunciationrecording-mic-access-notify' => 'Klicka på "Tillåt" för att tillåta webbläsaren att komma åt din mikrofon.',
 	'pronunciationrecording-recording-notify' => 'Spelar in...',
+	'pronunciationrecording-information-license-prompt' => 'Genom att använda PronunciationRecording och klicka på {{int:pronunciationrecording-toolbar-upload-label}},accepterar {{GENDER:$1|du}} följande villkor för din inspelning:',
 );
 
 /** Tamil (தமிழ்)
