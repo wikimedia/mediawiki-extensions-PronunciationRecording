@@ -277,6 +277,13 @@ $messages['ja'] = array(
 	'pronunciationrecording-information-license-prompt' => '発音録音ツールを使用し{{int:pronunciationrecording-toolbar-upload-label}}をクリックすることで、{{GENDER:$1|あなた}}は録音物について以下の規約に同意したと見なされます:',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'pronunciationrecording-information-label' => 'ინფორმაცია',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  * @author 아라
