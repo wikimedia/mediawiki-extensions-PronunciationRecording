@@ -384,6 +384,14 @@ $messages['mr'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही',
 );
 
+/** Dutch (Nederlands)
+ * @author SPQRobin
+ */
+$messages['nl'] = array(
+	'pronunciationrecording-information-word-label' => 'Woord:',
+	'pronunciationrecording-information-language-label' => 'Taal:',
+);
+
 /** Occitan (occitan)
  * @author Cedric31
  */
