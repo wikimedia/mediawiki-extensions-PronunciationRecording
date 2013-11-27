@@ -135,6 +135,7 @@ $messages['br'] = array(
  */
 $messages['ce'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'ЦӀанъян',
+	'pronunciationrecording-information-label' => 'Хаам',
 );
 
 /** German (Deutsch)
