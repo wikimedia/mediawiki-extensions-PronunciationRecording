@@ -387,10 +387,17 @@ $messages['mr'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
+	'pronunciationrecording-toolbar-record-label' => 'Record',
+	'pronunciationrecording-toolbar-stop-label' => 'Stoppen',
+	'pronunciationrecording-toolbar-clear-label' => 'Wissen',
+	'pronunciationrecording-toolbar-upload-label' => 'Uploaden',
+	'pronunciationrecording-information-label' => 'Gegevens',
 	'pronunciationrecording-information-word-label' => 'Woord:',
 	'pronunciationrecording-information-language-label' => 'Taal:',
+	'pronunciationrecording-recording-notify' => 'Bezig met opnemen...',
 );
 
 /** Occitan (occitan)
