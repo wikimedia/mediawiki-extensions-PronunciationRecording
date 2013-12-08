@@ -135,6 +135,7 @@ $messages['br'] = array(
  */
 $messages['ce'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'ЦӀанъян',
+	'pronunciationrecording-toolbar-upload-label' => 'Чуяккха',
 	'pronunciationrecording-information-label' => 'Хаам',
 );
 
@@ -390,14 +391,23 @@ $messages['mr'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
+	'pronunciationrecording' => 'Hulpprogramma voor het opnemen van uitspraak',
+	'pronunciationrecording-desc' => 'Voegt een [[Special:PronunciationRecording|Hulpprogramma voor het opnemen van uitspraak]] toe',
+	'pronunciationrecording-title' => 'Hulpprogramma voor het opnemen van uitspraak',
 	'pronunciationrecording-toolbar-record-label' => 'Record',
 	'pronunciationrecording-toolbar-stop-label' => 'Stoppen',
 	'pronunciationrecording-toolbar-clear-label' => 'Wissen',
 	'pronunciationrecording-toolbar-upload-label' => 'Uploaden',
+	'pronunciationrecording-webaudio-not-supported' => 'De API voor WebAudio wordt niet ondersteund in deze browser',
+	'pronunciationrecording-specialpage-error-nologin' => 'U moet [$1 aanmelden] om uitspraken op te nemen en te uploaden.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Opname geüpload:',
+	'pronunciationrecording-upload-publish-failed' => 'Opname is niet geüpload',
 	'pronunciationrecording-information-label' => 'Gegevens',
 	'pronunciationrecording-information-word-label' => 'Woord:',
 	'pronunciationrecording-information-language-label' => 'Taal:',
+	'pronunciationrecording-mic-access-notify' => 'Klik op ""Toestaan" om uw browser toegang te geven tot uw microfoon.',
 	'pronunciationrecording-recording-notify' => 'Bezig met opnemen...',
+	'pronunciationrecording-information-license-prompt' => 'Door het <em>hulpprogramma voor het opnemen van uitspraak</em> te gebruiken en te klikken op {{int:pronunciationrecording-toolbar-upload-label}}, gaat {{GENDER:$1|u}} akkoord met de volgende voorwaarden voor uw opname:',
 );
 
 /** Occitan (occitan)
