@@ -12,7 +12,7 @@ $messages = array();
  * @author Rahul21
  */
 $messages['en'] = array(
-	'pronunciationrecording' => 'Pronunciation Recording Tool',
+	'pronunciationrecording' => 'Pronunciation recording tool',
 	'pronunciationrecording-desc' => 'Adds a [[Special:PronunciationRecording|pronunciation recording tool]]',
 	'pronunciationrecording-title' => 'Pronunciation recording tool',
 	'pronunciationrecording-toolbar-record-label' => 'Record',
@@ -22,7 +22,7 @@ $messages['en'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API is not supported for this browser',
 	'pronunciationrecording-specialpage-error-nologin' => 'You must be [$1 logged in] to record and upload pronunciations.',
 	'pronunciationrecording-upload-publish-succeeded' => 'Recording uploaded successfully:',
-	'pronunciationrecording-upload-publish-failed' => 'Recording was not uploaded',
+	'pronunciationrecording-upload-publish-failed' => 'Recording was not uploaded.',
 	'pronunciationrecording-information-label' => 'Information',
 	'pronunciationrecording-information-word-label' => 'Word:',
 	'pronunciationrecording-information-language-label' => 'Language:',
