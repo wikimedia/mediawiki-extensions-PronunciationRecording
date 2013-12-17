@@ -270,7 +270,7 @@ $messages['ja'] = array(
 	'pronunciationrecording-webaudio-not-supported' => 'ご使用中のブラウザーは WebAudio API に対応していません',
 	'pronunciationrecording-specialpage-error-nologin' => '発音を録音してアップロードするには、[$1 ログイン]してください。',
 	'pronunciationrecording-upload-publish-succeeded' => '録音したものをアップロードしました:',
-	'pronunciationrecording-upload-publish-failed' => '録音したものをアップロードできませんでした',
+	'pronunciationrecording-upload-publish-failed' => '録音したものをアップロードできませんでした。',
 	'pronunciationrecording-information-label' => '情報',
 	'pronunciationrecording-information-word-label' => '単語:',
 	'pronunciationrecording-information-language-label' => '言語:',
@@ -622,10 +622,20 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Liuxinyu970226
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'pronunciationrecording' => '发音录制工具',
+	'pronunciationrecording-desc' => '添加一个[[Special:PronunciationRecording|发音录制工具]]',
+	'pronunciationrecording-title' => '发音录制工具',
+	'pronunciationrecording-toolbar-record-label' => '录制',
+	'pronunciationrecording-toolbar-stop-label' => '停止',
+	'pronunciationrecording-toolbar-clear-label' => '清除',
+	'pronunciationrecording-toolbar-upload-label' => '上传',
 	'pronunciationrecording-webaudio-not-supported' => 'WebAudio API与此浏览器不兼容',
 	'pronunciationrecording-specialpage-error-nologin' => '您必须[$1 登录]以录制和上传录音。',
+	'pronunciationrecording-upload-publish-succeeded' => '录音上传成功：',
+	'pronunciationrecording-upload-publish-failed' => '录音未能上传。',
 	'pronunciationrecording-information-label' => '信息',
 	'pronunciationrecording-information-word-label' => '字：',
 	'pronunciationrecording-information-language-label' => '语言：',
