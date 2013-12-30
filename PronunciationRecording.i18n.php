@@ -180,6 +180,18 @@ $messages['es'] = array(
 	'pronunciationrecording-information-language-label' => 'Idioma:',
 );
 
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'pronunciationrecording-toolbar-record-label' => 'ضبط',
+	'pronunciationrecording-toolbar-stop-label' => 'توقف',
+	'pronunciationrecording-toolbar-clear-label' => 'پاک‌کردن',
+	'pronunciationrecording-toolbar-upload-label' => 'بارگذاری',
+	'pronunciationrecording-information-label' => 'اطلاعات',
+	'pronunciationrecording-information-language-label' => 'زبان:',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Stryn
