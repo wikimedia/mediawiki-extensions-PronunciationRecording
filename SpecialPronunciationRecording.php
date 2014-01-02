@@ -82,7 +82,7 @@
 			if ( !$user->isAllowed( 'upload' ) ) {
 				if ( !$user->isLoggedIn() && ( $wgGroupPermissions['user']['upload']|| $wgGroupPermissions['autoconfirmed']['upload'] ) ) {
 					// Custom message if logged-in users without any special rights can 	upload
-					$pronunciationRecordingPageName = $this->getTitle()->getPrefixedDBkey();
+					$pronunciationRecordingPageName = $this->getPageTitle()->getPrefixedDBkey();
 					$returnTo = array( 'returnto' => $pronunciationRecordingPageName );
 					$loginTitle = SpecialPage::getTitleFor( 'UserLogin' );
 					$loginURL = $loginTitle->getFullURL( $returnTo );
