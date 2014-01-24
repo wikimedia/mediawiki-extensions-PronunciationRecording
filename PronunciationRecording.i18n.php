@@ -181,15 +181,20 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'pronunciationrecording' => 'ابزار ضبط تلفظ',
+	'pronunciationrecording-title' => 'ابزار ضبط تلفظ',
 	'pronunciationrecording-toolbar-record-label' => 'ضبط',
 	'pronunciationrecording-toolbar-stop-label' => 'توقف',
 	'pronunciationrecording-toolbar-clear-label' => 'پاک‌کردن',
 	'pronunciationrecording-toolbar-upload-label' => 'بارگذاری',
 	'pronunciationrecording-information-label' => 'اطلاعات',
+	'pronunciationrecording-information-word-label' => 'کلمه:',
 	'pronunciationrecording-information-language-label' => 'زبان:',
+	'pronunciationrecording-recording-notify' => 'در حال ضبط...',
 );
 
 /** Finnish (suomi)
