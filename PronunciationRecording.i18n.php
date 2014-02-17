@@ -660,3 +660,10 @@ $messages['zh-hans'] = array(
 	'pronunciationrecording-recording-notify' => '录音......',
 	'pronunciationrecording-information-license-prompt' => '通过使用录音功能并点击{{int:pronunciationrecording-toolbar-upload-label}}，{{GENDER:$1|您}}同意将录音按下述之条款授权：',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'pronunciationrecording-information-label' => '資訊',
+);
