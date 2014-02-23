@@ -186,14 +186,20 @@ $messages['es'] = array(
  */
 $messages['fa'] = array(
 	'pronunciationrecording' => 'ابزار ضبط تلفظ',
+	'pronunciationrecording-desc' => 'افزودن یک [[Special:ضبط تلفظ|ابزار ضبط تلفظ]]', # Fuzzy
 	'pronunciationrecording-title' => 'ابزار ضبط تلفظ',
 	'pronunciationrecording-toolbar-record-label' => 'ضبط',
 	'pronunciationrecording-toolbar-stop-label' => 'توقف',
 	'pronunciationrecording-toolbar-clear-label' => 'پاک‌کردن',
 	'pronunciationrecording-toolbar-upload-label' => 'بارگذاری',
+	'pronunciationrecording-webaudio-not-supported' => 'وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده‌است.',
+	'pronunciationrecording-specialpage-error-nologin' => 'شما باید [$1 وارد شوید] برای ضبط و انتقال تلفظ‌ها.',
+	'pronunciationrecording-upload-publish-succeeded' => 'ضبط انتقال داده شده با موفقیت انجام شد:',
+	'pronunciationrecording-upload-publish-failed' => 'ضبط منتقل نشد.',
 	'pronunciationrecording-information-label' => 'اطلاعات',
 	'pronunciationrecording-information-word-label' => 'کلمه:',
 	'pronunciationrecording-information-language-label' => 'زبان:',
+	'pronunciationrecording-mic-access-notify' => 'برای اجازهٔ مرورگر برای دسترسی به میکروفون شما، دکمهٔ "اجازه" را کلیک کنید.',
 	'pronunciationrecording-recording-notify' => 'در حال ضبط...',
 );
 
