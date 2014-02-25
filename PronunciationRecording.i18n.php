@@ -186,7 +186,7 @@ $messages['es'] = array(
  */
 $messages['fa'] = array(
 	'pronunciationrecording' => 'ابزار ضبط تلفظ',
-	'pronunciationrecording-desc' => 'افزودن یک [[Special:ضبط تلفظ|ابزار ضبط تلفظ]]', # Fuzzy
+	'pronunciationrecording-desc' => 'افزودن یک [[Special:PronunciationRecording|ابزار ضبط تلفظ]]',
 	'pronunciationrecording-title' => 'ابزار ضبط تلفظ',
 	'pronunciationrecording-toolbar-record-label' => 'ضبط',
 	'pronunciationrecording-toolbar-stop-label' => 'توقف',
