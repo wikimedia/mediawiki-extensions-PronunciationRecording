@@ -201,6 +201,7 @@ $messages['fa'] = array(
 	'pronunciationrecording-information-language-label' => 'زبان:',
 	'pronunciationrecording-mic-access-notify' => 'برای اجازهٔ مرورگر برای دسترسی به میکروفون شما، دکمهٔ "اجازه" را کلیک کنید.',
 	'pronunciationrecording-recording-notify' => 'در حال ضبط...',
+	'pronunciationrecording-information-license-prompt' => 'با استفاده از ضیط تلفظ و کلیک کردن بر روی {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|شما}} با شرایط زیر برای ضبط موافقت می‌کنید:',
 );
 
 /** Finnish (suomi)
