@@ -280,6 +280,29 @@ $messages['gl'] = array(
 	'pronunciationrecording-information-license-prompt' => 'Ao usar a gravación de pronuncias e premer en "{{int:pronunciationrecording-toolbar-upload-label}}", {{GENDER:$1|acepta}} os seguintes termos para a súa gravación:',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'pronunciationrecording' => 'Natočenski nastroj za wurjekowanje',
+	'pronunciationrecording-desc' => 'Přidawa [[Special:PronunciationRecording|natočenski nastroj za wurjekowanje]]',
+	'pronunciationrecording-title' => 'Natočenski nastroj za wurjekowanje',
+	'pronunciationrecording-toolbar-record-label' => 'Natočić',
+	'pronunciationrecording-toolbar-stop-label' => 'Stój',
+	'pronunciationrecording-toolbar-clear-label' => 'Zhašeć',
+	'pronunciationrecording-toolbar-upload-label' => 'Nahrać',
+	'pronunciationrecording-webaudio-not-supported' => 'WebAudio-API so přez tutón wobhladowak njepodpěruje',
+	'pronunciationrecording-specialpage-error-nologin' => 'Dyrbiće [$1 přizjewjeny] być, zo byšće wurjekowanja natočił a nahrał.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Natočenje je so wuspěšnje nahrało:',
+	'pronunciationrecording-upload-publish-failed' => 'Natočenje njeje so nahrało.',
+	'pronunciationrecording-information-label' => 'Informacije',
+	'pronunciationrecording-information-word-label' => 'Słowo:',
+	'pronunciationrecording-information-language-label' => 'Rěč:',
+	'pronunciationrecording-mic-access-notify' => 'Klikńće na "Dowolić", zo by wobhladowakej přistup na waš mikrofon dowolił.',
+	'pronunciationrecording-recording-notify' => 'Natoča so...',
+	'pronunciationrecording-information-license-prompt' => 'Z pomocu PronunciationRecording a přez kliknjenje na {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|zwoliće}} do slědowacych wuměnjenjow za waše natočenje:',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
