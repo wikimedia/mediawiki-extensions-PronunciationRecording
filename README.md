@@ -4,7 +4,9 @@ Currently it supports uploading a pronunciation to the current wiki, with a file
 
 However, it is planned to integrate with Wiktionary, so recordings can be made and added to definitions without leaving the page.  In the future this extension may be enhanced to support spoken articles too.
 
-The extension is available under the GPLv2 license (see COPYING).  See below for third-party libraries.
+The extension is available under the GPLv2 license (see COPYING).  Extension JavaScript is also dual-licensed under CC BY-SA 3.0.
+
+See below for third-party libraries.
 
 This extension uses RecorderJS library written originally by Matt Diamond with modifications by Chris Wilson. The RecorderJS library is under the MIT license. For more information about the library visit:
 https://github.com/mattdiamond/Recorderjs
