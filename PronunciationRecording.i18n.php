@@ -361,6 +361,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'pronunciationrecording' => 'E Wärkzüsch för de Ußschprooche opzezeischne.',
 	'pronunciationrecording-desc' => 'Brängk e [[Special:PronunciationRecording|Wärkzüsch för Ußschprooche opzezeischne]] en et Wikki.',
 	'pronunciationrecording-title' => 'Wärkzüsch för de Ußschprooche opzezeischne',
 	'pronunciationrecording-toolbar-record-label' => 'Opzeischne',
@@ -368,6 +369,15 @@ $messages['ksh'] = array(
 	'pronunciationrecording-toolbar-clear-label' => 'Läddesch maache',
 	'pronunciationrecording-toolbar-upload-label' => 'Huhlaade',
 	'pronunciationrecording-webaudio-not-supported' => 'Heh dä Brauser kann de <i lang="en" xml:lang="en">WebAudio API</i> nit.',
+	'pronunciationrecording-specialpage-error-nologin' => 'Do moß ald [$1 enjlogg sin], öm Opzeischnonge ze maache un huh ze lahde.',
+	'pronunciationrecording-upload-publish-succeeded' => 'Di Opzeischnong es huhjelaade.',
+	'pronunciationrecording-upload-publish-failed' => 'Di Opzeischnong kunnt nit huhjelaade wääde.',
+	'pronunciationrecording-information-label' => 'Aanjahbe',
+	'pronunciationrecording-information-word-label' => 'Woot:',
+	'pronunciationrecording-information-language-label' => 'Schprohch:',
+	'pronunciationrecording-mic-access-notify' => 'Donn op  klecke, öm Dinge brauser aan et Mikrofohn rahnzelohße.', # Fuzzy
+	'pronunciationrecording-recording-notify' => 'Aam Ozeischne{{int:ellipsis}}',
+	'pronunciationrecording-information-license-prompt' => 'Edämm dat De dast Wärkzüsch för de Ußschprooche opzezeischne bruchs, un op „{{int:pronunciationrecording-toolbar-upload-label}}“ klecks, bes De enverschtande domet, dat för Ding Opzeischnonge jellt:', # Fuzzy
 );
 
 /** Luxembourgish (Lëtzebuergesch)
