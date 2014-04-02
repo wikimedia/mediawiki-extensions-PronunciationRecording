@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Andriykopanytsia"
+        ]
+    },
+    "pronunciationrecording": "Інструмент запису вимови",
+    "pronunciationrecording-desc": "Додає [[Special:PronunciationRecording|інструмент запису вимови]]",
+    "pronunciationrecording-title": "Інструмент запису вимови",
+    "pronunciationrecording-toolbar-record-label": "Запис",
+    "pronunciationrecording-toolbar-stop-label": "Стоп",
+    "pronunciationrecording-toolbar-clear-label": "Очистити",
+    "pronunciationrecording-toolbar-upload-label": "Вивантажити",
+    "pronunciationrecording-webaudio-not-supported": "WebAudio API не підтримується для цього веб-переглядача",
+    "pronunciationrecording-specialpage-error-nologin": "Ви повинні [$1  увійти в систему] для запису і завантаження вимови.",
+    "pronunciationrecording-upload-publish-succeeded": "Запис успішно завантажено:",
+    "pronunciationrecording-upload-publish-failed": "Запис не було завантажено",
+    "pronunciationrecording-information-label": "Інформація",
+    "pronunciationrecording-information-word-label": "Слово:",
+    "pronunciationrecording-information-language-label": "Мова:",
+    "pronunciationrecording-mic-access-notify": "Натисніть кнопку \"Дозволити\" аби дозволити браузер для доступу до вашого мікрофона.",
+    "pronunciationrecording-recording-notify": "Запис...",
+    "pronunciationrecording-information-license-prompt": "За допомогою PronunciationRecording і натиснувши  {{int:pronunciationrecording-toolbar-upload-label}},   {{GENDER:$1| ви}} погоджуєтеся з наступними умовами для вашого запису:"
+}

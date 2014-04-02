@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras"
+        ]
+    },
+    "pronunciationrecording": "Strumende pa reggistrazzione d'a pronunge",
+    "pronunciationrecording-desc": "Aggiunge 'nu [[Special:PronunciationRecording|strumende pa reggistrazzione d'a pronunge]]",
+    "pronunciationrecording-title": "Strumende pa reggistrazzione d'a pronunge",
+    "pronunciationrecording-toolbar-record-label": "Reggistre",
+    "pronunciationrecording-toolbar-stop-label": "Stuèppe",
+    "pronunciationrecording-toolbar-clear-label": "Pulizze",
+    "pronunciationrecording-toolbar-upload-label": "Careche",
+    "pronunciationrecording-webaudio-not-supported": "API WebAudio non g'è supportate pe stu browser",
+    "pronunciationrecording-information-label": "'Mbormaziune",
+    "pronunciationrecording-information-word-label": "Parole:",
+    "pronunciationrecording-information-language-label": "Lènghe:"
+}

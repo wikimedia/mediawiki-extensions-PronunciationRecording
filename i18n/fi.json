@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Nike",
+            "Stryn"
+        ]
+    },
+    "pronunciationrecording": "Ääntämisen tallennustyökalu",
+    "pronunciationrecording-desc": "Lisää [[Special:PronunciationRecording|ääntämisen tallennustyökalu]]",
+    "pronunciationrecording-title": "Ääntämisen tallennustyökalu",
+    "pronunciationrecording-toolbar-record-label": "Äänitä",
+    "pronunciationrecording-toolbar-stop-label": "Pysäytä",
+    "pronunciationrecording-toolbar-clear-label": "Tyhjennä",
+    "pronunciationrecording-toolbar-upload-label": "Lataa",
+    "pronunciationrecording-webaudio-not-supported": "WebAudio-rajapinta ei ole tuettu tässä selaimessa.",
+    "pronunciationrecording-upload-publish-succeeded": "Nauhoitus tallennettiin",
+    "pronunciationrecording-upload-publish-failed": "Nauhoitusta ei tallennettu"
+}

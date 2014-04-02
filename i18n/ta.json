@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "ElangoRamanujam",
+            "Sank",
+            "கௌசிக் பிரபு"
+        ]
+    },
+    "pronunciationrecording-title": "உச்சரிப்பை பதிவிடும் கருவி",
+    "pronunciationrecording-toolbar-record-label": "பதிவிடுக",
+    "pronunciationrecording-toolbar-stop-label": "நிறுத்துக",
+    "pronunciationrecording-toolbar-clear-label": "நீக்கு",
+    "pronunciationrecording-toolbar-upload-label": "பதிவேற்றுக",
+    "pronunciationrecording-information-label": "தகவல்",
+    "pronunciationrecording-information-language-label": "மொழி:"
+}

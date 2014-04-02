@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "V.narsikar"
+        ]
+    },
+    "pronunciationrecording-desc": "[[Special:PronunciationRecording|उच्चार ध्वनिमुद्रण साधन]] जोडते",
+    "pronunciationrecording-title": "उच्चार ध्वनिमुद्रण साधन",
+    "pronunciationrecording-toolbar-record-label": "ध्वनिमुद्रण करा",
+    "pronunciationrecording-toolbar-stop-label": "थांबवा",
+    "pronunciationrecording-toolbar-clear-label": "हटवा",
+    "pronunciationrecording-toolbar-upload-label": "अपभारण करा",
+    "pronunciationrecording-webaudio-not-supported": "या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही"
+}

@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fitoschido",
+            "Ovruni"
+        ]
+    },
+    "pronunciationrecording-desc": "Añade una [[Special:PronunciationRecording|herramienta para grabar la pronunciación]]",
+    "pronunciationrecording-title": "Herramienta para grabar la pronunciación",
+    "pronunciationrecording-toolbar-record-label": "Grabar",
+    "pronunciationrecording-toolbar-stop-label": "Detener",
+    "pronunciationrecording-toolbar-clear-label": "Borrar",
+    "pronunciationrecording-toolbar-upload-label": "Cargar",
+    "pronunciationrecording-webaudio-not-supported": "Este navegador no admite la API WebAudio.",
+    "pronunciationrecording-information-label": "información",
+    "pronunciationrecording-information-word-label": "Palabra:",
+    "pronunciationrecording-information-language-label": "Idioma:"
+}

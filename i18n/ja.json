@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shirayuki"
+        ]
+    },
+    "pronunciationrecording": "発音の録音ツール",
+    "pronunciationrecording-desc": "[[Special:PronunciationRecording|発音の録音ツール]]を追加する",
+    "pronunciationrecording-title": "発音の録音ツール",
+    "pronunciationrecording-toolbar-record-label": "録音",
+    "pronunciationrecording-toolbar-stop-label": "停止",
+    "pronunciationrecording-toolbar-clear-label": "消去",
+    "pronunciationrecording-toolbar-upload-label": "アップロード",
+    "pronunciationrecording-webaudio-not-supported": "ご使用中のブラウザーは WebAudio API に対応していません",
+    "pronunciationrecording-specialpage-error-nologin": "発音を録音してアップロードするには、[$1 ログイン]してください。",
+    "pronunciationrecording-upload-publish-succeeded": "録音したものをアップロードしました:",
+    "pronunciationrecording-upload-publish-failed": "録音したものをアップロードできませんでした。",
+    "pronunciationrecording-information-label": "情報",
+    "pronunciationrecording-information-word-label": "単語:",
+    "pronunciationrecording-information-language-label": "言語:",
+    "pronunciationrecording-mic-access-notify": "ブラウザーがマイクにアクセスできるように「許可」をクリックしてください",
+    "pronunciationrecording-recording-notify": "録音中...",
+    "pronunciationrecording-information-license-prompt": "発音録音ツールを使用し{{int:pronunciationrecording-toolbar-upload-label}}をクリックすることで、{{GENDER:$1|あなた}}は録音物について以下の規約に同意したと見なされます:"
+}

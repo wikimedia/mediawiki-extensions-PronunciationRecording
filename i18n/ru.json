@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Okras"
+        ]
+    },
+    "pronunciationrecording": "Инструмент для записи произношения",
+    "pronunciationrecording-desc": "Добавляет [[Special:PronunciationRecording|инструмент для записи произношения]]",
+    "pronunciationrecording-title": "Инструмент для записи произношения",
+    "pronunciationrecording-toolbar-record-label": "Запись",
+    "pronunciationrecording-toolbar-stop-label": "Остановить",
+    "pronunciationrecording-toolbar-clear-label": "Очистить",
+    "pronunciationrecording-toolbar-upload-label": "Загрузить",
+    "pronunciationrecording-webaudio-not-supported": "WebAudio API не поддерживается этим браузером",
+    "pronunciationrecording-specialpage-error-nologin": "Вы должны [$1  войти в систему] для записи и загрузки произношения.",
+    "pronunciationrecording-upload-publish-succeeded": "Запись успешно загружена:",
+    "pronunciationrecording-upload-publish-failed": "Запись не была загружена",
+    "pronunciationrecording-information-label": "Информация",
+    "pronunciationrecording-information-word-label": "Слово:",
+    "pronunciationrecording-information-language-label": "Язык:",
+    "pronunciationrecording-mic-access-notify": "Нажмите кнопку «Разрешить», чтобы разрешить браузеру доступ к вашему микрофону.",
+    "pronunciationrecording-recording-notify": "Запись…",
+    "pronunciationrecording-information-license-prompt": "Используя «Запись произношения» и нажимая кнопку {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|вы}} соглашаетесь со следующими условиями для вашей записи:"
+}

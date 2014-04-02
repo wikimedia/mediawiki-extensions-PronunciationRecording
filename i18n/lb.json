@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Robby"
+        ]
+    },
+    "pronunciationrecording-toolbar-record-label": "Ophuelen",
+    "pronunciationrecording-toolbar-stop-label": "Stopp",
+    "pronunciationrecording-toolbar-clear-label": "Eidel maachen",
+    "pronunciationrecording-toolbar-upload-label": "Eroplueden",
+    "pronunciationrecording-webaudio-not-supported": "WebAudio-API gëtt fir dëse Browser net ënnerstëtzt",
+    "pronunciationrecording-specialpage-error-nologin": "Dir musst [$1 ageloggt] si fir Aussproochen opzehuelen an eropzelueden.",
+    "pronunciationrecording-upload-publish-succeeded": "Den Enregistrement gouf eropgelueden",
+    "pronunciationrecording-upload-publish-failed": "Den Enregistrement gouf net eropgelueden",
+    "pronunciationrecording-information-label": "Informatioun",
+    "pronunciationrecording-information-word-label": "Wuert:",
+    "pronunciationrecording-information-language-label": "Sprooch:",
+    "pronunciationrecording-recording-notify": "Ophuelen..."
+}

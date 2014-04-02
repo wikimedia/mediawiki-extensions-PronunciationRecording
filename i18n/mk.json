@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bjankuloski06"
+        ]
+    },
+    "pronunciationrecording": "Алатка за снимање на изговор",
+    "pronunciationrecording-desc": "Додава [[Special:PronunciationRecording|алатка за снимање на изговор]]",
+    "pronunciationrecording-title": "Алатка за снимање на изговор",
+    "pronunciationrecording-toolbar-record-label": "Снимај",
+    "pronunciationrecording-toolbar-stop-label": "Запри",
+    "pronunciationrecording-toolbar-clear-label": "Отфрли",
+    "pronunciationrecording-toolbar-upload-label": "Подигни",
+    "pronunciationrecording-webaudio-not-supported": "Прилогот WebAudio не е поддржан на овој прелистувач",
+    "pronunciationrecording-specialpage-error-nologin": "Мора да сте [$1 најавени] за да можете да снимате и подигате изговори.",
+    "pronunciationrecording-upload-publish-succeeded": "Снимката е успешно подигната:",
+    "pronunciationrecording-upload-publish-failed": "Снимката не е подигната",
+    "pronunciationrecording-information-label": "Информации",
+    "pronunciationrecording-information-word-label": "Збор:",
+    "pronunciationrecording-information-language-label": "Јазик:",
+    "pronunciationrecording-mic-access-notify": "Стиснете на „Дозволи“ за да му дадете пристап на прелистувачот до вашиот микрофон.",
+    "pronunciationrecording-recording-notify": "Снимам....",
+    "pronunciationrecording-information-license-prompt": "Користејќи го снимачот на изговор и стискајќи на {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|се}} согласувате снименото да се води според следниве услови:"
+}

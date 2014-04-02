@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "pronunciationrecording": "Ferramenta para a gravación de pronuncias",
+    "pronunciationrecording-desc": "Engade unha [[Special:PronunciationRecording|ferramenta para a gravación de pronuncias]]",
+    "pronunciationrecording-title": "Ferramenta para a gravación de pronuncias",
+    "pronunciationrecording-toolbar-record-label": "Gravar",
+    "pronunciationrecording-toolbar-stop-label": "Deter",
+    "pronunciationrecording-toolbar-clear-label": "Limpar",
+    "pronunciationrecording-toolbar-upload-label": "Cargar",
+    "pronunciationrecording-webaudio-not-supported": "A API WebAudio non está soportada neste navegador.",
+    "pronunciationrecording-specialpage-error-nologin": "Debe [$1 acceder ao sistema] para gravar e cargar pronuncias.",
+    "pronunciationrecording-upload-publish-succeeded": "A gravación cargouse correctamente:",
+    "pronunciationrecording-upload-publish-failed": "Non se cargou a gravación",
+    "pronunciationrecording-information-label": "Información",
+    "pronunciationrecording-information-word-label": "Palabra:",
+    "pronunciationrecording-information-language-label": "Lingua:",
+    "pronunciationrecording-mic-access-notify": "Prema en \"Permitir\" para que o navegador poida acceder ao seu micrófono.",
+    "pronunciationrecording-recording-notify": "Gravando...",
+    "pronunciationrecording-information-license-prompt": "Ao usar a gravación de pronuncias e premer en \"{{int:pronunciationrecording-toolbar-upload-label}}\", {{GENDER:$1|acepta}} os seguintes termos para a súa gravación:"
+}

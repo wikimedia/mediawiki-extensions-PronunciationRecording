@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "EileenSanda"
+        ]
+    },
+    "pronunciationrecording-desc": "Leggur afturat eitt [[Special:PronunciationRecording|upptøkutól til úttalu]]",
+    "pronunciationrecording-title": "Upptøkutól til úttalu",
+    "pronunciationrecording-toolbar-record-label": "Ger upptøku",
+    "pronunciationrecording-toolbar-stop-label": "Støðga",
+    "pronunciationrecording-toolbar-clear-label": "Reinsa",
+    "pronunciationrecording-toolbar-upload-label": "Legg út",
+    "pronunciationrecording-webaudio-not-supported": "WebAudio API verður ikki stuðlað á hesum internetkaganum."
+}

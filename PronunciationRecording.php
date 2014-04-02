@@ -12,9 +12,10 @@ $wgExtensionCredits[ 'specialpage' ][] = array(
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PronunciationRecording',
 	'descriptionmsg' => 'pronunciationrecording-desc',
-	'version' => '1',
+	'version' => '1.1.0',
 );
 
+$wgMessagesDirs['PronunciationRecording'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles[ 'PronunciationRecording' ] = __DIR__ . '/PronunciationRecording.i18n.php';
 $wgExtensionMessagesFiles[ 'PronunciationRecordingAlias' ] = __DIR__ . '/PronunciationRecording.alias.php';
 $wgSpecialPages[ 'PronunciationRecording' ] = 'SpecialPronunciationRecording';
@@ -24,7 +25,6 @@ $pronunciationRecordingModuleInfo = array(
 	'localBasePath' => __DIR__ . '/resources',
 	'remoteExtPath' => 'PronunciationRecording/resources',
 );
-
 
 //Modules
 

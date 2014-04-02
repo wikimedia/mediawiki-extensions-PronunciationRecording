@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Metalhead64",
+            "Purodha"
+        ]
+    },
+    "pronunciationrecording": "Ausspracheaufzeichnungswerkzeug",
+    "pronunciationrecording-desc": "Bringt ein [[Special:PronunciationRecording|Ausspracheaufzeichnungswerkzeug]] ins Wiki",
+    "pronunciationrecording-title": "Ausspracheaufzeichnungswerkzeug",
+    "pronunciationrecording-toolbar-record-label": "Aufzeichnen",
+    "pronunciationrecording-toolbar-stop-label": "Stop",
+    "pronunciationrecording-toolbar-clear-label": "Löschen",
+    "pronunciationrecording-toolbar-upload-label": "Hochladen",
+    "pronunciationrecording-webaudio-not-supported": "Die WebAudio-API wird für diesen Browser nicht unterstützt",
+    "pronunciationrecording-specialpage-error-nologin": "Du musst [$1 angemeldet sein], um Aussprachebeispiele aufzeichnen und hochladen zu können.",
+    "pronunciationrecording-upload-publish-succeeded": "Die Aufnahme wurde erfolgreich hochgeladen:",
+    "pronunciationrecording-upload-publish-failed": "Die Aufnahme wurde nicht hochgeladen",
+    "pronunciationrecording-information-label": "Information",
+    "pronunciationrecording-information-word-label": "Wort:",
+    "pronunciationrecording-information-language-label": "Sprache:",
+    "pronunciationrecording-mic-access-notify": "Klicke auf „Erlauben“, um dem Browser den Zugriff auf dein Mikrofon zu gestatten.",
+    "pronunciationrecording-recording-notify": "Aufnahme …",
+    "pronunciationrecording-information-license-prompt": "Mit der Verwendung von PronunciationRecording und dem Klick auf „{{int:pronunciationrecording-toolbar-upload-label}}“ stimmst {{GENDER:$1|du}} den folgenden Bedingungen für deine Aufnahme zu:"
+}

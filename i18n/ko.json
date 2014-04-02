@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kwj2772",
+            "아라"
+        ]
+    },
+    "pronunciationrecording": "발음 녹음 도구",
+    "pronunciationrecording-desc": "[[Special:PronunciationRecording|발음 녹음 도구]]를 추가합니다",
+    "pronunciationrecording-title": "발음 녹음 도구",
+    "pronunciationrecording-toolbar-record-label": "녹음",
+    "pronunciationrecording-toolbar-stop-label": "정지",
+    "pronunciationrecording-toolbar-clear-label": "지우기",
+    "pronunciationrecording-toolbar-upload-label": "올리기",
+    "pronunciationrecording-webaudio-not-supported": "WebAudio API는 이 브라우저에서 지원하지 않습니다.",
+    "pronunciationrecording-specialpage-error-nologin": "발음을 녹음하고 올리려면 [$1 로그인]해야 합니다.",
+    "pronunciationrecording-upload-publish-succeeded": "녹음을 성공적으로 올렸습니다:",
+    "pronunciationrecording-upload-publish-failed": "녹음된 파일이 올려지지 않았습니다",
+    "pronunciationrecording-information-label": "정보",
+    "pronunciationrecording-information-word-label": "단어:",
+    "pronunciationrecording-information-language-label": "언어:",
+    "pronunciationrecording-mic-access-notify": "브라우저가 마이크에 접근할 수 있도록 \"허용\"을 클릭하세요.",
+    "pronunciationrecording-recording-notify": "녹음 중...",
+    "pronunciationrecording-information-license-prompt": "발음 녹음 기능을 사용하여 {{int:pronunciationrecording-toolbar-upload-label}}를 클릭하면, {{GENDER:$1|당신}}은 녹음에 대해 다음 조건에 동의하게 됩니다:"
+}
