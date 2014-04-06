@@ -5,6 +5,7 @@
             "Ovruni"
         ]
     },
+    "pronunciationrecording": "Herramienta para grabar pronunciación",
     "pronunciationrecording-desc": "Añade una [[Special:PronunciationRecording|herramienta para grabar la pronunciación]]",
     "pronunciationrecording-title": "Herramienta para grabar la pronunciación",
     "pronunciationrecording-toolbar-record-label": "Grabar",
@@ -14,5 +15,7 @@
     "pronunciationrecording-webaudio-not-supported": "Este navegador no admite la API WebAudio.",
     "pronunciationrecording-information-label": "información",
     "pronunciationrecording-information-word-label": "Palabra:",
-    "pronunciationrecording-information-language-label": "Idioma:"
+    "pronunciationrecording-information-language-label": "Idioma:",
+    "pronunciationrecording-mic-access-notify": "Pulsa en «Permitir» para que el navegador pueda acceder al micrófono.",
+    "pronunciationrecording-recording-notify": "Grabando…"
 }
