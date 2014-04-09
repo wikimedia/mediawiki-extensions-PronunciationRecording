@@ -1,7 +1,8 @@
 {
     "@metadata": {
         "authors": [
-            "Toliño"
+            "Toliño",
+            "Vivaelcelta"
         ]
     },
     "pronunciationrecording": "Ferramenta para a gravación de pronuncias",
@@ -10,7 +11,7 @@
     "pronunciationrecording-toolbar-record-label": "Gravar",
     "pronunciationrecording-toolbar-stop-label": "Deter",
     "pronunciationrecording-toolbar-clear-label": "Limpar",
-    "pronunciationrecording-toolbar-upload-label": "Cargar",
+    "pronunciationrecording-toolbar-upload-label": "Subir",
     "pronunciationrecording-webaudio-not-supported": "A API WebAudio non está soportada neste navegador.",
     "pronunciationrecording-specialpage-error-nologin": "Debe [$1 acceder ao sistema] para gravar e cargar pronuncias.",
     "pronunciationrecording-upload-publish-succeeded": "A gravación cargouse correctamente:",
