@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Aftab1995"
-        ]
-    },
-    "pronunciationrecording-desc": "একটি [[Special:PronunciationRecording|উচ্চারণ রেকর্ডিং সরঞ্জাম]] যোগ",
-    "pronunciationrecording-title": "উচ্চারণ রেকর্ডিং সরঞ্জাম",
-    "pronunciationrecording-toolbar-record-label": "রেকর্ড",
-    "pronunciationrecording-toolbar-stop-label": "বন্ধ",
-    "pronunciationrecording-toolbar-clear-label": "পরিস্কার",
-    "pronunciationrecording-toolbar-upload-label": "আপলোড",
-    "pronunciationrecording-webaudio-not-supported": "ওয়েবঅডিও এপিআই এই ব্রাউজারে সমর্থিত নয়।"
+	"@metadata": {
+		"authors": [
+			"Aftab1995"
+		]
+	},
+	"pronunciationrecording-desc": "একটি [[Special:PronunciationRecording|উচ্চারণ রেকর্ডিং সরঞ্জাম]] যোগ",
+	"pronunciationrecording-title": "উচ্চারণ রেকর্ডিং সরঞ্জাম",
+	"pronunciationrecording-toolbar-record-label": "রেকর্ড",
+	"pronunciationrecording-toolbar-stop-label": "বন্ধ",
+	"pronunciationrecording-toolbar-clear-label": "পরিস্কার",
+	"pronunciationrecording-toolbar-upload-label": "আপলোড",
+	"pronunciationrecording-webaudio-not-supported": "ওয়েবঅডিও এপিআই এই ব্রাউজারে সমর্থিত নয়।"
 }

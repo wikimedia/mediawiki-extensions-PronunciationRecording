@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "pronunciationrecording": "Ferramienta pa grabar la pronunciación",
-    "pronunciationrecording-desc": "Amiesta una [[Special:PronunciationRecording|ferramienta pa grabar la pronunciación]]",
-    "pronunciationrecording-title": "Ferramienta pa grabar la pronunciación",
-    "pronunciationrecording-toolbar-record-label": "Grabar",
-    "pronunciationrecording-toolbar-stop-label": "Aparar",
-    "pronunciationrecording-toolbar-clear-label": "Llimpiar",
-    "pronunciationrecording-toolbar-upload-label": "Xubir",
-    "pronunciationrecording-webaudio-not-supported": "La API WebAudio nun tien encontu nesti navegador.",
-    "pronunciationrecording-specialpage-error-nologin": "Tien d'[$1 aniciar sesión] pa grabar y xubir pronunciaciones.",
-    "pronunciationrecording-upload-publish-succeeded": "Grabación xubida correutamente:",
-    "pronunciationrecording-upload-publish-failed": "La grabación nun se xubió",
-    "pronunciationrecording-information-label": "Información",
-    "pronunciationrecording-information-word-label": "Pallabra:",
-    "pronunciationrecording-information-language-label": "Llingua:",
-    "pronunciationrecording-mic-access-notify": "Calque \"Permitir\" pa permitir l'accesu del navegador al micrófonu.",
-    "pronunciationrecording-recording-notify": "Grabando...",
-    "pronunciationrecording-information-license-prompt": "Al usar PronunciationRecording y calcar en \"{{int:pronunciationrecording-toolbar-upload-label}}\", {{GENDER:$1|acepta}} los siguientes términos pa la so grabación:"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"pronunciationrecording": "Ferramienta pa grabar la pronunciación",
+	"pronunciationrecording-desc": "Amiesta una [[Special:PronunciationRecording|ferramienta pa grabar la pronunciación]]",
+	"pronunciationrecording-title": "Ferramienta pa grabar la pronunciación",
+	"pronunciationrecording-toolbar-record-label": "Grabar",
+	"pronunciationrecording-toolbar-stop-label": "Aparar",
+	"pronunciationrecording-toolbar-clear-label": "Llimpiar",
+	"pronunciationrecording-toolbar-upload-label": "Xubir",
+	"pronunciationrecording-webaudio-not-supported": "La API WebAudio nun tien encontu nesti navegador.",
+	"pronunciationrecording-specialpage-error-nologin": "Tien d'[$1 aniciar sesión] pa grabar y xubir pronunciaciones.",
+	"pronunciationrecording-upload-publish-succeeded": "Grabación xubida correutamente:",
+	"pronunciationrecording-upload-publish-failed": "La grabación nun se xubió",
+	"pronunciationrecording-information-label": "Información",
+	"pronunciationrecording-information-word-label": "Pallabra:",
+	"pronunciationrecording-information-language-label": "Llingua:",
+	"pronunciationrecording-mic-access-notify": "Calque \"Permitir\" pa permitir l'accesu del navegador al micrófonu.",
+	"pronunciationrecording-recording-notify": "Grabando...",
+	"pronunciationrecording-information-license-prompt": "Al usar PronunciationRecording y calcar en \"{{int:pronunciationrecording-toolbar-upload-label}}\", {{GENDER:$1|acepta}} los siguientes términos pa la so grabación:"
 }

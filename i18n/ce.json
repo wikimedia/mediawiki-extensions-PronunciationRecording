@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "pronunciationrecording-toolbar-clear-label": "ЦӀанъян",
-    "pronunciationrecording-toolbar-upload-label": "Чуяккха",
-    "pronunciationrecording-information-label": "Хаам"
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"pronunciationrecording-toolbar-clear-label": "ЦӀанъян",
+	"pronunciationrecording-toolbar-upload-label": "Чуяккха",
+	"pronunciationrecording-information-label": "Хаам"
 }

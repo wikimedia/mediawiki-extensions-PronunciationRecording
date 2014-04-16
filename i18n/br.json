@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Y-M D"
-        ]
-    },
-    "pronunciationrecording-toolbar-record-label": "Enrollañ",
-    "pronunciationrecording-toolbar-stop-label": "Paouez",
-    "pronunciationrecording-toolbar-clear-label": "Riñsañ",
-    "pronunciationrecording-toolbar-upload-label": "Enporzhiañ"
+	"@metadata": {
+		"authors": [
+			"Y-M D"
+		]
+	},
+	"pronunciationrecording-toolbar-record-label": "Enrollañ",
+	"pronunciationrecording-toolbar-stop-label": "Paouez",
+	"pronunciationrecording-toolbar-clear-label": "Riñsañ",
+	"pronunciationrecording-toolbar-upload-label": "Enporzhiañ"
 }

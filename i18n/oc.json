@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "pronunciationrecording-desc": "Apond una [[Special:PronunciationRecording|aisina d’enregistrament de las prononciacions]]",
-    "pronunciationrecording-title": "Aisina d’enregistrament de las prononciacions",
-    "pronunciationrecording-toolbar-record-label": "Enregistrar",
-    "pronunciationrecording-toolbar-stop-label": "Arrestar",
-    "pronunciationrecording-toolbar-clear-label": "Escafar",
-    "pronunciationrecording-toolbar-upload-label": "Telecargar",
-    "pronunciationrecording-webaudio-not-supported": "L’API WebAudio es pas suportada per aqueste navigador"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"pronunciationrecording-desc": "Apond una [[Special:PronunciationRecording|aisina d’enregistrament de las prononciacions]]",
+	"pronunciationrecording-title": "Aisina d’enregistrament de las prononciacions",
+	"pronunciationrecording-toolbar-record-label": "Enregistrar",
+	"pronunciationrecording-toolbar-stop-label": "Arrestar",
+	"pronunciationrecording-toolbar-clear-label": "Escafar",
+	"pronunciationrecording-toolbar-upload-label": "Telecargar",
+	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio es pas suportada per aqueste navigador"
 }

@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "pronunciationrecording": "{{doc-special|PronunciationRecording}}",
-    "pronunciationrecording-desc": "{{desc|name=Pronunciation Recording|url=http://www.mediawiki.org/wiki/Extension:PronunciationRecording}}",
-    "pronunciationrecording-title": "Used as a title message",
-    "pronunciationrecording-toolbar-record-label": "Label text for the button to start recording.\n{{Identical|Record}}",
-    "pronunciationrecording-toolbar-stop-label": "Label text for the button to stop recording.\n{{Identical|Stop}}",
-    "pronunciationrecording-toolbar-clear-label": "Label text for the button to clear the recording.\n{{Identical|Clear}}",
-    "pronunciationrecording-toolbar-upload-label": "Label text for the button to upload the recording.\n{{Identical|Upload}}",
-    "pronunciationrecording-webaudio-not-supported": "Used as an error message when the WebAudio API is not supported by the browser.",
-    "pronunciationrecording-specialpage-error-nologin": "Error shown when user is not logged in.\n\nParameters:\n* $1 - URL of login page, with return pointing to [[Special:PronunciationRecording]]",
-    "pronunciationrecording-upload-publish-succeeded": "Used as a message when the recording is successfully uploaded from the stash.\n\nFollowed by \" \" and a link pointing to the file.\n\nSee also:\n* {{msg-mw|Pronunciationrecording-upload-publish-failed}}",
-    "pronunciationrecording-upload-publish-failed": "Used as a message when the recording failed to be uploaded from the stash.\n\nSee also:\n* {{msg-mw|Pronunciationrecording-upload-publish-succeeded}}",
-    "pronunciationrecording-information-label": "Label text for the legend.\n{{Identical|Information}}",
-    "pronunciationrecording-information-word-label": "Label text for the word input field.\n{{Identical|Word}}",
-    "pronunciationrecording-information-language-label": "Label text for the language dropdown list.\n{{Identical|Language}}",
-    "pronunciationrecording-mic-access-notify": "Notifies the user to click \"Allow\" to allow the browser to get microphone access",
-    "pronunciationrecording-recording-notify": "Notifies the user that his pronunciation is being recorded",
-    "pronunciationrecording-information-license-prompt": "Text prompting the user about the license. It is the below the language drop down list.\n\nRefers to {{msg-mw|Pronunciationrecording-toolbar-upload-label}}.\n\nParameters:\n* $1 - username, for GENDER support"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"pronunciationrecording": "{{doc-special|PronunciationRecording}}",
+	"pronunciationrecording-desc": "{{desc|name=Pronunciation Recording|url=http://www.mediawiki.org/wiki/Extension:PronunciationRecording}}",
+	"pronunciationrecording-title": "Used as a title message",
+	"pronunciationrecording-toolbar-record-label": "Label text for the button to start recording.\n{{Identical|Record}}",
+	"pronunciationrecording-toolbar-stop-label": "Label text for the button to stop recording.\n{{Identical|Stop}}",
+	"pronunciationrecording-toolbar-clear-label": "Label text for the button to clear the recording.\n{{Identical|Clear}}",
+	"pronunciationrecording-toolbar-upload-label": "Label text for the button to upload the recording.\n{{Identical|Upload}}",
+	"pronunciationrecording-webaudio-not-supported": "Used as an error message when the WebAudio API is not supported by the browser.",
+	"pronunciationrecording-specialpage-error-nologin": "Error shown when user is not logged in.\n\nParameters:\n* $1 - URL of login page, with return pointing to [[Special:PronunciationRecording]]",
+	"pronunciationrecording-upload-publish-succeeded": "Used as a message when the recording is successfully uploaded from the stash.\n\nFollowed by \" \" and a link pointing to the file.\n\nSee also:\n* {{msg-mw|Pronunciationrecording-upload-publish-failed}}",
+	"pronunciationrecording-upload-publish-failed": "Used as a message when the recording failed to be uploaded from the stash.\n\nSee also:\n* {{msg-mw|Pronunciationrecording-upload-publish-succeeded}}",
+	"pronunciationrecording-information-label": "Label text for the legend.\n{{Identical|Information}}",
+	"pronunciationrecording-information-word-label": "Label text for the word input field.\n{{Identical|Word}}",
+	"pronunciationrecording-information-language-label": "Label text for the language dropdown list.\n{{Identical|Language}}",
+	"pronunciationrecording-mic-access-notify": "Notifies the user to click \"Allow\" to allow the browser to get microphone access",
+	"pronunciationrecording-recording-notify": "Notifies the user that his pronunciation is being recorded",
+	"pronunciationrecording-information-license-prompt": "Text prompting the user about the license. It is the below the language drop down list.\n\nRefers to {{msg-mw|Pronunciationrecording-toolbar-upload-label}}.\n\nParameters:\n* $1 - username, for GENDER support"
 }

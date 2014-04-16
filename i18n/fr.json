@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "pronunciationrecording": "Outil d’enregistrement de prononciation",
-    "pronunciationrecording-desc": "Ajoute un [[Special:PronunciationRecording|outil d’enregistrement des prononciations]]",
-    "pronunciationrecording-title": "Outil d’enregistrement des prononciations",
-    "pronunciationrecording-toolbar-record-label": "Enregistrer",
-    "pronunciationrecording-toolbar-stop-label": "Arrêter",
-    "pronunciationrecording-toolbar-clear-label": "Effacer",
-    "pronunciationrecording-toolbar-upload-label": "Télécharger",
-    "pronunciationrecording-webaudio-not-supported": "L’API WebAudio n’est pas supportée par ce navigateur",
-    "pronunciationrecording-specialpage-error-nologin": "Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.",
-    "pronunciationrecording-upload-publish-succeeded": "Enregistrement bien importé :",
-    "pronunciationrecording-upload-publish-failed": "L’enregistrement n’a pas été importé",
-    "pronunciationrecording-information-label": "Information",
-    "pronunciationrecording-information-word-label": "Mot :",
-    "pronunciationrecording-information-language-label": "Langue :",
-    "pronunciationrecording-mic-access-notify": "Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.",
-    "pronunciationrecording-recording-notify": "Enregistrement en cours…",
-    "pronunciationrecording-information-license-prompt": "En utilisant PronunciationRecording  et en cliquant sur {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|vous}} acceptez les conditions suivantes pour votre enregistrement :"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"pronunciationrecording": "Outil d’enregistrement de prononciation",
+	"pronunciationrecording-desc": "Ajoute un [[Special:PronunciationRecording|outil d’enregistrement des prononciations]]",
+	"pronunciationrecording-title": "Outil d’enregistrement des prononciations",
+	"pronunciationrecording-toolbar-record-label": "Enregistrer",
+	"pronunciationrecording-toolbar-stop-label": "Arrêter",
+	"pronunciationrecording-toolbar-clear-label": "Effacer",
+	"pronunciationrecording-toolbar-upload-label": "Télécharger",
+	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio n’est pas supportée par ce navigateur",
+	"pronunciationrecording-specialpage-error-nologin": "Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.",
+	"pronunciationrecording-upload-publish-succeeded": "Enregistrement bien importé :",
+	"pronunciationrecording-upload-publish-failed": "L’enregistrement n’a pas été importé",
+	"pronunciationrecording-information-label": "Information",
+	"pronunciationrecording-information-word-label": "Mot :",
+	"pronunciationrecording-information-language-label": "Langue :",
+	"pronunciationrecording-mic-access-notify": "Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.",
+	"pronunciationrecording-recording-notify": "Enregistrement en cours…",
+	"pronunciationrecording-information-license-prompt": "En utilisant PronunciationRecording  et en cliquant sur {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|vous}} acceptez les conditions suivantes pour votre enregistrement :"
 }

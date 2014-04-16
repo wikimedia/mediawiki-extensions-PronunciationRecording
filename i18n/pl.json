@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrumps"
-        ]
-    },
-    "pronunciationrecording-information-word-label": "Słowo:",
-    "pronunciationrecording-information-language-label": "Język:"
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"pronunciationrecording-information-word-label": "Słowo:",
+	"pronunciationrecording-information-language-label": "Język:"
 }

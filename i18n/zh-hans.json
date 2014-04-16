@@ -1,25 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226",
-            "Yfdyh000"
-        ]
-    },
-    "pronunciationrecording": "发音录制工具",
-    "pronunciationrecording-desc": "添加一个[[Special:PronunciationRecording|发音录制工具]]",
-    "pronunciationrecording-title": "发音录制工具",
-    "pronunciationrecording-toolbar-record-label": "录制",
-    "pronunciationrecording-toolbar-stop-label": "停止",
-    "pronunciationrecording-toolbar-clear-label": "清除",
-    "pronunciationrecording-toolbar-upload-label": "上传",
-    "pronunciationrecording-webaudio-not-supported": "WebAudio API与此浏览器不兼容",
-    "pronunciationrecording-specialpage-error-nologin": "您必须[$1 登录]以录制和上传录音。",
-    "pronunciationrecording-upload-publish-succeeded": "录音上传成功：",
-    "pronunciationrecording-upload-publish-failed": "录音未能上传。",
-    "pronunciationrecording-information-label": "信息",
-    "pronunciationrecording-information-word-label": "字：",
-    "pronunciationrecording-information-language-label": "语言：",
-    "pronunciationrecording-mic-access-notify": "点击“同意”以允许浏览器使用您的麦克风。",
-    "pronunciationrecording-recording-notify": "录音......",
-    "pronunciationrecording-information-license-prompt": "通过使用录音功能并点击{{int:pronunciationrecording-toolbar-upload-label}}，{{GENDER:$1|您}}同意将录音按下述之条款授权："
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Yfdyh000"
+		]
+	},
+	"pronunciationrecording": "发音录制工具",
+	"pronunciationrecording-desc": "添加一个[[Special:PronunciationRecording|发音录制工具]]",
+	"pronunciationrecording-title": "发音录制工具",
+	"pronunciationrecording-toolbar-record-label": "录制",
+	"pronunciationrecording-toolbar-stop-label": "停止",
+	"pronunciationrecording-toolbar-clear-label": "清除",
+	"pronunciationrecording-toolbar-upload-label": "上传",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API与此浏览器不兼容",
+	"pronunciationrecording-specialpage-error-nologin": "您必须[$1 登录]以录制和上传录音。",
+	"pronunciationrecording-upload-publish-succeeded": "录音上传成功：",
+	"pronunciationrecording-upload-publish-failed": "录音未能上传。",
+	"pronunciationrecording-information-label": "信息",
+	"pronunciationrecording-information-word-label": "字：",
+	"pronunciationrecording-information-language-label": "语言：",
+	"pronunciationrecording-mic-access-notify": "点击“同意”以允许浏览器使用您的麦克风。",
+	"pronunciationrecording-recording-notify": "录音......",
+	"pronunciationrecording-information-license-prompt": "通过使用录音功能并点击{{int:pronunciationrecording-toolbar-upload-label}}，{{GENDER:$1|您}}同意将录音按下述之条款授权："
 }
