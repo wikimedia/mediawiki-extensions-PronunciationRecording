@@ -12,7 +12,7 @@
 	"pronunciationrecording-toolbar-stop-label": "Deter",
 	"pronunciationrecording-toolbar-clear-label": "Limpar",
 	"pronunciationrecording-toolbar-upload-label": "Subir",
-	"pronunciationrecording-webaudio-not-supported": "A API WebAudio non está soportada neste navegador.",
+	"pronunciationrecording-webaudio-not-supported": "A API WebAudio non está soportada neste navegador",
 	"pronunciationrecording-specialpage-error-nologin": "Debe [$1 acceder ao sistema] para gravar e cargar pronuncias.",
 	"pronunciationrecording-upload-publish-succeeded": "A gravación cargouse correctamente:",
 	"pronunciationrecording-upload-publish-failed": "Non se cargou a gravación",
