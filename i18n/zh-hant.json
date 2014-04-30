@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Cwlin0416"
 		]
 	},
+	"pronunciationrecording-toolbar-record-label": "記錄",
+	"pronunciationrecording-toolbar-stop-label": "停止",
+	"pronunciationrecording-toolbar-clear-label": "清除",
+	"pronunciationrecording-toolbar-upload-label": "上傳",
 	"pronunciationrecording-information-label": "資訊"
 }

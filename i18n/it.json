@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"pronunciationrecording-toolbar-record-label": "Registra",
+	"pronunciationrecording-toolbar-stop-label": "Ferma",
+	"pronunciationrecording-toolbar-clear-label": "Pulisci",
+	"pronunciationrecording-toolbar-upload-label": "Carica",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API non è supportata per questo browser",
+	"pronunciationrecording-upload-publish-succeeded": "Registrazione caricata correttamente:",
+	"pronunciationrecording-upload-publish-failed": "La registrazione non è stata caricata.",
+	"pronunciationrecording-information-label": "Informazioni",
+	"pronunciationrecording-information-word-label": "Parola:",
+	"pronunciationrecording-information-language-label": "Lingua:",
+	"pronunciationrecording-mic-access-notify": "Fai clic su \"Consenti\" per permettere al browser di accedere al microfono.",
+	"pronunciationrecording-recording-notify": "Registro..."
+}
