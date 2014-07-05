@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"pronunciationrecording": "Công cụ ghi phát âm",
+	"pronunciationrecording-desc": "Thêm một công cụ để [[Special:PronunciationRecording|ghi phát âm]]",
+	"pronunciationrecording-title": "Công cụ ghi phát âm",
+	"pronunciationrecording-toolbar-record-label": "Ghi âm",
+	"pronunciationrecording-toolbar-stop-label": "Dừng",
+	"pronunciationrecording-toolbar-clear-label": "Xóa",
+	"pronunciationrecording-toolbar-upload-label": "Tải lên",
+	"pronunciationrecording-webaudio-not-supported": "Trình duyệt này không hỗ trợ API WebAudio",
+	"pronunciationrecording-specialpage-error-nologin": "Bạn phải [$1 đăng nhập] để ghi và tải lên các phát âm.",
+	"pronunciationrecording-upload-publish-succeeded": "Đã tải lên bản ghi thành công:",
+	"pronunciationrecording-upload-publish-failed": "Bản ghi không tải lên được.",
+	"pronunciationrecording-information-label": "Thông tin",
+	"pronunciationrecording-information-word-label": "Từ:",
+	"pronunciationrecording-information-language-label": "Ngôn ngữ:",
+	"pronunciationrecording-mic-access-notify": "Bấm “Cho phép” để cho phép trình duyệt truy cập micrô của bạn.",
+	"pronunciationrecording-recording-notify": "Đang ghi âm…",
+	"pronunciationrecording-information-license-prompt": "Với việc sử dụng công cụ ghi phát âm và bấm “{{int:pronunciationrecording-toolbar-upload-label}}”, {{GENDER:$1}}bạn chấp nhận các điều khoản sau đối với bản ghi của bạn:"
+}
