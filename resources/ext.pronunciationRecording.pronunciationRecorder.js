@@ -3,15 +3,21 @@
 
 		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob,
 			userAgent = mw.message( 'pronunciationrecording-title' ).text();
+
 		function startUserMedia( stream ) {
 			$( ".mw-pronunciationrecording-record" ).removeAttr('disabled');
 			$( ".mw-pronunciationrecording-message" ).empty();
 			var input = audioContext.createMediaStreamSource( stream );
 			mw.log( 'Media Stream created' );
-			recorder = new Recorder( input );
-			mw.log( 'Audio Recorder initialized' );
+			try {
+				// This call may fail if not all APIs necessary are supported.
+				recorder = new Recorder( input );
+				mw.log( 'Audio Recorder initialized' );
+			} catch ( noRecorder ) {
+				// TODO: Emit error message so the UI can reflect it
+				mw.log( 'Audio Recorder initialization failed.' );
+			}
 		}
-
 		function getBlob( callback ) {
 			if( cachedBlob ) {
 				callback( cachedBlob );
@@ -83,6 +89,9 @@
 
 		return {
 			startRecording: function() {
+				if ( !recorder ) {
+					return mw.log( 'Requested recording despite recorder was not initialized.' );
+				}
 				cachedBlob = null;
 				recorder.clear();
 				recorder.record();

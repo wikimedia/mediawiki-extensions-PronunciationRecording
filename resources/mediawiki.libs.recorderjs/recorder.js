@@ -19,7 +19,7 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
 DEALINGS IN THE SOFTWARE.
 */
 
-( function( window, mw ) {
+( function( window ) {
 
 	var WORKER_PATH = mw.config.get( 'wgExtensionAssetsPath' ) + '/PronunciationRecording/resources/mediawiki.libs.recorderjs/recorderWorker.js';
 
@@ -27,52 +27,58 @@ DEALINGS IN THE SOFTWARE.
 		var config = cfg || {};
 		var bufferLen = config.bufferLen || 4096;
 		this.context = source.context;
-		this.node = this.context.createJavaScriptNode( bufferLen, 2, 2 );
-		var worker = new Worker(config.workerPath || WORKER_PATH);
+		this.node = ( this.context.createScriptProcessor ||
+			this.context.createJavaScriptNode )
+			.call( this.context,
+				bufferLen, 2, 2 );
+		var worker = new Worker( config.workerPath || WORKER_PATH );
 		worker.postMessage( {
 			command: 'init',
 			config: {
 				sampleRate: this.context.sampleRate
-		}
+			}
 		} );
-
 		var recording = false,
-		currCallback;
+			currCallback;
 
 		this.node.onaudioprocess = function( e ) {
 			if ( !recording ) return;
 			worker.postMessage( {
 				command: 'record',
 				buffer: [
-					e.inputBuffer.getChannelData(0),
-					e.inputBuffer.getChannelData(1)
+					e.inputBuffer.getChannelData( 0 ),
+					e.inputBuffer.getChannelData( 1 )
 				]
 			} );
 		}
 
 		this.configure = function( cfg ) {
 			for ( var prop in cfg ) {
-				if ( cfg.hasOwnProperty(prop) ){
-					config[prop] = cfg[prop];
+				if ( cfg.hasOwnProperty( prop ) ) {
+					config[ prop ] = cfg[ prop ];
 				}
 			}
 		}
 
-		this.record = function(){
+		this.record = function() {
 			recording = true;
 		}
 
-		this.stop = function(){
+		this.stop = function() {
 			recording = false;
 		}
 
 		this.clear = function() {
-			worker.postMessage( { command: 'clear' } );
+			worker.postMessage( {
+				command: 'clear'
+			} );
 		}
 
-		this.getBuffers = function( cb ) {
+		this.getBuffer = function( cb ) {
 			currCallback = cb || config.callback;
-			worker.postMessage( { command: 'getBuffers' } )
+			worker.postMessage( {
+				command: 'getBuffer'
+			} )
 		}
 
 		this.exportWAV = function( cb, type ) {
@@ -81,16 +87,6 @@ DEALINGS IN THE SOFTWARE.
 			if ( !currCallback ) throw new Error( 'Callback not set' );
 			worker.postMessage( {
 				command: 'exportWAV',
-			        type: type
-			} );
-		}
-
-		this.exportMonoWAV = function( cb, type ) {
-			currCallback = cb || config.callback;
-			type = type || config.type || 'audio/wav';
-			if ( !currCallback ) throw new Error( 'Callback not set' );
-			worker.postMessage( {
-				command: 'exportMonoWAV',
 				type: type
 			} );
 		}
@@ -101,9 +97,20 @@ DEALINGS IN THE SOFTWARE.
 		}
 
 		source.connect( this.node );
-		this.node.connect( this.context.destination );
+		this.node.connect( this.context.destination ); //this should not be necessary
 	};
+
+	Recorder.forceDownload = function( blob, filename ) {
+		var url = ( window.URL || window.webkitURL )
+			.createObjectURL( blob );
+		var link = window.document.createElement( 'a' );
+		link.href = url;
+		link.download = filename || 'output.wav';
+		var click = document.createEvent( "Event" );
+		click.initEvent( "click", true, true );
+		link.dispatchEvent( click );
+	}
 
 	window.Recorder = Recorder;
 
-} )( window, mediaWiki );
+} )( window );
