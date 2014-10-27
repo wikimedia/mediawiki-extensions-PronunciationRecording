@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Ovruni"
+			"Ovruni",
+			"Macofe"
 		]
 	},
 	"pronunciationrecording": "Herramienta para grabar pronunciación",
@@ -13,7 +14,7 @@
 	"pronunciationrecording-toolbar-clear-label": "Borrar",
 	"pronunciationrecording-toolbar-upload-label": "Cargar",
 	"pronunciationrecording-webaudio-not-supported": "Este navegador no admite la API WebAudio.",
-	"pronunciationrecording-information-label": "información",
+	"pronunciationrecording-information-label": "Información",
 	"pronunciationrecording-information-word-label": "Palabra:",
 	"pronunciationrecording-information-language-label": "Idioma:",
 	"pronunciationrecording-mic-access-notify": "Pulsa en «Permitir» para que el navegador pueda acceder al micrófono.",

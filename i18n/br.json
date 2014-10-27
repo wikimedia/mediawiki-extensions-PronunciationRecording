@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Y-M D"
+			"Y-M D",
+			"Fohanno"
 		]
 	},
+	"pronunciationrecording": "Ostilh da enrollañ an distagadur",
 	"pronunciationrecording-toolbar-record-label": "Enrollañ",
 	"pronunciationrecording-toolbar-stop-label": "Paouez",
 	"pronunciationrecording-toolbar-clear-label": "Riñsañ",
-	"pronunciationrecording-toolbar-upload-label": "Enporzhiañ"
+	"pronunciationrecording-toolbar-upload-label": "Enporzhiañ",
+	"pronunciationrecording-information-label": "Titouroù",
+	"pronunciationrecording-information-word-label": "Ger :",
+	"pronunciationrecording-information-language-label": "Yezh :",
+	"pronunciationrecording-recording-notify": "Oc'h enrollañ..."
 }

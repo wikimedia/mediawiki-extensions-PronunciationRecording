@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Alan ffm"
 		]
 	},
+	"pronunciationrecording": "Narzędzie do nagrywania wymowy",
+	"pronunciationrecording-title": "Narzędzie do nagrywania wymowy",
+	"pronunciationrecording-toolbar-record-label": "Nagrywaj",
+	"pronunciationrecording-toolbar-clear-label": "Wyczyść",
+	"pronunciationrecording-toolbar-upload-label": "Prześlij",
+	"pronunciationrecording-information-label": "Informacja",
 	"pronunciationrecording-information-word-label": "Słowo:",
-	"pronunciationrecording-information-language-label": "Język:"
+	"pronunciationrecording-information-language-label": "Język:",
+	"pronunciationrecording-recording-notify": "Nagrywanie..."
 }

@@ -9,5 +9,7 @@
 	"pronunciationrecording-toolbar-stop-label": "停止",
 	"pronunciationrecording-toolbar-clear-label": "清除",
 	"pronunciationrecording-toolbar-upload-label": "上傳",
-	"pronunciationrecording-information-label": "資訊"
+	"pronunciationrecording-information-label": "資訊",
+	"pronunciationrecording-information-word-label": "單字：",
+	"pronunciationrecording-information-language-label": "語言："
 }
