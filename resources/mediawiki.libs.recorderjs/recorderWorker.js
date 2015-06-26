@@ -20,12 +20,12 @@ DEALINGS IN THE SOFTWARE.
 */
 
 var recLength = 0,
-recBuffersL = [],
-recBuffersR = [],
-sampleRate;
+	recBuffersL = [],
+	recBuffersR = [],
+	sampleRate;
 
 this.onmessage = function( e ) {
-	switch( e.data.command ) {
+	switch ( e.data.command ) {
 		case 'init':
 			init( e.data.config );
 			break;
@@ -35,11 +35,8 @@ this.onmessage = function( e ) {
 		case 'exportWAV':
 			exportWAV( e.data.type );
 			break;
-		case 'exportMonoWAV':
-			exportMonoWAV( e.data.type );
-			break;
-		case 'getBuffers':
-			getBuffers();
+		case 'getBuffer':
+			getBuffer();
 			break;
 		case 'clear':
 			clear();
@@ -52,9 +49,9 @@ function init( config ) {
 }
 
 function record( inputBuffer ) {
-	recBuffersL.push( inputBuffer[0] );
-	recBuffersR.push( inputBuffer[1] );
-	recLength += inputBuffer[0].length;
+	recBuffersL.push( inputBuffer[ 0 ] );
+	recBuffersR.push( inputBuffer[ 1 ] );
+	recLength += inputBuffer[ 0 ].length;
 }
 
 function exportWAV( type ) {
@@ -62,18 +59,14 @@ function exportWAV( type ) {
 	var bufferR = mergeBuffers( recBuffersR, recLength );
 	var interleaved = interleave( bufferL, bufferR );
 	var dataview = encodeWAV( interleaved );
-	var audioBlob = new Blob( [dataview], { type: type } );
+	var audioBlob = new Blob( [ dataview ], {
+		type: type
+	} );
+
 	this.postMessage( audioBlob );
 }
 
-function exportMonoWAV( type ) {
-	var bufferL = mergeBuffers( recBuffersL, recLength );
-	var dataview = encodeWAV( bufferL, true );
-	var audioBlob = new Blob( [dataview], { type: type } );
-	this.postMessage( audioBlob );
-}
-
-function getBuffers() {
+function getBuffer() {
 	var buffers = [];
 	buffers.push( mergeBuffers( recBuffersL, recLength ) );
 	buffers.push( mergeBuffers( recBuffersR, recLength ) );
@@ -90,8 +83,8 @@ function mergeBuffers( recBuffers, recLength ) {
 	var result = new Float32Array( recLength );
 	var offset = 0;
 	for ( var i = 0; i < recBuffers.length; i++ ) {
-		result.set( recBuffers[i], offset );
-		offset += recBuffers[i].length;
+		result.set( recBuffers[ i ], offset );
+		offset += recBuffers[ i ].length;
 	}
 	return result;
 }
@@ -99,20 +92,21 @@ function mergeBuffers( recBuffers, recLength ) {
 function interleave( inputL, inputR ) {
 	var length = inputL.length + inputR.length;
 	var result = new Float32Array( length );
+
 	var index = 0,
-	inputIndex = 0;
+		inputIndex = 0;
 
 	while ( index < length ) {
-		result[index++] = inputL[inputIndex];
-		result[index++] = inputR[inputIndex];
+		result[ index++ ] = inputL[ inputIndex ];
+		result[ index++ ] = inputR[ inputIndex ];
 		inputIndex++;
 	}
 	return result;
 }
 
 function floatTo16BitPCM( output, offset, input ) {
-	for ( var i = 0; i < input.length; i++, offset+=2 ) {
-		var s = Math.max( -1, Math.min( 1, input[i] ) );
+	for ( var i = 0; i < input.length; i++, offset += 2 ) {
+		var s = Math.max( -1, Math.min( 1, input[ i ] ) );
 		output.setInt16( offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true );
 	}
 }
@@ -123,7 +117,7 @@ function writeString( view, offset, string ) {
 	}
 }
 
-function encodeWAV( samples, mono ) {
+function encodeWAV( samples ) {
 	var buffer = new ArrayBuffer( 44 + samples.length * 2 );
 	var view = new DataView( buffer );
 
@@ -140,7 +134,7 @@ function encodeWAV( samples, mono ) {
 	/* sample format (raw) */
 	view.setUint16( 20, 1, true );
 	/* channel count */
-	view.setUint16( 22, mono?1:2, true );
+	view.setUint16( 22, 2, true );
 	/* sample rate */
 	view.setUint32( 24, sampleRate, true );
 	/* byte rate (sample rate * block align) */
@@ -153,6 +147,7 @@ function encodeWAV( samples, mono ) {
 	writeString( view, 36, 'data' );
 	/* data chunk length */
 	view.setUint32( 40, samples.length * 2, true );
+
 	floatTo16BitPCM( view, 44, samples );
 
 	return view;
