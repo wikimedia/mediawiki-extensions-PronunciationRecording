@@ -1,13 +1,14 @@
 ( function ( mw, $ ) {
-	mw.PronunciationRecorder = function( ) {
+	mw.PronunciationRecorder = function ( ) {
 
 		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob,
 			userAgent = mw.message( 'pronunciationrecording-title' ).text();
 
 		function startUserMedia( stream ) {
-			$( ".mw-pronunciationrecording-record" ).removeAttr('disabled');
-			$( ".mw-pronunciationrecording-message" ).empty();
-			var input = audioContext.createMediaStreamSource( stream );
+			var input;
+			$( '.mw-pronunciationrecording-record' ).removeAttr( 'disabled' );
+			$( '.mw-pronunciationrecording-message' ).empty();
+			input = audioContext.createMediaStreamSource( stream );
 			mw.log( 'Media Stream created' );
 			try {
 				// This call may fail if not all APIs necessary are supported.
@@ -19,12 +20,11 @@
 			}
 		}
 		function getBlob( callback ) {
-			if( cachedBlob ) {
+			if ( cachedBlob ) {
 				callback( cachedBlob );
-			}
-			else {
+			} else {
 				recorder.exportWAV(
-					function( blob ) {
+					function ( blob ) {
 						cachedBlob = blob;
 						callback( cachedBlob );
 					}
@@ -32,7 +32,7 @@
 			}
 		}
 
-		function errorCallBack( e ) {
+		function errorCallBack() {
 			mw.log( 'No live audio input' );
 		}
 
@@ -41,18 +41,15 @@
 				action: 'upload',
 				filekey: uploadWizardUpload.fileKey,
 				filename: fileDetails.generateFileName(),
-				comment: "User created page with " + userAgent,
-				text : fileDetails.generateWikiText()
+				comment: 'User created page with ' + userAgent,
+				text: fileDetails.generateWikiText()
 			};
 
 			function publishOk( response ) {
-				if( response.upload.result == "Success" )
-				{
+				if ( response.upload.result === 'Success' ) {
 					ok();
 					mw.log( 'Upload published successfully' );
-				}
-				else
-				{
+				} else {
 					publishFail();
 				}
 			}
@@ -70,13 +67,13 @@
 			window.AudioContext = window.AudioContext || window.webkitAudioContext;
 			navigator.getUserMedia = ( navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia );
 			window.URL = window.URL || window.webkitURL;
-			if ( window.AudioContext ){
+			if ( window.AudioContext ) {
 				mw.log( 'Audio Context set up' );
 			} else {
 				mw.log( 'WebAudio API is not supported for this browser' );
 			}
-			audioContext = new AudioContext;
-			if ( navigator.getUserMedia ){
+			audioContext = new AudioContext();
+			if ( navigator.getUserMedia ) {
 				mw.log( 'getUserMedia is supported' );
 			} else {
 				mw.log( 'getUserMedia is not supported' );
@@ -85,10 +82,10 @@
 			mw.log( 'WebAudio API is not supported for this browser' );
 			throw e;
 		}
-		navigator.getUserMedia( {audio: true}, startUserMedia, errorCallBack );
+		navigator.getUserMedia( { audio: true }, startUserMedia, errorCallBack );
 
 		return {
-			startRecording: function() {
+			startRecording: function () {
 				if ( !recorder ) {
 					return mw.log( 'Requested recording despite recorder was not initialized.' );
 				}
@@ -97,29 +94,30 @@
 				recorder.record();
 			},
 
-			stopRecording: function() {
+			stopRecording: function () {
 				recorder.stop();
 			},
 
-			createSource: function( callback ) {
+			createSource: function () {
 				if ( recorder ) {
 					getBlob(
 						// this is the asynchronous callback that's called when exportWAV finishes encoding
-						function( blob ) {
-							var message = $( '<br><audio controls class="mw-pronunciationrecording-preview-audio"><source src="' + URL.createObjectURL( blob )  + '" type="audio/wav"></audio>' );
-							var upload = $( '<br><button class="mw-pronunciationrecording-upload">' + mw.message('pronunciationrecording-toolbar-upload-label').escaped() + '</button>' );
-							$( ".mw-pronunciationrecording-preview-div" ).empty();
-							upload.prependTo( ".mw-pronunciationrecording-preview-div" );
-							message.prependTo( ".mw-pronunciationrecording-preview-div" );
+						function ( blob ) {
+							var message, upload;
+							message = $( '<br><audio controls class="mw-pronunciationrecording-preview-audio"><source src="' + URL.createObjectURL( blob )  + '" type="audio/wav"></audio>' );
+							upload = $( '<br><button class="mw-pronunciationrecording-upload">' + mw.message( 'pronunciationrecording-toolbar-upload-label' ).escaped() + '</button>' );
+							$( '.mw-pronunciationrecording-preview-div' ).empty();
+							upload.prependTo( '.mw-pronunciationrecording-preview-div' );
+							message.prependTo( '.mw-pronunciationrecording-preview-div' );
 						}
 					);
 				}
 			},
 
-			startUploading: function( ok, error, fileDetails ) {
-				var config, api, uploadWizard, filesDiv;
-				config = { 'enableFormData' : true };
-				filesDiv = document.createElement( "div" );
+			startUploading: function ( ok, error, fileDetails ) {
+				var config, uploadWizard, filesDiv;
+				config = { 'enableFormData': true };
+				filesDiv = document.createElement( 'div' );
 				uploadWizard = new mw.UploadWizard( config );
 				uploadWizardUpload = new mw.UploadWizardUpload( uploadWizard, filesDiv );
 
@@ -133,12 +131,12 @@
 					populate: $.noop
 				};
 				getBlob(
-					function( blob ) {
+					function ( blob ) {
 						uploadWizardUpload.file = blob;
 						uploadWizardUpload.file.name = 'upload.wav';
 						uploadHandler = uploadWizardUpload.getUploadHandler();
 						uploadHandler.start();
-						$.subscribeReady( 'thumbnails.' + uploadWizardUpload.index, function() {
+						$.subscribeReady( 'thumbnails.' + uploadWizardUpload.index, function () {
 							publishUpload( ok, error, fileDetails );
 						} );
 					}
@@ -146,4 +144,4 @@
 			}
 		};
 	};
-} ( mediaWiki, jQuery ) );
+}( mediaWiki, jQuery ) );

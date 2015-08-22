@@ -1,36 +1,34 @@
-( function ( mw, $ ) {
-	mw.PronunciationRecorderFileDetails = function( word, username, lang_code ) {
-		var description, date_obj, fulldate, source, author, permission, category, lang_subst = "{{subst:#language:" + lang_code + "|en}}";
-		date_obj = new Date();
-		description = "Pronunciation of the term '" + word + "' in " + lang_subst;
+( function ( mw ) {
+	mw.PronunciationRecorderFileDetails = function ( word, username, langCode ) {
+		var description, dateObj, fulldate, source, author, permission, category, langSubst = '{{subst:#language:' + langCode + '|en}}';
+		dateObj = new Date();
+		description = 'Pronunciation of the term \'' + word + '\' in ' + langSubst;
 
 		function pad( param ) {
-			if( param < 10 ) {
+			if ( param < 10 ) {
 				return '0' + param;
 			} else {
 				return param;
 			}
 		}
 
-		fulldate = date_obj.getFullYear() + "-" + pad( date_obj.getMonth() + 1 ) + "-" + pad( date_obj.getDate() );
+		fulldate = dateObj.getFullYear() + '-' + pad( dateObj.getMonth() + 1 ) + '-' + pad( dateObj.getDate() );
 		source = '{{Created with PronunciationRecording}}';
 		author = '[[User:' + username + '|' + username + ']]';
 		permission = '{{Cc-by-sa-3.0}}';
-		category = '[[Category:' + lang_subst + ' pronunciation|' + word + ']]';
+		category = '[[Category:' + langSubst + ' pronunciation|' + word + ']]';
 
 		return {
-			generateWikiText: function()
-			{
+			generateWikiText: function () {
 				var wikitext = '{{Information\n |description = ' + description + '\n |date = ' + fulldate + '\n |source = ' + source + '\n |author = ' + author + '\n |permission = ' + permission + '\n}}\n' + category;
 				return wikitext;
 			},
 
-			generateFileName: function()
-			{
-				var filename = lang_code + '-' + word + '.wav';
+			generateFileName: function () {
+				var filename = langCode + '-' + word + '.wav';
 				return filename;
 
 			}
-		}
-	}
-} ( mediaWiki, jQuery ) );
+		};
+	};
+}( mediaWiki, jQuery ) );
