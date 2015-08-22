@@ -13,6 +13,6 @@ $specialPageAliases = array();
  * @author Rahul Maliakkal
  */
 $specialPageAliases[ 'en' ] = array(
-        'PronunciationRecording' => array( 'PronunciationRecording', 'Pronunciation Recording' ),
+	'PronunciationRecording' => array( 'PronunciationRecording', 'Pronunciation Recording' ),
 );
 

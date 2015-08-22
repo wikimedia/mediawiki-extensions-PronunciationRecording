@@ -23,24 +23,49 @@
 			$output->addModules( 'ext.pronunciationRecording.specialPage' );
 			$output->addHTML( '<div class="mw-pronunciationrecording-message" ></div>' );
 			$output->addHTML( '<div class="mw-pronunciationrecording-toolbar" >' );
-			$output->addHTML( '<button class="mw-pronunciationrecording-record" disabled >' .wfMessage( 'pronunciationrecording-toolbar-record-label' )->escaped().'</button>' );
-			$output->addHTML( '<button class="mw-pronunciationrecording-stop" disabled >' .wfMessage( 'pronunciationrecording-toolbar-stop-label' )->escaped().'</button>' );
-			$output->addHTML( '<button class="mw-pronunciationrecording-clear" disabled >' .wfMessage( 'pronunciationrecording-toolbar-clear-label' )->escaped().'</button>' );
+			$output->addHTML( '<button class="mw-pronunciationrecording-record" disabled >' .
+				wfMessage( 'pronunciationrecording-toolbar-record-label' )->escaped()
+				. '</button>' );
+			$output->addHTML( '<button class="mw-pronunciationrecording-stop" disabled >' .
+				wfMessage( 'pronunciationrecording-toolbar-stop-label' )->escaped()
+				. '</button>' );
+			$output->addHTML( '<button class="mw-pronunciationrecording-clear" disabled >'
+				. wfMessage( 'pronunciationrecording-toolbar-clear-label' )->escaped()
+				. '</button>' );
 			$output->addHTML( '<div class="mw-pronunciationrecording-preview-div" ></div>' );
 			$output->addHTML( '</div>' );
 			$output->addHTML( '<form>' );
 			$output->addHTML( '<fieldset>' );
-			$output->addHTML( '<legend>'.wfMessage( 'pronunciationrecording-information-label' )->escaped().'</legend>' );
-			$output->addHTML( '<b>'.wfMessage( 'pronunciationrecording-information-word-label' )->escaped().'</b><input type="text" class="mw-pronunciationrecording-information-word"><br><br>' );
+			$output->addHTML( '<legend>'
+				. wfMessage( 'pronunciationrecording-information-label' )->escaped()
+				. '</legend>' );
+			$output->addHTML( '<b>'
+				. wfMessage( 'pronunciationrecording-information-word-label' )->escaped()
+				. '</b><input type="text" class="mw-pronunciationrecording-information-word"><br><br>' );
 			$languages = Language::fetchLanguageNames( null, 'mw' );
-			$output->addHTML( '<b>'.wfMessage( 'pronunciationrecording-information-language-label' )->escaped().'</b><select class="mw-pronunciationrecording-information-language">' );
-			foreach( $languages as $lang_code => $lang_name) {
-				$output->addHTML( Html::element( 'option', array( 'value' => $lang_code ) , $lang_code.' - '.$lang_name ) );
+			$output->addHTML( '<b>'
+				. wfMessage( 'pronunciationrecording-information-language-label' )->escaped()
+				. '</b><select class="mw-pronunciationrecording-information-language">' );
+			foreach ( $languages as $lang_code => $lang_name ) {
+				$output->addHTML( Html::element(
+					'option',
+					array( 'value' => $lang_code ),
+					$lang_code.' - '.$lang_name )
+				);
 			}
 			$output->addHTML( '</select>' );
-			$output->addHTML( '<br><br>'.wfMessage( 'pronunciationrecording-information-license-prompt', $user )->escaped() );
-			$output->addHTML( '<div class="mw-pronunciationrecording-information-license-cc-by-sa" >'.wfMessage( 'mwe-upwiz-source-ownwork-assert-cc-by-sa-3.0', 1, $user, 'http://creativecommons.org/licenses/by-sa/3.0/deed.en'  )->parse().'<br>' );
-			$output->addHTML( wfMessage( 'mwe-upwiz-source-ownwork-cc-by-sa-3.0-explain', 1 )->escaped().'<br></div>' );
+			$output->addHTML( '<br><br>'
+				. wfMessage( 'pronunciationrecording-information-license-prompt', $user )->escaped() );
+			$output->addHTML( '<div class="mw-pronunciationrecording-information-license-cc-by-sa" >'
+				. wfMessage(
+					'mwe-upwiz-source-ownwork-assert-cc-by-sa-3.0',
+					1,
+					$user,
+					'http://creativecommons.org/licenses/by-sa/3.0/deed.en'
+				)->parse() . '<br>' );
+			$output->addHTML(
+				wfMessage( 'mwe-upwiz-source-ownwork-cc-by-sa-3.0-explain', 1 )->escaped()
+				. '<br></div>' );
 			$output->addHTML( '</fieldset>' );
 			$output->addHTML( '</form>' );
 		}
@@ -80,17 +105,26 @@
 			$output = $this->getOutput();
 
 			if ( !$user->isAllowed( 'upload' ) ) {
-				if ( !$user->isLoggedIn() && ( $wgGroupPermissions['user']['upload']|| $wgGroupPermissions['autoconfirmed']['upload'] ) ) {
+				if (
+					!$user->isLoggedIn() &&
+					(
+						$wgGroupPermissions['user']['upload'] ||
+						$wgGroupPermissions['autoconfirmed']['upload']
+					)
+				) {
 					// Custom message if logged-in users without any special rights can 	upload
 					$pronunciationRecordingPageName = $this->getPageTitle()->getPrefixedDBkey();
 					$returnTo = array( 'returnto' => $pronunciationRecordingPageName );
 					$loginTitle = SpecialPage::getTitleFor( 'UserLogin' );
 					$loginURL = $loginTitle->getFullURL( $returnTo );
-					$anonMsgHtml = $this->msg( 'pronunciationrecording-specialpage-error-nologin', $loginURL )->parse();
+					$anonMsgHtml = $this->msg(
+							'pronunciationrecording-specialpage-error-nologin',
+							$loginURL
+						)->parse();
 					$output->addHTML( Html::rawElement( 'span', array( 'class' => 'plainlinks' ), $anonMsgHtml ) );
 					return;
 				} else {
-					throw new  PermissionsError( 'upload' );
+					throw new PermissionsError( 'upload' );
 				}
 				return false;
 			}
@@ -104,4 +138,3 @@
 			return true;
 		}
 	}
-

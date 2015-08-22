@@ -16,10 +16,13 @@ $wgExtensionCredits[ 'specialpage' ][] = array(
 );
 
 $wgMessagesDirs['PronunciationRecording'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles[ 'PronunciationRecording' ] = __DIR__ . '/PronunciationRecording.i18n.php';
-$wgExtensionMessagesFiles[ 'PronunciationRecordingAlias' ] = __DIR__ . '/PronunciationRecording.alias.php';
+$wgExtensionMessagesFiles[ 'PronunciationRecording' ] = __DIR__ .
+	'/PronunciationRecording.i18n.php';
+$wgExtensionMessagesFiles[ 'PronunciationRecordingAlias' ] = __DIR__ .
+	'/PronunciationRecording.alias.php';
 $wgSpecialPages[ 'PronunciationRecording' ] = 'SpecialPronunciationRecording';
-$wgAutoloadClasses[ 'SpecialPronunciationRecording' ] = __DIR__ . '/SpecialPronunciationRecording.php';
+$wgAutoloadClasses[ 'SpecialPronunciationRecording' ] = __DIR__ .
+	'/SpecialPronunciationRecording.php';
 
 $pronunciationRecordingModuleInfo = array(
 	'localBasePath' => __DIR__ . '/resources',
@@ -30,7 +33,7 @@ $pronunciationRecordingModuleInfo = array(
 
 //"mediawiki.libs.recorderjs" is loaded as WebWorker.
 $wgResourceModules['mediawiki.libs.recorderjs'] = array(
-        'scripts' => '/mediawiki.libs.recorderjs/recorder.js',
+	'scripts' => '/mediawiki.libs.recorderjs/recorder.js',
 ) + $pronunciationRecordingModuleInfo;
 
 $wgResourceModules['ext.pronunciationRecording.pronunciationRecorder'] = array(
