@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Urhixidur"
 		]
 	},
 	"pronunciationrecording": "Outil d’enregistrement de prononciation",
@@ -10,7 +11,7 @@
 	"pronunciationrecording-toolbar-record-label": "Enregistrer",
 	"pronunciationrecording-toolbar-stop-label": "Arrêter",
 	"pronunciationrecording-toolbar-clear-label": "Effacer",
-	"pronunciationrecording-toolbar-upload-label": "Télécharger",
+	"pronunciationrecording-toolbar-upload-label": "Téléverser",
 	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio n’est pas supportée par ce navigateur",
 	"pronunciationrecording-specialpage-error-nologin": "Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.",
 	"pronunciationrecording-upload-publish-succeeded": "Enregistrement bien importé :",
