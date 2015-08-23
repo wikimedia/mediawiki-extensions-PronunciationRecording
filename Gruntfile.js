@@ -7,6 +7,7 @@
 /*jshint node:true */
 module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
+	grunt.loadNpmTasks( 'grunt-contrib-csslint' );
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-jscs' );
@@ -19,12 +20,15 @@ module.exports = function ( grunt ) {
 			},
 			all: [
 				'*.js',
-				'{.docs,build}/**/*.js',
-				'resources/*.js'
+				'resources/**/*.js',
+				'!resources/mediawiki.libs.recorderjs/*'
 			]
 		},
 		jscs: {
 			src: '<%= jshint.all %>'
+		},
+		csslint: {
+			src: 'resources/**/*.css'
 		},
 		jsonlint: {
 			all: 'i18n/*.json'
@@ -34,14 +38,15 @@ module.exports = function ( grunt ) {
 		},
 		watch: {
 			files: [
-				'.{jscsrc,jshintignore,jshintrc}',
+				'.{jshintignore,jshintrc,jscsrc,csslintrc}',
 				'<%= jshint.all %>',
+				'<%= csslint.all %>',
 				'<%= jsonlint.all %>'
 			],
 			tasks: 'test'
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'jshint', 'jscs', 'jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'jshint', 'jscs', 'csslint', 'jsonlint', 'banana' ] );
 	grunt.registerTask( 'default', 'test' );
 };
