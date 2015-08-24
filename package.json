@@ -1,0 +1,19 @@
+{
+  "name": "PronunciationRecording",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Build tools for PronunciationRecording.",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PronunciationRecording.git"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-banana-checker": "0.2.2",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-jsonlint": "1.0.4"
+  }
+}
