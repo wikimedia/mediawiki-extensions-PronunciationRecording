@@ -116,7 +116,7 @@
 
 			startUploading: function ( ok, error, fileDetails ) {
 				var config, uploadWizard, filesDiv;
-				config = { 'enableFormData': true };
+				config = { enableFormData: true };
 				filesDiv = document.createElement( 'div' );
 				uploadWizard = new mw.UploadWizard( config );
 				uploadWizardUpload = new mw.UploadWizardUpload( uploadWizard, filesDiv );
