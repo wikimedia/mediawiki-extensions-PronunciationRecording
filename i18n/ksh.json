@@ -4,21 +4,21 @@
 			"Purodha"
 		]
 	},
-	"pronunciationrecording": "E Wärkzüsch för de Ußschprooche opzezeischne.",
-	"pronunciationrecording-desc": "Brängk e [[Special:PronunciationRecording|Wärkzüsch för Ußschprooche opzezeischne]] en et Wikki.",
-	"pronunciationrecording-title": "Wärkzüsch för de Ußschprooche opzezeischne",
+	"pronunciationrecording": "E Wärkzüsch för Ußschprooche opzezeijschne.",
+	"pronunciationrecording-desc": "Brängk e [[Special:PronunciationRecording|{{int:MediaWiki:Pronunciationrecording-title}}]] en et Wikki.",
+	"pronunciationrecording-title": "Wärkzüsch för Ußschprooche opzezeijschne",
 	"pronunciationrecording-toolbar-record-label": "Opzeischne",
 	"pronunciationrecording-toolbar-stop-label": "Aanhallde",
 	"pronunciationrecording-toolbar-clear-label": "Läddesch maache",
 	"pronunciationrecording-toolbar-upload-label": "Huhlaade",
 	"pronunciationrecording-webaudio-not-supported": "Heh dä Brauser kann de <i lang=\"en\" xml:lang=\"en\">WebAudio API</i> nit.",
-	"pronunciationrecording-specialpage-error-nologin": "Do moß ald [$1 enjlogg sin], öm Opzeischnonge ze maache un huh ze lahde.",
-	"pronunciationrecording-upload-publish-succeeded": "Di Opzeischnong es huhjelaade.",
-	"pronunciationrecording-upload-publish-failed": "Di Opzeischnong kunnt nit huhjelaade wääde.",
+	"pronunciationrecording-specialpage-error-nologin": "Do moß ald [$1 enjlogg sin], öm Opzeijschnonge ze maache un huh ze lahde.",
+	"pronunciationrecording-upload-publish-succeeded": "Di Opzeischnong es huhjelahde.",
+	"pronunciationrecording-upload-publish-failed": "Di Opzeischnong kunnt nit huhjelahde wääde.",
 	"pronunciationrecording-information-label": "Aanjahbe",
 	"pronunciationrecording-information-word-label": "Woot:",
 	"pronunciationrecording-information-language-label": "Schprohch:",
-	"pronunciationrecording-mic-access-notify": "Do moß op dä Knopp klecke, öm Dinge Brauser aan et Mikrofohn raanzelohße.",
-	"pronunciationrecording-recording-notify": "Aam Ozeischne&nbsp;{{int:ellipsis}}",
-	"pronunciationrecording-information-license-prompt": "Edämm dat De dast Wärkzüsch för de Ußschprohche opzezeischne bruchs, un op „{{int:pronunciationrecording-toolbar-upload-label}}“ klecks, bes {{GENDER:$1|De}} enverschtande domet, dat för Ding Opzeischnonge jellt:"
+	"pronunciationrecording-mic-access-notify": "Do moß op dä Knopp klecke, öm Dinge Brauser aan et Mikrofohn eraanzelohße.",
+	"pronunciationrecording-recording-notify": "Beim Opzeijschne&nbsp;{{int:ellipsis}}",
+	"pronunciationrecording-information-license-prompt": "Edämm dat De dat {{int:MediaWiki:Pronunciationrecording-title}} bruchs, un op „{{int:pronunciationrecording-toolbar-upload-label}}“ klecks, bes De enverschtande domet, dat för Ding Opzeijschnonge jellt:{{GENDER:$1|}}"
 }
