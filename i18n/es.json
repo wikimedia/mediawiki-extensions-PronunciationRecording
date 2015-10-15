@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Ovruni",
-			"Macofe"
+			"Macofe",
+			"Ryo567"
 		]
 	},
 	"pronunciationrecording": "Herramienta para grabar pronunciación",
@@ -14,6 +15,9 @@
 	"pronunciationrecording-toolbar-clear-label": "Borrar",
 	"pronunciationrecording-toolbar-upload-label": "Cargar",
 	"pronunciationrecording-webaudio-not-supported": "Este navegador no admite la API WebAudio.",
+	"pronunciationrecording-specialpage-error-nologin": "Debes [$1 iniciar sesión] para grabar y subir pronunciaciones.",
+	"pronunciationrecording-upload-publish-succeeded": "Grabación subida correctamente:",
+	"pronunciationrecording-upload-publish-failed": "No se ha subido la grabación.",
 	"pronunciationrecording-information-label": "Información",
 	"pronunciationrecording-information-word-label": "Palabra:",
 	"pronunciationrecording-information-language-label": "Idioma:",
