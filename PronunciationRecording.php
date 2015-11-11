@@ -1,6 +1,8 @@
 <?php
 
-if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'Invalid entry point.' );
+}
 
 $wgExtensionCredits[ 'specialpage' ][] = array(
 	'path' => __FILE__,
@@ -29,9 +31,9 @@ $pronunciationRecordingModuleInfo = array(
 	'remoteExtPath' => 'PronunciationRecording/resources',
 );
 
-//Modules
+// Modules
 
-//"mediawiki.libs.recorderjs" is loaded as WebWorker.
+// "mediawiki.libs.recorderjs" is loaded as WebWorker.
 $wgResourceModules['mediawiki.libs.recorderjs'] = array(
 	'scripts' => '/mediawiki.libs.recorderjs/recorder.js',
 ) + $pronunciationRecordingModuleInfo;
