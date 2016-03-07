@@ -14,7 +14,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Hochladen",
 	"pronunciationrecording-webaudio-not-supported": "Die WebAudio-API wird für diesen Browser nicht unterstützt",
 	"pronunciationrecording-specialpage-error-nologin": "Du musst [$1 angemeldet sein], um Aussprachebeispiele aufzeichnen und hochladen zu können.",
-	"pronunciationrecording-upload-publish-succeeded": "Die Aufnahme wurde erfolgreich hochgeladen:",
+	"pronunciationrecording-upload-publish-succeeded": "Aufnahme hochgeladen:",
 	"pronunciationrecording-upload-publish-failed": "Die Aufnahme wurde nicht hochgeladen",
 	"pronunciationrecording-information-label": "Information",
 	"pronunciationrecording-information-word-label": "Wort:",
