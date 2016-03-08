@@ -10,17 +10,18 @@
 	"pronunciationrecording": "Herramienta para grabar pronunciación",
 	"pronunciationrecording-desc": "Añade una [[Special:PronunciationRecording|herramienta para grabar la pronunciación]]",
 	"pronunciationrecording-title": "Herramienta para grabar la pronunciación",
-	"pronunciationrecording-toolbar-record-label": "Guardar",
+	"pronunciationrecording-toolbar-record-label": "Grabar",
 	"pronunciationrecording-toolbar-stop-label": "Detener",
 	"pronunciationrecording-toolbar-clear-label": "Borrar",
-	"pronunciationrecording-toolbar-upload-label": "Cargar",
-	"pronunciationrecording-webaudio-not-supported": "Este navegador no admite la API WebAudio.",
+	"pronunciationrecording-toolbar-upload-label": "Subir",
+	"pronunciationrecording-webaudio-not-supported": "Este navegador no admite la API WebAudio",
 	"pronunciationrecording-specialpage-error-nologin": "Debes [$1 iniciar sesión] para grabar y subir pronunciaciones.",
-	"pronunciationrecording-upload-publish-succeeded": "Grabación subida correctamente:",
+	"pronunciationrecording-upload-publish-succeeded": "Grabación subida:",
 	"pronunciationrecording-upload-publish-failed": "No se ha subido la grabación.",
 	"pronunciationrecording-information-label": "Información",
 	"pronunciationrecording-information-word-label": "Palabra:",
 	"pronunciationrecording-information-language-label": "Idioma:",
 	"pronunciationrecording-mic-access-notify": "Pulsa en «Permitir» para que el navegador pueda acceder al micrófono.",
-	"pronunciationrecording-recording-notify": "Grabando…"
+	"pronunciationrecording-recording-notify": "Grabando…",
+	"pronunciationrecording-information-license-prompt": "Al usar PronunciationRecording y hacer clic en {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|aceptas}} las siguientes condiciones para tu grabación:"
 }
