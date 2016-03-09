@@ -14,7 +14,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Naloži",
 	"pronunciationrecording-webaudio-not-supported": "Ta brskalnik ne podpira WebAudio API",
 	"pronunciationrecording-specialpage-error-nologin": "Za snemanje in nalaganje izgovarjav morate biti [$1 prijavljeni].",
-	"pronunciationrecording-upload-publish-succeeded": "Posnetek se je uspešno naložil:",
+	"pronunciationrecording-upload-publish-succeeded": "Posnetek naložen:",
 	"pronunciationrecording-upload-publish-failed": "Posnetek se ni naložil",
 	"pronunciationrecording-information-label": "Informacije",
 	"pronunciationrecording-information-word-label": "Beseda:",

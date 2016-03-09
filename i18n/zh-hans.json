@@ -14,7 +14,7 @@
 	"pronunciationrecording-toolbar-upload-label": "上传",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio API与此浏览器不兼容",
 	"pronunciationrecording-specialpage-error-nologin": "您必须[$1 登录]以录制和上传录音。",
-	"pronunciationrecording-upload-publish-succeeded": "录音上传成功：",
+	"pronunciationrecording-upload-publish-succeeded": "录音已上传：",
 	"pronunciationrecording-upload-publish-failed": "录音未能上传。",
 	"pronunciationrecording-information-label": "信息",
 	"pronunciationrecording-information-word-label": "字：",
