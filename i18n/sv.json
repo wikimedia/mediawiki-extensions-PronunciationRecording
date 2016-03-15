@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jopparn"
+			"Jopparn",
+			"WikiPhoenix"
 		]
 	},
 	"pronunciationrecording": "Inspelningsverktyget för uttal",
@@ -13,7 +14,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Uppladdning",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio API stöds inte för denna webbläsare",
 	"pronunciationrecording-specialpage-error-nologin": "Du måste vara [$1 inloggad] att spela in och ladda upp uttal.",
-	"pronunciationrecording-upload-publish-succeeded": "Inspelning framgångsrikt uppladdad:",
+	"pronunciationrecording-upload-publish-succeeded": "Inspelning uppladdad:",
 	"pronunciationrecording-upload-publish-failed": "Inspelningen laddades inte upp",
 	"pronunciationrecording-information-label": "Information",
 	"pronunciationrecording-information-word-label": "ORd:",
