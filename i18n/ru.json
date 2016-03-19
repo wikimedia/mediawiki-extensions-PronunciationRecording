@@ -13,7 +13,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Загрузить",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio API не поддерживается этим браузером",
 	"pronunciationrecording-specialpage-error-nologin": "Вы должны [$1  войти в систему] для записи и загрузки произношения.",
-	"pronunciationrecording-upload-publish-succeeded": "Запись успешно загружена:",
+	"pronunciationrecording-upload-publish-succeeded": "Запись загружена:",
 	"pronunciationrecording-upload-publish-failed": "Запись не была загружена",
 	"pronunciationrecording-information-label": "Информация",
 	"pronunciationrecording-information-word-label": "Слово:",
