@@ -7,12 +7,12 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English
  * @author Rahul Maliakkal
  */
-$specialPageAliases[ 'en' ] = array(
-	'PronunciationRecording' => array( 'PronunciationRecording', 'Pronunciation Recording' ),
-);
+$specialPageAliases[ 'en' ] = [
+	'PronunciationRecording' => [ 'PronunciationRecording', 'Pronunciation Recording' ],
+];
 

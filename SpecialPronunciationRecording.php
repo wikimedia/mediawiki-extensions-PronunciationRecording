@@ -49,7 +49,7 @@
 			foreach ( $languages as $lang_code => $lang_name ) {
 				$output->addHTML( Html::element(
 					'option',
-					array( 'value' => $lang_code ),
+					[ 'value' => $lang_code ],
 					$lang_code.' - '.$lang_name )
 				);
 			}
@@ -114,14 +114,14 @@
 				) {
 					// Custom message if logged-in users without any special rights can 	upload
 					$pronunciationRecordingPageName = $this->getPageTitle()->getPrefixedDBkey();
-					$returnTo = array( 'returnto' => $pronunciationRecordingPageName );
+					$returnTo = [ 'returnto' => $pronunciationRecordingPageName ];
 					$loginTitle = SpecialPage::getTitleFor( 'UserLogin' );
 					$loginURL = $loginTitle->getFullURL( $returnTo );
 					$anonMsgHtml = $this->msg(
 							'pronunciationrecording-specialpage-error-nologin',
 							$loginURL
 						)->parse();
-					$output->addHTML( Html::rawElement( 'span', array( 'class' => 'plainlinks' ), $anonMsgHtml ) );
+					$output->addHTML( Html::rawElement( 'span', [ 'class' => 'plainlinks' ], $anonMsgHtml ) );
 					return;
 				} else {
 					throw new PermissionsError( 'upload' );

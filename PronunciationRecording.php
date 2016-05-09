@@ -4,18 +4,18 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Invalid entry point.' );
 }
 
-$wgExtensionCredits[ 'specialpage' ][] = array(
+$wgExtensionCredits[ 'specialpage' ][] = [
 	'path' => __FILE__,
 	'name' => 'PronunciationRecording',
-	'author' => array(
+	'author' => [
 		'Rahul Maliakkal',
 		'Matthew Flaschen',
 		'Michael Dale',
-	),
+	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PronunciationRecording',
 	'descriptionmsg' => 'pronunciationrecording-desc',
 	'version' => '1.1.0',
-);
+];
 
 $wgMessagesDirs['PronunciationRecording'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles[ 'PronunciationRecording' ] = __DIR__ .
@@ -26,50 +26,50 @@ $wgSpecialPages[ 'PronunciationRecording' ] = 'SpecialPronunciationRecording';
 $wgAutoloadClasses[ 'SpecialPronunciationRecording' ] = __DIR__ .
 	'/SpecialPronunciationRecording.php';
 
-$pronunciationRecordingModuleInfo = array(
+$pronunciationRecordingModuleInfo = [
 	'localBasePath' => __DIR__ . '/resources',
 	'remoteExtPath' => 'PronunciationRecording/resources',
-);
+];
 
 // Modules
 
 // "mediawiki.libs.recorderjs" is loaded as WebWorker.
-$wgResourceModules['mediawiki.libs.recorderjs'] = array(
+$wgResourceModules['mediawiki.libs.recorderjs'] = [
 	'scripts' => '/mediawiki.libs.recorderjs/recorder.js',
-) + $pronunciationRecordingModuleInfo;
+] + $pronunciationRecordingModuleInfo;
 
-$wgResourceModules['ext.pronunciationRecording.pronunciationRecorder'] = array(
+$wgResourceModules['ext.pronunciationRecording.pronunciationRecorder'] = [
 	'scripts' => 'ext.pronunciationRecording.pronunciationRecorder.js',
-	'dependencies' => array(
+	'dependencies' => [
 		'mediawiki.libs.recorderjs',
 		'mediawiki.jqueryMsg',
 		'ext.uploadWizard',
-	),
-	'messages' => array(
+	],
+	'messages' => [
 		'pronunciationrecording-title',
 		'pronunciationrecording-toolbar-upload-label',
-	),
-) + $pronunciationRecordingModuleInfo;
+	],
+] + $pronunciationRecordingModuleInfo;
 
-$wgResourceModules['ext.pronunciationRecording.specialPage'] = array(
+$wgResourceModules['ext.pronunciationRecording.specialPage'] = [
 	'scripts' => 'ext.pronunciationRecording.specialPage.js',
 	'styles' => 'css/ext.pronunciationRecordingToolbar.css',
 	'position' => 'top',
-	'dependencies' => array(
+	'dependencies' => [
 		'ext.pronunciationRecording.pronunciationRecorder',
 		'ext.pronunciationRecording.fileDetails',
 		'mediawiki.user',
 		'mediawiki.util',
-	),
-	'messages' => array(
+	],
+	'messages' => [
 		'pronunciationrecording-webaudio-not-supported',
 		'pronunciationrecording-upload-publish-succeeded',
 		'pronunciationrecording-upload-publish-failed',
 		'pronunciationrecording-mic-access-notify',
 		'pronunciationrecording-recording-notify',
-	),
-) + $pronunciationRecordingModuleInfo;
+	],
+] + $pronunciationRecordingModuleInfo;
 
-$wgResourceModules['ext.pronunciationRecording.fileDetails'] = array(
+$wgResourceModules['ext.pronunciationRecording.fileDetails'] = [
 	'scripts' => 'ext.pronunciationRecording.fileDetails.js',
-) + $pronunciationRecordingModuleInfo;
+] + $pronunciationRecordingModuleInfo;
