@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"pronunciationrecording": "발음 녹음 도구",
@@ -14,7 +15,7 @@
 	"pronunciationrecording-toolbar-upload-label": "올리기",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio API는 이 브라우저에서 지원하지 않습니다.",
 	"pronunciationrecording-specialpage-error-nologin": "발음을 녹음하고 올리려면 [$1 로그인]해야 합니다.",
-	"pronunciationrecording-upload-publish-succeeded": "녹음을 성공적으로 올렸습니다:",
+	"pronunciationrecording-upload-publish-succeeded": "녹음을 올렸습니다:",
 	"pronunciationrecording-upload-publish-failed": "녹음된 파일이 올려지지 않았습니다",
 	"pronunciationrecording-information-label": "정보",
 	"pronunciationrecording-information-word-label": "단어:",
