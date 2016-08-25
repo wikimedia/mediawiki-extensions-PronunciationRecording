@@ -10,5 +10,6 @@
 	"pronunciationrecording-toolbar-stop-label": "Arrestar",
 	"pronunciationrecording-toolbar-clear-label": "Escafar",
 	"pronunciationrecording-toolbar-upload-label": "Telecargar",
-	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio es pas suportada per aqueste navigador"
+	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio es pas suportada per aqueste navigador",
+	"pronunciationrecording-information-language-label": "Lenga :"
 }
