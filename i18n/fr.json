@@ -12,7 +12,7 @@
 	"pronunciationrecording-toolbar-stop-label": "Arrêter",
 	"pronunciationrecording-toolbar-clear-label": "Effacer",
 	"pronunciationrecording-toolbar-upload-label": "Téléverser",
-	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio n’est pas supportée par ce navigateur",
+	"pronunciationrecording-webaudio-not-supported": "L’API WebAudio n’est pas prise en charge par ce navigateur",
 	"pronunciationrecording-specialpage-error-nologin": "Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.",
 	"pronunciationrecording-upload-publish-succeeded": "Enregistrement importé :",
 	"pronunciationrecording-upload-publish-failed": "L’enregistrement n’a pas été importé",
