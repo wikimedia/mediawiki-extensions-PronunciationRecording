@@ -2,14 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Cainamarques",
-			"Fúlvio"
+			"Fúlvio",
+			"Hamilton Abreu"
 		]
 	},
+	"pronunciationrecording": "Ferramenta de gravação de pronúncias",
 	"pronunciationrecording-desc": "Adiciona uma [[Special:PronunciationRecording|ferramenta de gravação de pronúncias]]",
 	"pronunciationrecording-title": "Ferramenta de gravação de pronúncias",
 	"pronunciationrecording-toolbar-record-label": "Gravar",
 	"pronunciationrecording-toolbar-stop-label": "Parar",
 	"pronunciationrecording-toolbar-clear-label": "Limpar",
 	"pronunciationrecording-toolbar-upload-label": "Carregar",
-	"pronunciationrecording-webaudio-not-supported": "A API do WebAudio não é suportada por este navegador."
+	"pronunciationrecording-webaudio-not-supported": "A API do WebAudio não é suportada por este navegador.",
+	"pronunciationrecording-specialpage-error-nologin": "Tem de estar [$1 autenticado] para gravar e carregar pronúncias.",
+	"pronunciationrecording-upload-publish-succeeded": "Gravação carregada:",
+	"pronunciationrecording-upload-publish-failed": "A gravação não foi carregada.",
+	"pronunciationrecording-information-label": "Informação",
+	"pronunciationrecording-information-word-label": "Palavra:",
+	"pronunciationrecording-information-language-label": "Língua:",
+	"pronunciationrecording-mic-access-notify": "Clique \"Allow\" para permitir que o <i>browser</i> aceda ao seu microfone.",
+	"pronunciationrecording-recording-notify": "A gravar...",
+	"pronunciationrecording-information-license-prompt": "Ao usar a ferramenta de gravação de pronúncias e clicar \"{{int:pronunciationrecording-toolbar-upload-label}}\", {{GENDER:$1|aceita}} as seguintes condições para a gravação:"
 }
