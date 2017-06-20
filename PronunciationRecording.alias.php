@@ -15,4 +15,3 @@ $specialPageAliases = [];
 $specialPageAliases[ 'en' ] = [
 	'PronunciationRecording' => [ 'PronunciationRecording', 'Pronunciation Recording' ],
 ];
-
