@@ -2,7 +2,7 @@
 	$( document ).ready( function () {
 		var pronunciationRecorder;
 		try {
-			pronunciationRecorder = new mw.PronunciationRecorder( );
+			pronunciationRecorder = new mw.PronunciationRecorder();
 			$( '.mw-pronunciationrecording-message' ).text( mw.message( 'pronunciationrecording-mic-access-notify' ).text() );
 			$( '.mw-pronunciationrecording-record' ).on( 'click', function () {
 				$( '.mw-pronunciationrecording-record' ).attr( 'disabled', 'disabled' );
@@ -32,7 +32,7 @@
 				$( '.mw-pronunciationrecording-upload' ).attr( 'disabled', 'disabled' );
 				pronunciationRecorder.startUploading( function () {
 					var name, $fileLink;
-					name = 'File:' + pronunciationRecorderFileDetails.generateFileName() ;
+					name = 'File:' + pronunciationRecorderFileDetails.generateFileName();
 					$fileLink = $( '<a>' );
 					$fileLink.attr( 'href', mw.util.wikiGetlink( name ) );
 					$fileLink.text( name );

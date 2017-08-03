@@ -1,5 +1,5 @@
 ( function ( mw, $ ) {
-	mw.PronunciationRecorder = function ( ) {
+	mw.PronunciationRecorder = function () {
 
 		var audioContext, recorder, uploadHandler, uploadWizardUpload, cachedBlob,
 			userAgent = mw.message( 'pronunciationrecording-title' ).text();
@@ -45,6 +45,11 @@
 				text: fileDetails.generateWikiText()
 			};
 
+			function publishFail() {
+				err();
+				mw.log( 'Upload could not be successfully published' );
+			}
+
 			function publishOk( response ) {
 				if ( response.upload.result === 'Success' ) {
 					ok();
@@ -52,11 +57,6 @@
 				} else {
 					publishFail();
 				}
-			}
-
-			function publishFail() {
-				err();
-				mw.log( 'Upload could not be successfully published' );
 			}
 			uploadWizardUpload.api.postWithEditToken( params, publishOk, publishFail );
 
@@ -104,7 +104,7 @@
 						// this is the asynchronous callback that's called when exportWAV finishes encoding
 						function ( blob ) {
 							var message, upload;
-							message = $( '<br><audio controls class="mw-pronunciationrecording-preview-audio"><source src="' + URL.createObjectURL( blob )  + '" type="audio/wav"></audio>' );
+							message = $( '<br><audio controls class="mw-pronunciationrecording-preview-audio"><source src="' + URL.createObjectURL( blob ) + '" type="audio/wav"></audio>' );
 							upload = $( '<br><button class="mw-pronunciationrecording-upload">' + mw.message( 'pronunciationrecording-toolbar-upload-label' ).escaped() + '</button>' );
 							$( '.mw-pronunciationrecording-preview-div' ).empty();
 							upload.prependTo( '.mw-pronunciationrecording-preview-div' );

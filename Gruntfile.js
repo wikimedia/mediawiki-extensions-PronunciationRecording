@@ -4,49 +4,45 @@
  * @package PronunciationRecording
  */
 
-/*jshint node:true */
+/* eslint-env node, es6 */
 module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
-	grunt.loadNpmTasks( 'grunt-contrib-csslint' );
-	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
-	grunt.loadNpmTasks( 'grunt-jscs' );
+	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( 'grunt-jsonlint' );
+	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
-		jshint: {
-			options: {
-				jshintrc: true
-			},
+		eslint: {
 			all: [
 				'*.js',
 				'resources/**/*.js',
 				'!resources/mediawiki.libs.recorderjs/*'
 			]
 		},
-		jscs: {
-			src: '<%= jshint.all %>'
-		},
-		csslint: {
+		stylelint: {
 			src: 'resources/**/*.css'
-		},
-		jsonlint: {
-			all: 'i18n/*.json'
 		},
 		banana: {
 			all: 'i18n/'
 		},
+		jsonlint: {
+			all: [
+				'*.json',
+				'.stylelintrc',
+				'i18n/*.json'
+			]
+		},
 		watch: {
 			files: [
-				'.{jshintignore,jshintrc,jscsrc,csslintrc}',
-				'<%= jshint.all %>',
-				'<%= csslint.all %>',
-				'<%= jsonlint.all %>'
+				'.{stylelintrc,eslintrc.json}',
+				'<%= eslint.all %>',
+				'<%= stylelint.all %>'
 			],
 			tasks: 'test'
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'jshint', 'jscs', 'csslint', 'jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'eslint', 'stylelint', 'jsonlint', 'banana' ] );
 	grunt.registerTask( 'default', 'test' );
 };
