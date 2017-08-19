@@ -29,13 +29,12 @@ module.exports = function ( grunt ) {
 		jsonlint: {
 			all: [
 				'*.json',
-				'.stylelintrc',
 				'i18n/*.json'
 			]
 		},
 		watch: {
 			files: [
-				'.{stylelintrc,eslintrc.json}',
+				'.{stylelintrc,eslintrc}.json',
 				'<%= eslint.all %>',
 				'<%= stylelint.all %>'
 			],
