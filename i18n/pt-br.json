@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Cainamarques",
-			"Luckas"
+			"Luckas",
+			"Eduardo Addad de Oliveira"
 		]
 	},
+	"pronunciationrecording": "Ferramenta de gravação de pronúncias",
 	"pronunciationrecording-desc": "Adiciona uma [[Special:PronunciationRecording|ferramenta de gravação de pronúncias]]",
 	"pronunciationrecording-title": "Ferramenta de gravação de pronúncias",
 	"pronunciationrecording-toolbar-record-label": "Gravar",
@@ -12,7 +14,13 @@
 	"pronunciationrecording-toolbar-clear-label": "Limpar",
 	"pronunciationrecording-toolbar-upload-label": "Enviar",
 	"pronunciationrecording-webaudio-not-supported": "A API do WebAudio não é suportada por este navegador.",
+	"pronunciationrecording-specialpage-error-nologin": "Tem de estar [$1 autenticado] para gravar e carregar pronúncias.",
+	"pronunciationrecording-upload-publish-succeeded": "Gravação carregada:",
+	"pronunciationrecording-upload-publish-failed": "A gravação não foi enviada.",
 	"pronunciationrecording-information-label": "Informação",
 	"pronunciationrecording-information-word-label": "Palavra:",
-	"pronunciationrecording-information-language-label": "Língua:"
+	"pronunciationrecording-information-language-label": "Língua:",
+	"pronunciationrecording-mic-access-notify": "Clique em \"Permitir\" para permitir que o navegador acesse ao seu microfone.",
+	"pronunciationrecording-recording-notify": "Gravando...",
+	"pronunciationrecording-information-license-prompt": "Ao usar a ferramenta de gravação de pronúncias e clicar \"{{int:pronunciationrecording-toolbar-upload-label}}\", {{GENDER:$1|aceita}} as seguintes condições para a gravação:"
 }
