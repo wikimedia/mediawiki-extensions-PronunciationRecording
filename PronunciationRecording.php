@@ -18,8 +18,6 @@ $wgExtensionCredits[ 'specialpage' ][] = [
 ];
 
 $wgMessagesDirs['PronunciationRecording'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles[ 'PronunciationRecording' ] = __DIR__ .
-	'/PronunciationRecording.i18n.php';
 $wgExtensionMessagesFiles[ 'PronunciationRecordingAlias' ] = __DIR__ .
 	'/PronunciationRecording.alias.php';
 $wgSpecialPages[ 'PronunciationRecording' ] = 'SpecialPronunciationRecording';
