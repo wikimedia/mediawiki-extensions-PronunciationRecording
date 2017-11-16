@@ -12,7 +12,13 @@
 	"pronunciationrecording-toolbar-clear-label": "Pulizze",
 	"pronunciationrecording-toolbar-upload-label": "Careche",
 	"pronunciationrecording-webaudio-not-supported": "API WebAudio non g'è supportate pe stu browser",
+	"pronunciationrecording-specialpage-error-nologin": "Tu a [$1 tràse] pe reggistrà o carecà le pronunge.",
+	"pronunciationrecording-upload-publish-succeeded": "Reggistrazzione carecate:",
+	"pronunciationrecording-upload-publish-failed": "'A reggistrazzione non g'a state carecate.",
 	"pronunciationrecording-information-label": "'Mbormaziune",
 	"pronunciationrecording-information-word-label": "Parole:",
-	"pronunciationrecording-information-language-label": "Lènghe:"
+	"pronunciationrecording-information-language-label": "Lènghe:",
+	"pronunciationrecording-mic-access-notify": "Cazze \"Permette\" pe permettere a 'u browser de ausà 'u microfone tune.",
+	"pronunciationrecording-recording-notify": "Stoche a reggistre...",
+	"pronunciationrecording-information-license-prompt": "Pe ausà PronunciationRecording e cazzà {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|tu}} accette le termine seguende pa reggistrazziona toje:"
 }
