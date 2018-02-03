@@ -52,7 +52,6 @@ $wgResourceModules['ext.pronunciationRecording.pronunciationRecorder'] = [
 $wgResourceModules['ext.pronunciationRecording.specialPage'] = [
 	'scripts' => 'ext.pronunciationRecording.specialPage.js',
 	'styles' => 'css/ext.pronunciationRecordingToolbar.css',
-	'position' => 'top',
 	'dependencies' => [
 		'ext.pronunciationRecording.pronunciationRecorder',
 		'ext.pronunciationRecording.fileDetails',
