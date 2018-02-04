@@ -3,14 +3,25 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Cwlin0416",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
-	"pronunciationrecording-toolbar-record-label": "記錄",
+	"pronunciationrecording": "發音錄音工具",
+	"pronunciationrecording-desc": "添加[[Special:PronunciationRecording|發音錄音工具]]",
+	"pronunciationrecording-title": "發音錄音工具",
+	"pronunciationrecording-toolbar-record-label": "錄音",
 	"pronunciationrecording-toolbar-stop-label": "停止",
 	"pronunciationrecording-toolbar-clear-label": "清除",
 	"pronunciationrecording-toolbar-upload-label": "上傳",
+	"pronunciationrecording-webaudio-not-supported": "網頁音效 API 不支援此瀏覽器",
+	"pronunciationrecording-specialpage-error-nologin": "您必須[$1 登入]來錄音及上傳發音。",
+	"pronunciationrecording-upload-publish-succeeded": "錄音已上傳：",
+	"pronunciationrecording-upload-publish-failed": "錄音未能上傳。",
 	"pronunciationrecording-information-label": "資訊",
 	"pronunciationrecording-information-word-label": "單字：",
-	"pronunciationrecording-information-language-label": "語言："
+	"pronunciationrecording-information-language-label": "語言：",
+	"pronunciationrecording-mic-access-notify": "點擊「同意」讓瀏覽器能使用您的麥克風。",
+	"pronunciationrecording-recording-notify": "錄音中...",
+	"pronunciationrecording-information-license-prompt": "透過使用發音錄音並點擊 {{int:pronunciationrecording-toolbar-upload-label}}，{{GENDER:$1|您}} 同意讓您的錄音依照以下條款："
 }
