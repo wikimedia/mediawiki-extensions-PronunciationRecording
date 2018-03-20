@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"pronunciationrecording-toolbar-record-label": "Εγγραφή",
+	"pronunciationrecording-toolbar-stop-label": "Διακοπή",
+	"pronunciationrecording-toolbar-clear-label": "Εκκαθάριση",
+	"pronunciationrecording-toolbar-upload-label": "Ανέβασμα αρχείου",
+	"pronunciationrecording-upload-publish-succeeded": "Η εγγραφή ανέβηκε:",
+	"pronunciationrecording-upload-publish-failed": "Η εγγραφή δεν ανέβηκε.",
+	"pronunciationrecording-information-label": "Πληροφορία",
+	"pronunciationrecording-information-word-label": "Λέξη:",
+	"pronunciationrecording-information-language-label": "Γλώσσα:",
+	"pronunciationrecording-mic-access-notify": "Κάντε κλικ στο κουμπί «Αποδοχή» για να επιτρέψετε στο πρόγραμμα περιήγησης να αποκτήσει πρόσβαση στο μικρόφωνό σας.",
+	"pronunciationrecording-recording-notify": "Γίνεται εγγραφή..."
+}
