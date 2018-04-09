@@ -1,5 +1,5 @@
 ( function ( mw, $ ) {
-	$( document ).ready( function () {
+	$( function () {
 		var pronunciationRecorder;
 		try {
 			pronunciationRecorder = new mw.PronunciationRecorder();
@@ -34,7 +34,7 @@
 					var name, $fileLink;
 					name = 'File:' + pronunciationRecorderFileDetails.generateFileName();
 					$fileLink = $( '<a>' );
-					$fileLink.attr( 'href', mw.util.wikiGetlink( name ) );
+					$fileLink.attr( 'href', mw.util.getUrl( name ) );
 					$fileLink.text( name );
 					$( '.mw-pronunciationrecording-message' ).text( mw.message( 'pronunciationrecording-upload-publish-succeeded' ).text() );
 					$( '.mw-pronunciationrecording-message' ).append( ' ' );
