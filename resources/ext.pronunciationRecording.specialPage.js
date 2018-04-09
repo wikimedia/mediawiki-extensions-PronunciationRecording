@@ -5,20 +5,20 @@
 			pronunciationRecorder = new mw.PronunciationRecorder();
 			$( '.mw-pronunciationrecording-message' ).text( mw.message( 'pronunciationrecording-mic-access-notify' ).text() );
 			$( '.mw-pronunciationrecording-record' ).on( 'click', function () {
-				$( '.mw-pronunciationrecording-record' ).attr( 'disabled', 'disabled' );
-				$( '.mw-pronunciationrecording-stop' ).removeAttr( 'disabled' );
+				$( '.mw-pronunciationrecording-record' ).prop( 'disabled', true );
+				$( '.mw-pronunciationrecording-stop' ).prop( 'disabled', false );
 				$( '.mw-pronunciationrecording-message' ).text( mw.message( 'pronunciationrecording-recording-notify' ).text() );
 				pronunciationRecorder.startRecording();
 			} );
 			$( '.mw-pronunciationrecording-stop' ).on( 'click', function () {
 				$( '.mw-pronunciationrecording-message' ).empty();
-				$( '.mw-pronunciationrecording-stop' ).attr( 'disabled', 'disabled' );
-				$( '.mw-pronunciationrecording-clear' ).removeAttr( 'disabled' );
+				$( '.mw-pronunciationrecording-stop' ).prop( 'disabled', true );
+				$( '.mw-pronunciationrecording-clear' ).prop( 'disabled', false );
 				pronunciationRecorder.stopRecording();
 				pronunciationRecorder.createSource();
 			} );
 			$( '.mw-pronunciationrecording-clear' ).on( 'click', function () {
-				$( '.mw-pronunciationrecording-record' ).removeAttr( 'disabled' );
+				$( '.mw-pronunciationrecording-record' ).prop( 'disabled', false );
 				$( '.mw-pronunciationrecording-preview-audio' ).remove();
 				$( '.mw-pronunciationrecording-upload' ).remove();
 				$( '.mw-pronunciationrecording-message' ).empty();
@@ -29,7 +29,7 @@
 				langCode = $( '.mw-pronunciationrecording-information-language' ).val();
 				username = mw.user.getName();
 				pronunciationRecorderFileDetails = new mw.PronunciationRecorderFileDetails( word, username, langCode );
-				$( '.mw-pronunciationrecording-upload' ).attr( 'disabled', 'disabled' );
+				$( '.mw-pronunciationrecording-upload' ).prop( 'disabled', true );
 				pronunciationRecorder.startUploading( function () {
 					var name, $fileLink;
 					name = 'File:' + pronunciationRecorderFileDetails.generateFileName();
