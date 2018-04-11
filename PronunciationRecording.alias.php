@@ -15,3 +15,8 @@ $specialPageAliases = [];
 $specialPageAliases[ 'en' ] = [
 	'PronunciationRecording' => [ 'PronunciationRecording', 'Pronunciation Recording' ],
 ];
+
+/** Spanish (Español) */
+$specialPageAliases[ 'es' ] = [
+	'PronunciationRecording' => [ 'Grabar_pronunciación' ],
+];
