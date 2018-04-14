@@ -2,8 +2,8 @@
 	class SpecialPronunciationRecording extends SpecialPage {
 
 		/**
-		 *The "isUploadAllowed()" and "isUserUploadAllowed()" are based on the Extension: UploadWizard.
-		 *These 2 methods should be merged into the core.
+		 * The "isUploadAllowed()" and "isUserUploadAllowed()" are based on the Extension: UploadWizard.
+		 * These 2 methods should be merged into the core.
 		 */
 		function __construct() {
 			parent::__construct( 'PronunciationRecording' );
