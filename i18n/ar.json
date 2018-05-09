@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"ديفيد"
 		]
 	},
-	"pronunciationrecording-upload-publish-succeeded": "حمل التسجيل:"
+	"pronunciationrecording": "أداة تسجيل النطق",
+	"pronunciationrecording-desc": "يضيف [[Special:PronunciationRecording|أداة تسجيل النطق]]",
+	"pronunciationrecording-title": "أداة تسجيل النطق",
+	"pronunciationrecording-toolbar-record-label": "سجل",
+	"pronunciationrecording-toolbar-stop-label": "إيقاف",
+	"pronunciationrecording-toolbar-clear-label": "مسح",
+	"pronunciationrecording-toolbar-upload-label": "رفع",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API غير معتمد لهذا المتصفح",
+	"pronunciationrecording-specialpage-error-nologin": "يجب أن تكون [$1 مسجلا للدخول] لتسجيل ورفع نطق.",
+	"pronunciationrecording-upload-publish-succeeded": "حمل التسجيل:",
+	"pronunciationrecording-upload-publish-failed": "لم يتم رفع التسجيل.",
+	"pronunciationrecording-information-label": "معلومات",
+	"pronunciationrecording-information-word-label": "كلمة:",
+	"pronunciationrecording-information-language-label": "اللغة:",
+	"pronunciationrecording-mic-access-notify": "انقر فوق \"السماح\" للسماح للمتصفح بالوصول إلى الميكروفون.",
+	"pronunciationrecording-recording-notify": "جارٍ التسجيل...",
+	"pronunciationrecording-information-license-prompt": "باستخدام تسجيل النطق والنقر على {{int:pronunciationrecording-toolbar-upload-label}}، {{GENDER:$1|توافق|توافقين}} أنت على الشروط التالية لتسجيلك:"
 }
