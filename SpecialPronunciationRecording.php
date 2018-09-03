@@ -50,7 +50,7 @@
 				$output->addHTML( Html::element(
 					'option',
 					[ 'value' => $lang_code ],
-					$lang_code.' - '.$lang_name )
+					$lang_code . ' - ' . $lang_name )
 				);
 			}
 			$output->addHTML( '</select>' );
