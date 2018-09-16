@@ -1,0 +1,71 @@
+{
+	"name": "PronunciationRecording",
+	"version": "1.2.0",
+	"author": [
+		"Rahul Maliakkal",
+		"Matthew Flaschen",
+		"Michael Dale"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PronunciationRecording",
+	"descriptionmsg": "pronunciationrecording-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"SpecialPages": {
+		"PronunciationRecording": "SpecialPronunciationRecording"
+	},
+	"MessagesDirs": {
+		"PronunciationRecording": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PronunciationRecordingAlias": "PronunciationRecording.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialPronunciationRecording": "SpecialPronunciationRecording.php"
+	},
+	"ResourceModules": {
+		"mediawiki.libs.recorderjs": {
+			"scripts": "mediawiki.libs.recorderjs/recorder.js"
+		},
+		"ext.pronunciationRecording.pronunciationRecorder": {
+			"scripts": "ext.pronunciationRecording.pronunciationRecorder.js",
+			"dependencies": [
+				"mediawiki.libs.recorderjs",
+				"mediawiki.jqueryMsg",
+				"ext.uploadWizard"
+			],
+			"messages": [
+				"pronunciationrecording-title",
+				"pronunciationrecording-toolbar-upload-label"
+			]
+		},
+		"ext.pronunciationRecording.specialPage": {
+			"scripts": "ext.pronunciationRecording.specialPage.js",
+			"styles": "css/ext.pronunciationRecordingToolbar.css",
+			"dependencies": [
+				"ext.pronunciationRecording.pronunciationRecorder",
+				"ext.pronunciationRecording.fileDetails",
+				"mediawiki.user",
+				"mediawiki.util"
+			],
+			"messages": [
+				"pronunciationrecording-webaudio-not-supported",
+				"pronunciationrecording-upload-publish-succeeded",
+				"pronunciationrecording-upload-publish-failed",
+				"pronunciationrecording-mic-access-notify",
+				"pronunciationrecording-recording-notify"
+			]
+		},
+		"ext.pronunciationRecording.fileDetails": {
+			"scripts": "ext.pronunciationRecording.fileDetails.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "PronunciationRecording/resources"
+	},
+	"manifest_version": 2
+}
