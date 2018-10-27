@@ -9,6 +9,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:PronunciationRecording",
 	"descriptionmsg": "pronunciationrecording-desc",
 	"type": "specialpage",
+	"license-name": "GPL-2.0-only AND MIT",
 	"requires": {
 		"MediaWiki": ">= 1.29.0"
 	},
