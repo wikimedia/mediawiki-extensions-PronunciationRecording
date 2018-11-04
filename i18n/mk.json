@@ -13,7 +13,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Подигни",
 	"pronunciationrecording-webaudio-not-supported": "Извршникот WebAudio не е поддржан на овој прелистувач",
 	"pronunciationrecording-specialpage-error-nologin": "Мора да сте [$1 најавени] за да можете да снимате и подигате изговори.",
-	"pronunciationrecording-upload-publish-succeeded": "Снимката е успешно подигната:",
+	"pronunciationrecording-upload-publish-succeeded": "Снимката е подигната:",
 	"pronunciationrecording-upload-publish-failed": "Снимката не е подигната",
 	"pronunciationrecording-information-label": "Информации",
 	"pronunciationrecording-information-word-label": "Збор:",
