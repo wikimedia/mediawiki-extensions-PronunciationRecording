@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"pronunciationrecording": "Ääntämisen tallennustyökalu",
@@ -13,6 +14,6 @@
 	"pronunciationrecording-toolbar-clear-label": "Tyhjennä",
 	"pronunciationrecording-toolbar-upload-label": "Lataa",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio-rajapinta ei ole tuettu tässä selaimessa.",
-	"pronunciationrecording-upload-publish-succeeded": "Nauhoitus tallennettiin",
+	"pronunciationrecording-upload-publish-succeeded": "Nauhoitus tallennettiin:",
 	"pronunciationrecording-upload-publish-failed": "Nauhoitusta ei tallennettu"
 }
