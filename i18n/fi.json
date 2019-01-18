@@ -15,5 +15,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Lataa",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio-rajapinta ei ole tuettu tässä selaimessa.",
 	"pronunciationrecording-upload-publish-succeeded": "Nauhoitus tallennettiin:",
-	"pronunciationrecording-upload-publish-failed": "Nauhoitusta ei tallennettu"
+	"pronunciationrecording-upload-publish-failed": "Nauhoitusta ei tallennettu",
+	"pronunciationrecording-information-word-label": "Sana:",
+	"pronunciationrecording-information-language-label": "Kieli:"
 }
