@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Urhixidur"
+			"Urhixidur",
+			"Thibaut120094"
 		]
 	},
 	"pronunciationrecording": "Outil d’enregistrement de prononciation",
@@ -19,7 +20,7 @@
 	"pronunciationrecording-information-label": "Information",
 	"pronunciationrecording-information-word-label": "Mot :",
 	"pronunciationrecording-information-language-label": "Langue :",
-	"pronunciationrecording-mic-access-notify": "Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.",
+	"pronunciationrecording-mic-access-notify": "Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.",
 	"pronunciationrecording-recording-notify": "Enregistrement en cours…",
 	"pronunciationrecording-information-license-prompt": "En utilisant PronunciationRecording  et en cliquant sur {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|vous}} acceptez les conditions suivantes pour votre enregistrement :"
 }
