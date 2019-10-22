@@ -129,8 +129,8 @@
 			}
 
 			// Check blocks
-			if ( $user->isBlocked() ) {
-				throw new UserBlockedError( $this->getUser()->mBlock );
+			if ( $user->getBlock() ) {
+				throw new UserBlockedError( $user->getBlock() );
 			}
 
 			// we got all the way here, so it must be okay to upload
