@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pronunciationrecording": "Innspillingsverktøy for uttale",
+	"pronunciationrecording-desc": "Legger til et [[Special:PronunciationRecording|innspillingsverktøy for uttale]]",
+	"pronunciationrecording-title": "Innstillingsverktøy for uttale",
+	"pronunciationrecording-toolbar-record-label": "Spill inn",
+	"pronunciationrecording-toolbar-stop-label": "Stopp",
+	"pronunciationrecording-toolbar-clear-label": "Tøm",
+	"pronunciationrecording-toolbar-upload-label": "Last opp",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio-API-et støttes ikke av denne nettleseren",
+	"pronunciationrecording-specialpage-error-nologin": "Du må være [$1 innlogget] for å spille inn og laste opp uttale.",
+	"pronunciationrecording-upload-publish-succeeded": "Innspilling lastet opp:",
+	"pronunciationrecording-upload-publish-failed": "Innspillingen ble ikke lastet opp.",
+	"pronunciationrecording-information-label": "Informasjon",
+	"pronunciationrecording-information-word-label": "Ord:",
+	"pronunciationrecording-information-language-label": "Språk:",
+	"pronunciationrecording-mic-access-notify": "Klik «Tillat» for å la nettleseren få tilgang til mikrofonen din.",
+	"pronunciationrecording-recording-notify": "Spiller inn …",
+	"pronunciationrecording-information-license-prompt": "Ved å bruke PronunciationRecording og trykke på {{int:pronunciationrecording-toolbar-upload-label}} godtar {{GENDER:$1|du}} følgende vilkår for innspillingen din:"
+}
