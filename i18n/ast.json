@@ -13,7 +13,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Xubir",
 	"pronunciationrecording-webaudio-not-supported": "La API WebAudio nun tien encontu nesti navegador.",
 	"pronunciationrecording-specialpage-error-nologin": "Tien d'[$1 aniciar sesión] pa grabar y xubir pronunciaciones.",
-	"pronunciationrecording-upload-publish-succeeded": "Grabación xubida correutamente:",
+	"pronunciationrecording-upload-publish-succeeded": "Grabación xubida:",
 	"pronunciationrecording-upload-publish-failed": "La grabación nun se xubió",
 	"pronunciationrecording-information-label": "Información",
 	"pronunciationrecording-information-word-label": "Pallabra:",
