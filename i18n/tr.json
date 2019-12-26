@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"pronunciationrecording": "Telaffuz kayıt aracı",
+	"pronunciationrecording-desc": "[[Special:PronunciationRecording|Telaffuz kayıt aracı]] ekler",
+	"pronunciationrecording-title": "Telaffuz kayıt aracı",
+	"pronunciationrecording-toolbar-record-label": "Kayıt",
+	"pronunciationrecording-toolbar-stop-label": "Dur",
+	"pronunciationrecording-toolbar-clear-label": "Temizle",
+	"pronunciationrecording-toolbar-upload-label": "Yükle",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API'sı bu tarayıcı için desteklenmiyor",
+	"pronunciationrecording-specialpage-error-nologin": "Telaffuz kaydetmek ve yüklemek için [$1 oturum açmış] olmalısınız.",
+	"pronunciationrecording-upload-publish-succeeded": "Yüklenen kayıt:",
+	"pronunciationrecording-upload-publish-failed": "Kayıt yüklenmedi.",
+	"pronunciationrecording-information-label": "Bilgi",
+	"pronunciationrecording-information-word-label": "Kelime:",
+	"pronunciationrecording-information-language-label": "Dil:",
+	"pronunciationrecording-mic-access-notify": "Tarayıcının mikrofonunuza erişmesine izin vermek için \"İzin Ver\"'i tıklayın.",
+	"pronunciationrecording-recording-notify": "Kaydediliyor...",
+	"pronunciationrecording-information-license-prompt": "Telaffuz Kaydı'nı kullanarak ve {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|siz}} seçeneğini tıklayarak kaydınız için aşağıdaki şartları kabul edin:"
+}
