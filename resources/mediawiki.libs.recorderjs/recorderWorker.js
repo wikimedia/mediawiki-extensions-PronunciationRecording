@@ -24,7 +24,7 @@ var recLength = 0,
 	recBuffersR = [],
 	sampleRate;
 
-this.onmessage = function( e ) {
+this.onmessage = function ( e ) {
 	switch ( e.data.command ) {
 		case 'init':
 			init( e.data.config );
@@ -55,13 +55,13 @@ function record( inputBuffer ) {
 }
 
 function exportWAV( type ) {
-	var bufferL = mergeBuffers( recBuffersL, recLength );
-	var bufferR = mergeBuffers( recBuffersR, recLength );
-	var interleaved = interleave( bufferL, bufferR );
-	var dataview = encodeWAV( interleaved );
-	var audioBlob = new Blob( [ dataview ], {
-		type: type
-	} );
+	var bufferL = mergeBuffers( recBuffersL, recLength ),
+	 bufferR = mergeBuffers( recBuffersR, recLength ),
+	 interleaved = interleave( bufferL, bufferR ),
+	 dataview = encodeWAV( interleaved ),
+	 audioBlob = new Blob( [ dataview ], {
+			type: type
+		} );
 
 	this.postMessage( audioBlob );
 }
@@ -80,8 +80,8 @@ function clear() {
 }
 
 function mergeBuffers( recBuffers, recLength ) {
-	var result = new Float32Array( recLength );
-	var offset = 0;
+	var result = new Float32Array( recLength ),
+	 offset = 0;
 	for ( var i = 0; i < recBuffers.length; i++ ) {
 		result.set( recBuffers[ i ], offset );
 		offset += recBuffers[ i ].length;
@@ -90,10 +90,10 @@ function mergeBuffers( recBuffers, recLength ) {
 }
 
 function interleave( inputL, inputR ) {
-	var length = inputL.length + inputR.length;
-	var result = new Float32Array( length );
+	var length = inputL.length + inputR.length,
+	 result = new Float32Array( length ),
 
-	var index = 0,
+	 index = 0,
 		inputIndex = 0;
 
 	while ( index < length ) {
@@ -118,8 +118,8 @@ function writeString( view, offset, string ) {
 }
 
 function encodeWAV( samples ) {
-	var buffer = new ArrayBuffer( 44 + samples.length * 2 );
-	var view = new DataView( buffer );
+	var buffer = new ArrayBuffer( 44 + samples.length * 2 ),
+	 view = new DataView( buffer );
 
 	/* RIFF identifier */
 	writeString( view, 0, 'RIFF' );
