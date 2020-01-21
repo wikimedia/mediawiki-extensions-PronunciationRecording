@@ -24,7 +24,7 @@ module.exports = function ( grunt ) {
 			]
 		},
 		stylelint: {
-			src: 'resources/**/*.css'
+			all: [ 'resources/**/*.css' ]
 		},
 		banana: {
 			all: 'i18n/'
