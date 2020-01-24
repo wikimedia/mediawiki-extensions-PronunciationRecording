@@ -73,7 +73,7 @@
 		/**
 		 * Check if uploading is allowed
 		 * Side effect: will print error page to wgOut if upload is not allowed.
-		 * @return boolean -- true if can uploading is allowed
+		 * @return bool true if can uploading is allowed
 		 */
 		private function isUploadAllowed() {
 			// Check uploading enabled
@@ -96,8 +96,8 @@
 		/**
 		 * Check if the user can upload
 		 * Side effect: will print error page to wgOut if cannot upload.
-		 * @param User
-		 * @return boolean -- true if can upload
+		 * @param User $user
+		 * @return bool true if can upload
 		 */
 		private function isUserUploadAllowed( $user ) {
 			global $wgGroupPermissions;
