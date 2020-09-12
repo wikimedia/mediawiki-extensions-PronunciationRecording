@@ -9,7 +9,6 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
-	grunt.loadNpmTasks( 'grunt-jsonlint' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
@@ -20,6 +19,9 @@ module.exports = function ( grunt ) {
 			all: [
 				'*.js',
 				'resources/**/*.js',
+				'**/*.json',
+				'!node_modules/**',
+				'!vendor/**',
 				'!resources/mediawiki.libs.recorderjs/*'
 			]
 		},
@@ -28,12 +30,6 @@ module.exports = function ( grunt ) {
 		},
 		banana: {
 			all: 'i18n/'
-		},
-		jsonlint: {
-			all: [
-				'*.json',
-				'i18n/*.json'
-			]
 		},
 		watch: {
 			files: [
@@ -45,6 +41,6 @@ module.exports = function ( grunt ) {
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'eslint', 'stylelint', 'jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'eslint', 'stylelint', 'banana' ] );
 	grunt.registerTask( 'default', 'test' );
 };
