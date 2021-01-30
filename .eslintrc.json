@@ -13,5 +13,7 @@
 		"mediaWiki": false,
 		"Recorder": false
 	},
-	"rules": {}
+	"rules": {
+		"compat/compat": "warn"
+	}
 }
