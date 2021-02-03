@@ -119,7 +119,7 @@ class SpecialPronunciationRecording extends SpecialPage {
 						$loginURL
 					)->parse();
 				$output->addHTML( Html::rawElement( 'span', [ 'class' => 'plainlinks' ], $anonMsgHtml ) );
-				return;
+				return false;
 			} else {
 				throw new PermissionsError( 'upload' );
 			}
