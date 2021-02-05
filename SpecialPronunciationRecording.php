@@ -109,7 +109,7 @@ class SpecialPronunciationRecording extends SpecialPage {
 					$wgGroupPermissions['autoconfirmed']['upload']
 				)
 			) {
-				// Custom message if logged-in users without any special rights can 	upload
+				// Custom message if logged-in users without any special rights can upload
 				$pronunciationRecordingPageName = $this->getPageTitle()->getPrefixedDBkey();
 				$returnTo = [ 'returnto' => $pronunciationRecordingPageName ];
 				$loginTitle = SpecialPage::getTitleFor( 'UserLogin' );
