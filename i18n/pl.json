@@ -2,17 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Alan ffm",
-			"Chrumps"
+			"Chrumps",
+			"Olaf"
 		]
 	},
 	"pronunciationrecording": "Narzędzie do nagrywania wymowy",
+	"pronunciationrecording-desc": "Dodaje [[Special:PronunciationRecording|narzędzie do nagrywania wymowy]]",
 	"pronunciationrecording-title": "Narzędzie do nagrywania wymowy",
 	"pronunciationrecording-toolbar-record-label": "Nagrywaj",
 	"pronunciationrecording-toolbar-stop-label": "Stop",
 	"pronunciationrecording-toolbar-clear-label": "Wyczyść",
 	"pronunciationrecording-toolbar-upload-label": "Prześlij",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API nie jest dostępne na tej przeglądarce",
+	"pronunciationrecording-specialpage-error-nologin": "Musisz być [$1 zalogowany] aby nagrywać i publikować wymowę.",
+	"pronunciationrecording-upload-publish-succeeded": "Przesłane nagrania:",
+	"pronunciationrecording-upload-publish-failed": "Nagranie nie zostało wysłane na serwer.",
 	"pronunciationrecording-information-label": "Informacja",
 	"pronunciationrecording-information-word-label": "Słowo:",
 	"pronunciationrecording-information-language-label": "Język:",
-	"pronunciationrecording-recording-notify": "Nagrywanie..."
+	"pronunciationrecording-recording-notify": "Nagrywanie...",
+	"pronunciationrecording-information-license-prompt": "Używając PronunciationRecording i klikając {{int:pronunciationrecording-toolbar-upload-label}}, zgadzasz się na następujące warunki w odniesieniu do swojego nagrania:"
 }
