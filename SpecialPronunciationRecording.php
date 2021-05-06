@@ -103,7 +103,7 @@ class SpecialPronunciationRecording extends SpecialPage {
 
 		if ( !$user->isAllowed( 'upload' ) ) {
 			if (
-				!$user->isLoggedIn() &&
+				!$user->isRegistered() &&
 				(
 					$wgGroupPermissions['user']['upload'] ||
 					$wgGroupPermissions['autoconfirmed']['upload']
