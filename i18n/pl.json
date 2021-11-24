@@ -20,6 +20,7 @@
 	"pronunciationrecording-information-label": "Informacja",
 	"pronunciationrecording-information-word-label": "Słowo:",
 	"pronunciationrecording-information-language-label": "Język:",
+	"pronunciationrecording-mic-access-notify": "Kliknij \"Włącz\", aby zezwolić przeglądarce na dostęp do swojego mikrofonu.",
 	"pronunciationrecording-recording-notify": "Nagrywanie...",
 	"pronunciationrecording-information-license-prompt": "Używając PronunciationRecording i klikając {{int:pronunciationrecording-toolbar-upload-label}}, zgadzasz się na następujące warunki w odniesieniu do swojego nagrania:"
 }
