@@ -20,7 +20,7 @@
 	"pronunciationrecording-upload-publish-failed": "A gravação não foi enviada.",
 	"pronunciationrecording-information-label": "Informação",
 	"pronunciationrecording-information-word-label": "Palavra:",
-	"pronunciationrecording-information-language-label": "Língua:",
+	"pronunciationrecording-information-language-label": "Idiomas",
 	"pronunciationrecording-mic-access-notify": "Clique em \"Permitir\" para permitir que o navegador acesse ao seu microfone.",
 	"pronunciationrecording-recording-notify": "Gravando...",
 	"pronunciationrecording-information-license-prompt": "Ao usar a ferramenta de gravação de pronúncias e clicar \"{{int:pronunciationrecording-toolbar-upload-label}}\", {{GENDER:$1|aceita}} as seguintes condições para a gravação:"

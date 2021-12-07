@@ -4,7 +4,8 @@
 			"Armin1392",
 			"Dejavu",
 			"Ebraminio",
-			"Reza1615"
+			"Reza1615",
+			"Jeeputer"
 		]
 	},
 	"pronunciationrecording": "ابزار ضبط تلفظ",
@@ -16,8 +17,8 @@
 	"pronunciationrecording-toolbar-upload-label": "بارگذاری",
 	"pronunciationrecording-webaudio-not-supported": "وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده‌است.",
 	"pronunciationrecording-specialpage-error-nologin": "شما باید [$1 وارد شوید] برای ضبط و انتقال تلفظ‌ها.",
-	"pronunciationrecording-upload-publish-succeeded": "ضبط انتقال داده شده با موفقیت انجام شد:",
-	"pronunciationrecording-upload-publish-failed": "ضبط منتقل نشد.",
+	"pronunciationrecording-upload-publish-succeeded": "صوت بارگذاری شد:",
+	"pronunciationrecording-upload-publish-failed": "صوت بارگذاری نشد.",
 	"pronunciationrecording-information-label": "اطلاعات",
 	"pronunciationrecording-information-word-label": "کلمه:",
 	"pronunciationrecording-information-language-label": "زبان:",
