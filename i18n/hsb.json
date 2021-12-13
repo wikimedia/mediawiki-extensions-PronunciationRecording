@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michawiki"
+			"Michawiki",
+			"J budissin"
 		]
 	},
 	"pronunciationrecording": "Natočenski nastroj za wurjekowanje",
@@ -13,7 +14,7 @@
 	"pronunciationrecording-toolbar-upload-label": "Nahrać",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio-API so přez tutón wobhladowak njepodpěruje",
 	"pronunciationrecording-specialpage-error-nologin": "Dyrbiće [$1 přizjewjeny] być, zo byšće wurjekowanja natočił a nahrał.",
-	"pronunciationrecording-upload-publish-succeeded": "Natočenje je so wuspěšnje nahrało:",
+	"pronunciationrecording-upload-publish-succeeded": "Natočenje nahrate:",
 	"pronunciationrecording-upload-publish-failed": "Natočenje njeje so nahrało.",
 	"pronunciationrecording-information-label": "Informacije",
 	"pronunciationrecording-information-word-label": "Słowo:",

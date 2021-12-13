@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
-			"Piramidion"
+			"Piramidion",
+			"DDPAT"
 		]
 	},
 	"pronunciationrecording": "Інструмент запису вимови",
@@ -11,7 +12,7 @@
 	"pronunciationrecording-toolbar-record-label": "Запис",
 	"pronunciationrecording-toolbar-stop-label": "Стоп",
 	"pronunciationrecording-toolbar-clear-label": "Очистити",
-	"pronunciationrecording-toolbar-upload-label": "Вивантажити",
+	"pronunciationrecording-toolbar-upload-label": "Завантажити",
 	"pronunciationrecording-webaudio-not-supported": "WebAudio API не підтримується для цього веб-переглядача",
 	"pronunciationrecording-specialpage-error-nologin": "Ви повинні [$1  увійти в систему] для запису і завантаження вимови.",
 	"pronunciationrecording-upload-publish-succeeded": "Запис завантажено:",
