@@ -18,7 +18,7 @@
 	"pronunciationrecording-specialpage-error-nologin": "Vous devez être [$1 connecté] pour enregistrer et importer des prononciations.",
 	"pronunciationrecording-upload-publish-succeeded": "Enregistrement importé :",
 	"pronunciationrecording-upload-publish-failed": "L’enregistrement n’a pas été importé",
-	"pronunciationrecording-information-label": "Information",
+	"pronunciationrecording-information-label": "Informations",
 	"pronunciationrecording-information-word-label": "Mot :",
 	"pronunciationrecording-information-language-label": "Langue :",
 	"pronunciationrecording-mic-access-notify": "Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.",
