@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"pronunciationrecording": "Instrumento pro registrar pronunciationes",
+	"pronunciationrecording-desc": "Adde un [[Special:PronunciationRecording|instrumento pro registrar pronunciationes]]",
+	"pronunciationrecording-title": "Instrumento pro registrar pronunciationes",
+	"pronunciationrecording-toolbar-record-label": "Registrar",
+	"pronunciationrecording-toolbar-stop-label": "Stoppar",
+	"pronunciationrecording-toolbar-clear-label": "Rader",
+	"pronunciationrecording-toolbar-upload-label": "Incargar",
+	"pronunciationrecording-webaudio-not-supported": "Le API WebAudio non es supportate pro iste navigator",
+	"pronunciationrecording-specialpage-error-nologin": "Tu debe [$1 aperir session] pro registrar e incargar pronunciationes.",
+	"pronunciationrecording-upload-publish-succeeded": "Registration incargate:",
+	"pronunciationrecording-upload-publish-failed": "Le registration non ha essite incargate.",
+	"pronunciationrecording-information-label": "Information",
+	"pronunciationrecording-information-word-label": "Parola:",
+	"pronunciationrecording-information-language-label": "Lingua:",
+	"pronunciationrecording-mic-access-notify": "Clicca sur \"Permitter\" pro permitter que le navigator accede a tu microphono.",
+	"pronunciationrecording-recording-notify": "Registration in curso…",
+	"pronunciationrecording-information-license-prompt": "Quando tu usa PronunciationRecording e clicca sur {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|tu}} accepta le sequente conditiones pro tu registration:"
+}
