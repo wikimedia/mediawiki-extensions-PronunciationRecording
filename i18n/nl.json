@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"pronunciationrecording": "Hulpprogramma voor het opnemen van uitspraak",
@@ -19,7 +20,7 @@
 	"pronunciationrecording-information-label": "Gegevens",
 	"pronunciationrecording-information-word-label": "Woord:",
 	"pronunciationrecording-information-language-label": "Taal:",
-	"pronunciationrecording-mic-access-notify": "Klik op \"\"Toestaan\" om uw browser toegang te geven tot uw microfoon.",
+	"pronunciationrecording-mic-access-notify": "Klik op \"Toestaan\" om uw browser toegang te geven tot uw microfoon.",
 	"pronunciationrecording-recording-notify": "Bezig met opnemen...",
 	"pronunciationrecording-information-license-prompt": "Door het <em>hulpprogramma voor het opnemen van uitspraak</em> te gebruiken en te klikken op {{int:pronunciationrecording-toolbar-upload-label}}, gaat {{GENDER:$1|u}} akkoord met de volgende voorwaarden voor uw opname:"
 }
