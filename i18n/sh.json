@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"pronunciationrecording": "Alat za snimanje izgovora",
+	"pronunciationrecording-title": "Alat za snimanje izgovora",
+	"pronunciationrecording-toolbar-record-label": "Snimi",
+	"pronunciationrecording-toolbar-stop-label": "Zaustavi",
+	"pronunciationrecording-toolbar-clear-label": "Očisti",
+	"pronunciationrecording-toolbar-upload-label": "Postavi",
+	"pronunciationrecording-webaudio-not-supported": "Izvršnik WebAudio nije podržan na ovom pregledaču",
+	"pronunciationrecording-upload-publish-succeeded": "Snimak postavljen:",
+	"pronunciationrecording-upload-publish-failed": "Snimak nije postavljen",
+	"pronunciationrecording-information-label": "Informacije",
+	"pronunciationrecording-information-word-label": "Riječ:",
+	"pronunciationrecording-information-language-label": "Jezik:",
+	"pronunciationrecording-mic-access-notify": "Kliknite na \"Dozvoli\" da biste dozvolili pregledaču da pristupi vašem mikrofonu.",
+	"pronunciationrecording-recording-notify": "Snimam..."
+}
