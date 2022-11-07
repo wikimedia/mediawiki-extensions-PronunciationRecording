@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abbas dhothar"
+			"Abbas dhothar",
+			"Bgo eiu"
 		]
 	},
-	"pronunciationrecording-toolbar-upload-label": "اُتے چاڑھو",
+	"pronunciationrecording-toolbar-upload-label": "چڑھاو",
+	"pronunciationrecording-information-word-label": "لفظ:",
 	"pronunciationrecording-information-language-label": "بولی:"
 }
