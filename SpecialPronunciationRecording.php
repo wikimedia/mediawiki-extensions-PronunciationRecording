@@ -1,4 +1,8 @@
 <?php
+
+use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\MediaWikiServices;
+
 class SpecialPronunciationRecording extends SpecialPage {
 
 	/**
@@ -42,7 +46,8 @@ class SpecialPronunciationRecording extends SpecialPage {
 		$output->addHTML( '<b>'
 			. wfMessage( 'pronunciationrecording-information-word-label' )->escaped()
 			. '</b><input type="text" class="mw-pronunciationrecording-information-word"><br><br>' );
-		$languages = Language::fetchLanguageNames( null, 'mw' );
+		$languages = MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->getLanguageNames( LanguageNameUtils::AUTONYMS, LanguageNameUtils::DEFINED );
 		$output->addHTML( '<b>'
 			. wfMessage( 'pronunciationrecording-information-language-label' )->escaped()
 			. '</b><select class="mw-pronunciationrecording-information-language">' );
