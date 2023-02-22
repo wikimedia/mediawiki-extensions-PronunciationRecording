@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
+	"pronunciationrecording-toolbar-clear-label": "Gurre",
 	"pronunciationrecording-information-language-label": "Giella:"
 }
