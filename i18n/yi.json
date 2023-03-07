@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
@@ -8,5 +9,6 @@
 	"pronunciationrecording-toolbar-record-label": "רעקארדירן",
 	"pronunciationrecording-toolbar-stop-label": "אויפהערן",
 	"pronunciationrecording-toolbar-clear-label": "רייניקן",
-	"pronunciationrecording-toolbar-upload-label": "אַרויפֿלאָדן"
+	"pronunciationrecording-toolbar-upload-label": "אַרויפֿלאָדן",
+	"pronunciationrecording-information-language-label": "שפּראַך:"
 }
