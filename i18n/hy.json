@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Սերգեյ Սաֆարյան"
+			"Սերգեյ Սաֆարյան",
+			"Kareyac"
 		]
 	},
+	"pronunciationrecording-toolbar-clear-label": "Մաքրել",
 	"pronunciationrecording-toolbar-upload-label": "Վերբեռնել"
 }
