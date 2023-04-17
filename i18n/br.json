@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fohanno",
 			"Y-M D"
 		]
@@ -10,6 +11,8 @@
 	"pronunciationrecording-toolbar-stop-label": "Paouez",
 	"pronunciationrecording-toolbar-clear-label": "Riñsañ",
 	"pronunciationrecording-toolbar-upload-label": "Enporzhiañ",
+	"pronunciationrecording-upload-publish-succeeded": "Enrolladenn pellgaset:",
+	"pronunciationrecording-upload-publish-failed": "N'eo ket bet pellgaset an enrolladenn.",
 	"pronunciationrecording-information-label": "Titouroù",
 	"pronunciationrecording-information-word-label": "Ger :",
 	"pronunciationrecording-information-language-label": "Yezh :",
