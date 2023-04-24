@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fohanno",
-			"Y-M D"
+			"Y-M D",
+			"Adriendelucca"
 		]
 	},
 	"pronunciationrecording": "Ostilh da enrollañ an distagadur",
@@ -10,6 +11,8 @@
 	"pronunciationrecording-toolbar-stop-label": "Paouez",
 	"pronunciationrecording-toolbar-clear-label": "Riñsañ",
 	"pronunciationrecording-toolbar-upload-label": "Enporzhiañ",
+	"pronunciationrecording-upload-publish-succeeded": "Enrolladenn pellgaset:",
+	"pronunciationrecording-upload-publish-failed": "N'eo ket bet pellgaset an enrolladenn.",
 	"pronunciationrecording-information-label": "Titouroù",
 	"pronunciationrecording-information-word-label": "Ger :",
 	"pronunciationrecording-information-language-label": "Yezh :",
