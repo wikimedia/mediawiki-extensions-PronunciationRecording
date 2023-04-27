@@ -5,6 +5,7 @@
 		]
 	},
 	"pronunciationrecording": "Alat za snimanje izgovora",
+	"pronunciationrecording-desc": "Dodaje [[Special:PronunciationRecording|alat za snimanje izgovora]]",
 	"pronunciationrecording-title": "Alat za snimanje izgovora",
 	"pronunciationrecording-toolbar-record-label": "Snimi",
 	"pronunciationrecording-toolbar-stop-label": "Zaustavi",
