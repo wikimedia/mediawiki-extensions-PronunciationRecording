@@ -4,5 +4,21 @@
 			"Amire80"
 		]
 	},
-	"pronunciationrecording-toolbar-upload-label": "העלאה"
+	"pronunciationrecording": "כלי הקלטת הגייה",
+	"pronunciationrecording-desc": "הוספת [[Special:PronunciationRecording|כלי הקלטת הגייה]]",
+	"pronunciationrecording-title": "כלי הקלטת הגייה",
+	"pronunciationrecording-toolbar-record-label": "הקלטה",
+	"pronunciationrecording-toolbar-stop-label": "עצירה",
+	"pronunciationrecording-toolbar-clear-label": "ניקוי",
+	"pronunciationrecording-toolbar-upload-label": "העלאה",
+	"pronunciationrecording-webaudio-not-supported": "ה־API של WebAudio אינו נתמך בדפדפן הזה",
+	"pronunciationrecording-specialpage-error-nologin": "חובה [$1 להתחבר] כדי להקליט ולהעלות הגיות.",
+	"pronunciationrecording-upload-publish-succeeded": "ההקלטה הועלתה:",
+	"pronunciationrecording-upload-publish-failed": "ההקלטה לא הועלתה.",
+	"pronunciationrecording-information-label": "מידע",
+	"pronunciationrecording-information-word-label": "מילה:",
+	"pronunciationrecording-information-language-label": "שפה:",
+	"pronunciationrecording-mic-access-notify": "יש לאפשר לדפדפן לגשת למיקרופון שלך.",
+	"pronunciationrecording-recording-notify": "הקלטה...",
+	"pronunciationrecording-information-license-prompt": "באמצעות שימוש ב־PronunciationRecording ולחיצה על {{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|אתה מסכים|את מסכימה}} לתנאים הבאים עבור ההקלטה שלך:"
 }
