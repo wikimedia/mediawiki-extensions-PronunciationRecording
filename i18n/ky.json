@@ -4,5 +4,18 @@
 			"Bosogo"
 		]
 	},
-	"pronunciationrecording-information-language-label": "Тил:"
+	"pronunciationrecording": "Айтылышты жаздыруу куралы",
+	"pronunciationrecording-desc": "[[Special:PronunciationRecording|айтылышты жаздыруу куралын]] кошот",
+	"pronunciationrecording-title": "Айтылышты жаздыруу куралы",
+	"pronunciationrecording-toolbar-record-label": "Жаздыруу",
+	"pronunciationrecording-toolbar-stop-label": "Токтотуу",
+	"pronunciationrecording-toolbar-clear-label": "Тазалоо",
+	"pronunciationrecording-toolbar-upload-label": "Жүктөө",
+	"pronunciationrecording-upload-publish-succeeded": "Жаздырма жүктөлдү:",
+	"pronunciationrecording-upload-publish-failed": "Жаздырма жүктөлгөн жок.",
+	"pronunciationrecording-information-label": "Маалымат",
+	"pronunciationrecording-information-word-label": "Сөз:",
+	"pronunciationrecording-information-language-label": "Тил:",
+	"pronunciationrecording-mic-access-notify": "Микрофонуңуз браузерге жеткиликтүү болушу үчүн «Уруксат берүү» баскычын чыкылдатыңыз.",
+	"pronunciationrecording-recording-notify": "Жаздырууда..."
 }
