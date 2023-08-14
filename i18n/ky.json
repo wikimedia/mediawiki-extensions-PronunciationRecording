@@ -11,11 +11,14 @@
 	"pronunciationrecording-toolbar-stop-label": "Токтотуу",
 	"pronunciationrecording-toolbar-clear-label": "Алып салуу",
 	"pronunciationrecording-toolbar-upload-label": "Жүктөө",
+	"pronunciationrecording-webaudio-not-supported": "Бул браузерде WebAudio API'ни иштебейт",
+	"pronunciationrecording-specialpage-error-nologin": "Айтылышты жаздыруу жана жүктөө үчүн [$1 кирген болушуңуз] керек.",
 	"pronunciationrecording-upload-publish-succeeded": "Жаздырма жүктөлдү:",
 	"pronunciationrecording-upload-publish-failed": "Жаздырма жүктөлгөн жок.",
 	"pronunciationrecording-information-label": "Маалымат",
 	"pronunciationrecording-information-word-label": "Сөз:",
 	"pronunciationrecording-information-language-label": "Тил:",
 	"pronunciationrecording-mic-access-notify": "Микрофонуңуз браузерге жеткиликтүү болушу үчүн «Уруксат берүү» баскычын чыкылдатыңыз.",
-	"pronunciationrecording-recording-notify": "Жаздырууда..."
+	"pronunciationrecording-recording-notify": "Жаздырууда...",
+	"pronunciationrecording-information-license-prompt": "«Айтылышты жаздыруу» колдонуу жана {{int:pronunciationrecording-toolbar-upload-label}} баскычын чыкылдатуу менен, {{GENDER:$1|сиз}} жаздыруу үчүн төмөнкү шарттарга макул болосуз:"
 }
