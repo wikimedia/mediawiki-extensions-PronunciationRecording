@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"pronunciationrecording": "Tarimo įrašymo įrankis",
+	"pronunciationrecording-desc": "Prideda [[Special:PronunciationRecording|tarimo įrašymo įrankį]]",
+	"pronunciationrecording-title": "Tarimo įrašymo įrankis",
+	"pronunciationrecording-toolbar-record-label": "Įrašyti",
+	"pronunciationrecording-toolbar-stop-label": "Sustabdyti",
+	"pronunciationrecording-toolbar-clear-label": "Valyti",
+	"pronunciationrecording-toolbar-upload-label": "Įkelti",
+	"pronunciationrecording-webaudio-not-supported": "„WebAudio“ API nepalaikoma šioje naršyklėje",
+	"pronunciationrecording-specialpage-error-nologin": "Norėdami įrašyti ir įkelti tarimus, turite būti [$1 prisijungę].",
+	"pronunciationrecording-upload-publish-succeeded": "Įrašas įkeltas:",
+	"pronunciationrecording-upload-publish-failed": "Įrašas nebuvo įkeltas.",
+	"pronunciationrecording-information-label": "Informacija",
+	"pronunciationrecording-information-word-label": "Žodis:",
+	"pronunciationrecording-information-language-label": "Kalba:",
+	"pronunciationrecording-mic-access-notify": "Spustelėkite „Leisti“, kad naršyklė galėtų pasiekti mikrofoną.",
+	"pronunciationrecording-recording-notify": "Įrašoma...",
+	"pronunciationrecording-information-license-prompt": "Naudodami PronunciationRecording ir spustelėdami {{int:pronunciationrecording-toolbar-upload-label}} {{GENDER:$1|jūs}} sutinkate su šiomis jūsų įrašo sąlygomis:"
+}
