@@ -15,7 +15,7 @@
 	"pronunciationrecording-toolbar-stop-label": "توقف",
 	"pronunciationrecording-toolbar-clear-label": "پاک‌کردن",
 	"pronunciationrecording-toolbar-upload-label": "بارگذاری",
-	"pronunciationrecording-webaudio-not-supported": "وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده‌است.",
+	"pronunciationrecording-webaudio-not-supported": "وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده است.",
 	"pronunciationrecording-specialpage-error-nologin": "شما باید [$1 وارد شوید] برای ضبط و انتقال تلفظ‌ها.",
 	"pronunciationrecording-upload-publish-succeeded": "صوت بارگذاری شد:",
 	"pronunciationrecording-upload-publish-failed": "صوت بارگذاری نشد.",
