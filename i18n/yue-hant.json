@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"JeffreyKim"
+		]
+	},
+	"pronunciationrecording": "發音錄音工具",
+	"pronunciationrecording-desc": "新增一個[[Special:PronunciationRecording|發音錄音工具]]",
+	"pronunciationrecording-title": "發音錄音工具",
+	"pronunciationrecording-toolbar-record-label": "報告",
+	"pronunciationrecording-toolbar-stop-label": "停止",
+	"pronunciationrecording-toolbar-clear-label": "清晰",
+	"pronunciationrecording-toolbar-upload-label": "噏撈",
+	"pronunciationrecording-webaudio-not-supported": "呢個瀏覽器唔支援 WebAudio API",
+	"pronunciationrecording-specialpage-error-nologin": "你一定要係［$1 登入］先至可以記錄同噏撈發音。",
+	"pronunciationrecording-upload-publish-succeeded": "噏撈咗錄音：",
+	"pronunciationrecording-upload-publish-failed": "錄音冇噏撈。",
+	"pronunciationrecording-information-label": "資訊",
+	"pronunciationrecording-information-word-label": "字：",
+	"pronunciationrecording-information-language-label": "語言",
+	"pronunciationrecording-mic-access-notify": "撳一下\"允許\"就可以畀瀏覽器存取你嘅麥克風。",
+	"pronunciationrecording-recording-notify": "錄音 ...",
+	"pronunciationrecording-information-license-prompt": "透過用發音錄音同撳一下{{int:pronunciationrecording-toolbar-upload-label}}, {{GENDER:$1|你}}同意你錄音嘅以下條款："
+}
