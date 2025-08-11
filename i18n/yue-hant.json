@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"JeffreyKim"
+			"JeffreyKim",
+			"Ktchankt"
 		]
 	},
 	"pronunciationrecording": "發音錄音工具",
@@ -10,11 +11,11 @@
 	"pronunciationrecording-toolbar-record-label": "報告",
 	"pronunciationrecording-toolbar-stop-label": "停止",
 	"pronunciationrecording-toolbar-clear-label": "清晰",
-	"pronunciationrecording-toolbar-upload-label": "噏撈",
+	"pronunciationrecording-toolbar-upload-label": "上載",
 	"pronunciationrecording-webaudio-not-supported": "呢個瀏覽器唔支援 WebAudio API",
-	"pronunciationrecording-specialpage-error-nologin": "你一定要係［$1 登入］先至可以記錄同噏撈發音。",
-	"pronunciationrecording-upload-publish-succeeded": "噏撈咗錄音：",
-	"pronunciationrecording-upload-publish-failed": "錄音冇噏撈。",
+	"pronunciationrecording-specialpage-error-nologin": "你一定要係［$1 簽到］先至可以記錄同上載發音。",
+	"pronunciationrecording-upload-publish-succeeded": "上載咗錄音：",
+	"pronunciationrecording-upload-publish-failed": "錄音冇上載。",
 	"pronunciationrecording-information-label": "資訊",
 	"pronunciationrecording-information-word-label": "字：",
 	"pronunciationrecording-information-language-label": "語言",
