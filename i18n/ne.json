@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"pronunciationrecording": "उच्चारण रेकर्डिङ उपकरण",
+	"pronunciationrecording-desc": "[[Special:PronunciationRecording|उच्चारण रेकर्डिङ उपकरण]] थप्छ।",
+	"pronunciationrecording-title": "उच्चारण रेकर्डिङ उपकरण",
+	"pronunciationrecording-toolbar-record-label": "रेकर्ड गर्नुहोस्",
+	"pronunciationrecording-toolbar-stop-label": "रोक्नुहोस्",
+	"pronunciationrecording-toolbar-clear-label": "खाली गर्नुहोस्",
+	"pronunciationrecording-toolbar-upload-label": "उर्ध्वभरण गर्नुहोस्",
+	"pronunciationrecording-webaudio-not-supported": "वेब अडियो एपीआई यस ब्राउजरका लागि समर्थित छैन",
+	"pronunciationrecording-specialpage-error-nologin": "उच्चारण रेकर्ड र अपलोड गर्न तपाईं [ $1 लग इन] हुनुपर्छ।",
+	"pronunciationrecording-upload-publish-succeeded": "रेकर्डिङ अपलोड गरियो:",
+	"pronunciationrecording-upload-publish-failed": "रेकर्डिङ अपलोड भएन।",
+	"pronunciationrecording-information-label": "जानकारी",
+	"pronunciationrecording-information-word-label": "शब्द:",
+	"pronunciationrecording-information-language-label": "भाषा:",
+	"pronunciationrecording-mic-access-notify": "ब्राउजरलाई तपाईंको माइक्रोफोन पहुँच गर्न अनुमति दिन \"अनुमति दिनुहोस्\" मा क्लिक गर्नुहोस्।",
+	"pronunciationrecording-recording-notify": "रेकर्ड गर्दै..."
+}
