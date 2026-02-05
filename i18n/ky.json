@@ -20,5 +20,5 @@
 	"pronunciationrecording-information-language-label": "Тил:",
 	"pronunciationrecording-mic-access-notify": "Микрофонуңуз браузерге жеткиликтүү болушу үчүн «Уруксат берүү» баскычын чыкылдатыңыз.",
 	"pronunciationrecording-recording-notify": "Жаздырууда...",
-	"pronunciationrecording-information-license-prompt": "«Айтылышты жаздыруу» колдонуу жана {{int:pronunciationrecording-toolbar-upload-label}} баскычын чыкылдатуу менен, {{GENDER:$1|сиз}} жаздыруу үчүн төмөнкү шарттарга макул болосуз:"
+	"pronunciationrecording-information-license-prompt": "Айтылышты жаздыруу куралын колдонуп, {{int:pronunciationrecording-toolbar-upload-label}} баскычын басуу менен, жаздырууңузга төмөнкү шарттар колдонуларына макул {{GENDER:$1|болосуз}}:"
 }
