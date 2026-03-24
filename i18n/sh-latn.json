@@ -12,7 +12,7 @@
 	"pronunciationrecording-toolbar-stop-label": "Zaustavi",
 	"pronunciationrecording-toolbar-clear-label": "Očisti",
 	"pronunciationrecording-toolbar-upload-label": "Postavi",
-	"pronunciationrecording-webaudio-not-supported": "Izvršnik WebAudio nije podržan na ovom pregledniku",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API nije podržan u ovom pregledniku",
 	"pronunciationrecording-upload-publish-succeeded": "Snimak otpremljen:",
 	"pronunciationrecording-upload-publish-failed": "Snimak nije otpremljen",
 	"pronunciationrecording-information-label": "Informacije",
