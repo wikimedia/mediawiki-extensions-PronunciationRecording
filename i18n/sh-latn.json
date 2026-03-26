@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"pronunciationrecording": "Alat za snimanje izgovora",
@@ -11,12 +12,12 @@
 	"pronunciationrecording-toolbar-stop-label": "Zaustavi",
 	"pronunciationrecording-toolbar-clear-label": "Očisti",
 	"pronunciationrecording-toolbar-upload-label": "Postavi",
-	"pronunciationrecording-webaudio-not-supported": "Izvršnik WebAudio nije podržan na ovom pregledaču",
+	"pronunciationrecording-webaudio-not-supported": "WebAudio API nije podržan u ovom pregledniku",
 	"pronunciationrecording-upload-publish-succeeded": "Snimak otpremljen:",
 	"pronunciationrecording-upload-publish-failed": "Snimak nije otpremljen",
 	"pronunciationrecording-information-label": "Informacije",
 	"pronunciationrecording-information-word-label": "Riječ:",
 	"pronunciationrecording-information-language-label": "Jezik:",
-	"pronunciationrecording-mic-access-notify": "Kliknite na \"Dozvoli\" da biste dozvolili pregledaču da pristupi vašem mikrofonu.",
+	"pronunciationrecording-mic-access-notify": "Kliknite na \"Dozvoli\" da biste dozvolili pregledniku da pristupi vašem mikrofonu.",
 	"pronunciationrecording-recording-notify": "Snimanje..."
 }
