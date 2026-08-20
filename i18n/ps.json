@@ -1,9 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"pronunciationrecording": "د وينگ ثبتولو کارتوکی",
+	"pronunciationrecording-desc": "د [[Special:PronunciationRecording|وينگ ثبتولو کارتوکی]] ورگډوي",
+	"pronunciationrecording-title": "د وينگ ثبتولو کارتوکی",
+	"pronunciationrecording-toolbar-record-label": "غږثبتول",
+	"pronunciationrecording-toolbar-stop-label": "درول",
+	"pronunciationrecording-toolbar-clear-label": "سپاکول",
+	"pronunciationrecording-toolbar-upload-label": "راپورته‌کول",
+	"pronunciationrecording-webaudio-not-supported": "دې ښوونگر کې د وېب‌غږيز کاريال‌بهير‌مخبڼه نه ملاتړ کېږي",
+	"pronunciationrecording-specialpage-error-nologin": "د وينگونو د ثبتولو او راپورته‌کولو لپاره تاسو بايد [$1 ننوتلي] ياست.",
+	"pronunciationrecording-upload-publish-succeeded": "غږثبتونې راپورته شوې:",
+	"pronunciationrecording-upload-publish-failed": "غږثبتونې راپورته نشوې.",
 	"pronunciationrecording-information-label": "مالومات",
-	"pronunciationrecording-information-language-label": "ژبه:"
+	"pronunciationrecording-information-word-label": "ويی",
+	"pronunciationrecording-information-language-label": "ژبه:",
+	"pronunciationrecording-mic-access-notify": "\"اجازه ورکړئ\" باندې کېکاږئ؛ ترڅو ښوونگر ستاسو مايکروفون ته لاسرسی ومومي.",
+	"pronunciationrecording-recording-notify": "غږثبتول...",
+	"pronunciationrecording-information-license-prompt": "د وينگ‌ثبتولو په کارولو او د {{int:pronunciationrecording-toolbar-upload-label}} کېکاږلو سره، {{GENDER:$1|تاسو}} د خپلې غږثبتونې لپاره لاندې منښتونه منئ:"
 }
