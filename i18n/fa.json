@@ -6,7 +6,8 @@
 			"Ebrahim",
 			"Ebraminio",
 			"Jeeputer",
-			"Reza1615"
+			"Reza1615",
+			"LProfo"
 		]
 	},
 	"pronunciationrecording": "ابزار ضبط تلفظ",
@@ -21,7 +22,7 @@
 	"pronunciationrecording-upload-publish-succeeded": "صوت بارگذاری شد:",
 	"pronunciationrecording-upload-publish-failed": "صوت بارگذاری نشد.",
 	"pronunciationrecording-information-label": "اطلاعات",
-	"pronunciationrecording-information-word-label": "کلمه:",
+	"pronunciationrecording-information-word-label": "واژه:",
 	"pronunciationrecording-information-language-label": "زبان:",
 	"pronunciationrecording-mic-access-notify": "برای اجازهٔ مرورگر برای دسترسی به میکروفون شما، دکمهٔ \"اجازه\" را کلیک کنید.",
 	"pronunciationrecording-recording-notify": "در حال ضبط...",
